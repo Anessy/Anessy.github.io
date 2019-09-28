@@ -10,3 +10,5 @@ HomeWork of web-academy
 [Урок 6](https://anessy.github.io/lesson6(project_bootstrap)/class-work/src/ "Моя готовая домашка") - страница с bootstrap
 
 [Урок 13](https://anessy.github.io/lesson13(pixel_perfect)/src/index.html "Моя готовая домашка") - pixel perfect
+
+[Урок 14](https://anessy.github.io/lesson14(headOFsite)/src/index.html "Моя готовая домашка") - head of site
