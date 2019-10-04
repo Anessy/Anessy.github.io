@@ -16,3 +16,5 @@ HomeWork of web-academy
 [Урок 15](https://anessy.github.io/lesson15(font_family)/index.html "Моя готовая домашка") - font-family
 
 [Урок 16](https://anessy.github.io/lesson16/src/index.html "Моя готовая домашка") - верхняя часть сайта
+
+[Урок 17](https://anessy.github.io/lesson17/index.html "Моя готовая домашка") - затемнение картинок и кнопок
