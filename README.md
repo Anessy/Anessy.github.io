@@ -18,3 +18,5 @@ HomeWork of web-academy
 [Урок 16](https://anessy.github.io/lesson16/src/index.html "Моя готовая домашка") - верхняя часть сайта
 
 [Урок 17](https://anessy.github.io/lesson17/index.html "Моя готовая домашка") - затемнение картинок и кнопок
+
+[Урок 18](https://github.com/Anessy/Anessy.github.io/blob/master/lesson18(mobile)/src/index.html "Моя готовая домашка") - от мобильного до адаптивного
