@@ -34,6 +34,9 @@ html {
 .phone-link {
   color: black;
 }
+.empty {
+  display: block;
+}
 .button {
   font-size: 3.5rem;
   color: white;
@@ -45,9 +48,19 @@ html {
 }
 .second {
   text-align: center;
+  background-image: url(../img/main-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin-top: 6rem;
 }
 .logo img {
   width: 60%;
+}
+.left {
+  display: inline-block;
 }
 .text1 h1 {
   text-transform: uppercase;
@@ -76,35 +89,69 @@ html {
   text-transform: uppercase;
   font-size: 6rem;
   font-family: 'ProximaNova_bold', sans-serif;
-  margin: 7rem;
+  margin: 7rem 7rem 7rem 7rem;
 }
 .form {
-  background-color: white;
   padding: 3rem;
-  border: 1px solid blue;
+  text-align: center;
 }
 .form1 {
+  background-color: white;
   display: inline-block;
   text-align: center;
-  border: 1px solid green;
-  width: 100%;
+  width: 90%;
 }
 .form1 h2 {
   font-family: 'ProximaNova_reg', sans-serif;
   font-size: 4rem;
+  margin: 3rem;
 }
 .form1 input {
   display: block;
-  margin: 2rem 0;
+  margin: 6rem 0;
   width: 100%;
-  padding: 2rem;
-  border: 1px solid red;
+  padding: 5rem;
+  border: 1px solid grey;
+  border-radius: 8px;
 }
-.form1 small {
+.form1 label {
   font-family: 'ProximaNova_reg', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  background-color: white;
+}
+.form1-small {
+  font-family: 'ProximaNova_reg', sans-serif;
+  font-size: 2.5rem;
+}
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .btn1 {
   display: block;
-  margin: 2rem;
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+.form12 {
+  background-color: white;
+  padding: 2rem;
+}
+@media (min-width: 991px) {
+  .left {
+    display: inline-block;
+    text-align: left;
+  }
 }
