@@ -21,4 +21,5 @@ HomeWork of web-academy
 
 [Урок 18](https://anessy.github.io/lesson18(mobile)/src/index.html "Моя готовая домашка") - от мобильного до адаптивного
 
+[Урок 19](https://anessy.github.io/lesson19(slider)/src/index.html "Моя готовая домашка") - слайдер
 
