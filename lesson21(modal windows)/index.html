@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" charset="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Всплывающие окна</title>
+	<!-- Подключаем стили Bootatrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Подключаем наши стили -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<a class="link"  href="#my-modal" data-toggle="modal">Ссылка на модальное окно</a>
+		<button class="btn btn-success" data-toggle="modal" data-target="#my-modal">Кнопка вызова модального окна</button>
+	</div>
+
+	<!-- Модальное окно от bootstrap -->
+
+	<div class="modal fade" id="my-modal">
+		<!-- само белое модальное окно -->
+	  <div class="modal-dialog">
+	  	<!-- содержимое модального окна -->
+	    <div class="modal-content">
+	    	<!-- шапка модального окна -->
+	      <div class="modal-header">
+	      	<!-- кнопка закрыть -->
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <!-- заголовок модального окна -->
+	        <h4 class="modal-title">Заголовок</h4>
+	      </div>
+	      <!-- тело модального окна -->
+	      <div class="modal-body">
+	        <p>Тут может быть любой контент&hellip;</p>
+	      </div>
+	      <!-- подвал модального окна -->
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Обязательно должна быть включена библиотека jQuery -->
+	<script src="https:ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Для модальных окон от bootstrap нужно подключить js-файлы -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
