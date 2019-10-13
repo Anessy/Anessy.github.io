@@ -25,4 +25,6 @@ HomeWork of web-academy
 
 [Урок 20](Anessy.github.io/lesson20(slider-in-site)/src/index.html "Моя готовая домашка") - слайдер на сайте
 
-[Урок 21](https://anessy.github.io/lesson21(modal%20windows)/index.html "Моя готовая домашка") - модально окно от bootstrap
+[Урок 21](https://anessy.github.io/lesson21(modal%20windows)/index.html "Моя готовая домашка") - модальное окно от bootstrap
+
+[Урок 25](https://anessy.github.io/lesson25/project/src/index.html "Моя готовая домашка") - свое модальное окно
