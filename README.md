@@ -28,3 +28,7 @@ HomeWork of web-academy
 [Урок 21](https://anessy.github.io/lesson21(modal%20windows)/index.html "Моя готовая домашка") - модальное окно от bootstrap
 
 [Урок 25](https://anessy.github.io/lesson25/project/src/index.html "Моя готовая домашка") - свое модальное окно
+
+[Урок 26](https://anessy.github.io/lesson26%20(%D1%82%D0%B0%D0%B1%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D0%B4%D0%B5%D0%BE%D0%BD%D1%8B)/untitled.html "Моя готовая домашка") - классная работа табы и аккордеон
+
+[Урок 26](https://https://anessy.github.io/lesson26%20(%D1%82%D0%B0%D0%B1%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D0%B4%D0%B5%D0%BE%D0%BD%D1%8B)/index.html "Моя готовая домашка") - домашняя работа табы и аккордеон
