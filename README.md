@@ -34,3 +34,5 @@ HomeWork of web-academy
 [Урок 26](https://https://anessy.github.io/lesson26%20(%D1%82%D0%B0%D0%B1%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D0%B4%D0%B5%D0%BE%D0%BD%D1%8B)/index.html "Моя готовая домашка") - домашняя работа табы и аккордеон
 
 [Урок 27](https://anessy.github.io/lesson27(prices)/src/index.html "Моя готовая домашка") - prices на сайте
+
+[Урок 28](https://https://anessy.github.io/lesson28%20(animation)/index.html "Моя готовая домашка") - animation
