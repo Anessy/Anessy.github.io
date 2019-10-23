@@ -42,3 +42,5 @@ HomeWork of web-academy
 [Урок 30](https://anessy.github.io/lesson30%20(bg-video)/index.html "Моя готовая домашка") - видео-фон
 
 [Урок 31](https://anessy.github.io/lesson31/src/index.html "Моя готовая домашка") - сайт (форма с рукой)
+
+[Урок 32](https://github.com/Anessy/Anessy.github.io/tree/master/lesson32(parallax_rellax) "Моя готовая домашка") - parallax + rellax
