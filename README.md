@@ -46,3 +46,7 @@ HomeWork of web-academy
 [Урок 32](https://github.com/Anessy/Anessy.github.io/tree/master/lesson32(parallax_rellax) "Моя готовая домашка") - parallax + rellax
 
 [Урок 33](https://anessy.github.io/lesson33/src/index.html "Моя готовая домашка") - на 100% включено
+
+[Урок 34](https://anessy.github.io/lesson34(maps)/index.html "Моя готовая домашка") - небольшой сайт с картой и закладкой
+
+
