@@ -1,0 +1,39 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.maps {
+	position: relative;
+	z-index: -1;
+}
+
+.adress {
+position: absolute;
+top: 0;
+left: 24%;
+text-align: center;
+background-color: #c60b0b;
+color: white;	
+height: 350px;
+padding: 30px;
+}
+
+.logo img {
+	margin-top: -50px;
+	}
+
+.logo p {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.second {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.thirt {
+	margin-top: 20px;
+	text-align: right;
+}
