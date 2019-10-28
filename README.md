@@ -49,7 +49,7 @@ HomeWork of web-academy
 
 [Урок 34](https://anessy.github.io/lesson34(maps)/index.html "Моя готовая домашка") - небольшой сайт с картой и закладкой
 
-[Урок 35](Anessy.github.io/lesson35/src/index.html "Моя готовая домашка") - мы решим все ваши проблемы
+[Урок 35](https://anessy.github.io/lesson35/src/index.html "Моя готовая домашка") - мы решим все ваши проблемы
 
 
 
