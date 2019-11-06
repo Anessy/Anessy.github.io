@@ -51,5 +51,7 @@ HomeWork of web-academy
 
 [Урок 35](https://anessy.github.io/lesson35/src/index.html "Моя готовая домашка") - мы решим все ваши проблемы
 
+[Урок 40](https://anessy.github.io/lesson40(mail)/index.html "Моя готовая домашка") - отправка дынных с формы на почту
+
 
 
