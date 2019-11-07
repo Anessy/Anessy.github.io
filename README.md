@@ -53,5 +53,6 @@ HomeWork of web-academy
 
 [Урок 40](https://anessy.github.io/lesson40(mail)/index.html "Моя готовая домашка") - отправка дынных с формы на почту
 
+[Урок 42](https://github.com/Anessy/Anessy.github.io/tree/master/lesson42(php_admin) "Моя готовая домашка") - многостраничный сайт, админ-страница на php
 
 
