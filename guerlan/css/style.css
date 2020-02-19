@@ -1,0 +1,13 @@
+header {
+  margin: 1.3rem 0;
+}
+header a {
+  color: #afafaf;
+  margin: 0 2rem;
+  padding-bottom: 1.3rem;
+}
+header a:hover {
+  text-decoration: none;
+  color: #ba8e7a;
+  border-bottom: 2px solid #ba8e7a;
+}
