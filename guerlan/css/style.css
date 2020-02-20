@@ -182,3 +182,11 @@ header a:hover {
   -webkit-transform: translate3d(-10rem, 16rem, 0);
           transform: translate3d(-10rem, 16rem, 0);
 }
+.rellax8 .one {
+  -webkit-transform: translate3d(-12rem, -28rem, 0);
+          transform: translate3d(-12rem, -28rem, 0);
+}
+.rellax8 .two {
+  -webkit-transform: translate3d(-28rem, 0, 0);
+          transform: translate3d(-28rem, 0, 0);
+}

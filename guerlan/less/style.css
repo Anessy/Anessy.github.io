@@ -175,3 +175,9 @@ header a:hover {
 .rellax7 .one {
   transform: translate3d(-10rem, 16rem, 0);
 }
+.rellax8 .one {
+  transform: translate3d(-12rem, -28rem, 0);
+}
+.rellax8 .two {
+  transform: translate3d(-28rem, 0, 0);
+}
