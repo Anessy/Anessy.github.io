@@ -63,3 +63,26 @@ header a:hover {
   width: 50%;
   margin-left: 2rem;
 }
+.photos {
+  margin: 0 20%;
+}
+.photos .firsr-photo {
+  position: absolute;
+  margin-left: 10%;
+}
+.photos .firsr-photo img {
+  width: 120%;
+}
+.photos .second-photo {
+  position: absolute;
+  margin-top: 20rem;
+}
+.photos .bg-img {
+  position: absolute;
+  z-index: -1;
+  margin-top: 19rem;
+  margin-left: 16rem;
+}
+.photos .bg-img img {
+  width: 150%;
+}
