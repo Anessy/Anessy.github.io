@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'PT Serif', serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 header {
   margin: 1.3rem 0;
 }
@@ -41,6 +50,16 @@ header a:hover {
   -webkit-transform: translate3d(-1rem, -4rem, 0);
           transform: translate3d(-1rem, -4rem, 0);
 }
-.delete {
-  height: 30rem;
+.women-life {
+  margin: 8rem 20%;
+}
+.women-life .text1 {
+  width: 90%;
+}
+.women-life .text-grey {
+  border-top: 3px solid #C6E4AC;
+  color: #afafaf;
+  padding-top: 1rem;
+  width: 50%;
+  margin-left: 2rem;
 }

@@ -1,6 +1,14 @@
+h1, h2, h3, h4 {
+  font-family: 'PT Serif', serif;
+} 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 //используемые цвета  
 @links: #AFAFAF;
 @links-hover: #BA8E7A;
+@grey-text: #AFAFAF;
 
 //шапка сайта
 header {
@@ -52,7 +60,33 @@ header {
   }
 }
 
-
-.delete {
-  height: 30rem;
+.women-life {
+  margin: 8rem 20%;
+  .text1 {
+    width: 90%;
+  } 
+  .text-grey {
+    border-top: 3px solid #C6E4AC;
+    color: @grey-text;
+    padding-top: 1rem;
+    width: 50%;
+    margin-left: 2rem;
+  }
 }
+
+// =====================================
+
+// Экстрамалые девайсы («портретные телефоны», < 576px)
+@media (max-width: 575.98px) { }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { }
