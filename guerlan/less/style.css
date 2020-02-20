@@ -231,3 +231,65 @@ header a:hover {
   width: 70%;
   margin-left: 6rem;
 }
+.natural {
+  position: relative;
+}
+.natural .img {
+  position: relative;
+}
+.natural .img .two {
+  position: absolute;
+  top: 21rem;
+  left: 5rem;
+}
+.natural .img .three {
+  position: absolute;
+  top: 22rem;
+  left: 6rem;
+}
+.natural .circle {
+  position: absolute;
+  left: 55rem;
+  top: 1rem;
+  border-radius: 50%;
+  background-color: #C6E4AC;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.natural .text {
+  position: absolute;
+  left: 59rem;
+  top: 1rem;
+  width: 30%;
+}
+.rellax10 {
+  position: relative;
+}
+.rellax10 .one {
+  position: absolute;
+  top: 35rem;
+  left: 12rem;
+}
+.rellax10 .two {
+  position: absolute;
+  top: 14rem;
+  left: 20rem;
+}
+.rellax10 .three {
+  position: absolute;
+  top: 19rem;
+  left: 27rem;
+}
+.rellax10 .four {
+  position: absolute;
+  top: 15rem;
+  left: 17rem;
+}
+.rellax11 {
+  position: relative;
+}
+.rellax11 .one {
+  transform: translate3d(-25rem, 38rem, 0);
+}
