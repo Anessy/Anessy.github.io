@@ -199,3 +199,35 @@ header a:hover {
 .rellax8 .two {
   transform: translate3d(-28rem, 0, 0);
 }
+.open {
+  margin-top: -14rem;
+}
+.open h1 {
+  margin-bottom: 2rem;
+}
+.ofen {
+  margin-top: -14rem;
+}
+.ofen h1 {
+  margin-bottom: 2rem;
+}
+.rellax9 .one {
+  transform: translate3d(10rem, 15rem, 0);
+}
+.rellax9 .two {
+  transform: translate3d(0, -16rem, 0);
+}
+.natural .img {
+  width: 100%;
+}
+.natural .bg {
+  position: absolute;
+  transform: translateY(14rem);
+}
+.natural .bg img {
+  width: 130%;
+}
+.natural .for-text {
+  width: 70%;
+  margin-left: 6rem;
+}
