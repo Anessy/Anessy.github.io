@@ -64,6 +64,7 @@ header a:hover {
   margin: 0 20%;
 }
 .photos .firsr-photo {
+  z-index: 1;
   position: absolute;
   margin-left: 10%;
 }
@@ -71,6 +72,7 @@ header a:hover {
   width: 120%;
 }
 .photos .second-photo {
+  z-index: 2;
   position: absolute;
   margin-top: 20rem;
 }
@@ -82,4 +84,16 @@ header a:hover {
 }
 .photos .bg-img img {
   width: 150%;
+}
+.photos .fly {
+  margin-top: 26rem;
+  margin-left: 48rem;
+}
+.photos .fly-1 {
+  position: absolute;
+  z-index: 4;
+}
+.photos .fly-2 {
+  position: absolute;
+  z-index: 3;
 }
