@@ -156,8 +156,22 @@ header a:hover {
   z-index: -1;
 }
 .rellax6 {
-  margin-right: -10rem;
+  margin-left: 10rem;
 }
 .green {
   background-color: #bbd895;
+  padding-top: 5rem;
+}
+.green .img2 {
+  transform: translateY(6rem);
+}
+.green .img3 {
+  transform: translateY(4rem);
+}
+.img4 {
+  position: absolute;
+  transform: translate3d(4rem, -27rem, 0);
+}
+.rellax7 .one {
+  transform: translate3d(-10rem, 16rem, 0);
 }
