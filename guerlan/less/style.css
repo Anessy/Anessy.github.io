@@ -85,6 +85,15 @@ header a:hover {
 .photos .bg-img img {
   width: 150%;
 }
+.photos .bg-img2 {
+  position: absolute;
+  z-index: -2;
+  margin-top: 19rem;
+  margin-left: 16rem;
+}
+.photos .bg-img2 img {
+  width: 150%;
+}
 .photos .fly {
   margin-top: 26rem;
   margin-left: 48rem;
@@ -96,4 +105,10 @@ header a:hover {
 .photos .fly-2 {
   position: absolute;
   z-index: 3;
+}
+.rellax2 {
+  margin-top: -15%;
+}
+.rellax2 .two {
+  z-index: 2;
 }
