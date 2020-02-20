@@ -173,6 +173,24 @@ header a:hover {
   -webkit-transform: translateY(4rem);
           transform: translateY(4rem);
 }
+.green .text,
+.green .circle {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+}
+.green .text {
+  margin-left: 50%;
+  width: 25%;
+}
+.green .circle {
+  margin-left: 47%;
+  padding: 0 1rem;
+  border: 1px solid #F0CDB7;
+  border-radius: 50%;
+  background-color: #F0CDB7;
+}
 .img4 {
   position: absolute;
   -webkit-transform: translate3d(4rem, -27rem, 0);
