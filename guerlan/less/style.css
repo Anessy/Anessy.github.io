@@ -138,3 +138,20 @@ header a:hover {
 .video img {
   width: 100%;
 }
+.ritual,
+.sicret,
+.beauty {
+  margin-top: 4rem;
+}
+.rellax5 {
+  position: absolute;
+  margin-left: 18rem;
+}
+.rellax5 .two {
+  margin-top: -55rem;
+  margin-left: -10rem;
+  z-index: 1;
+}
+.rellax5 .one {
+  z-index: -1;
+}
