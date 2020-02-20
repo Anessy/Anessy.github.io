@@ -113,9 +113,28 @@ header a:hover {
   margin-top: -15%;
 }
 .rellax2 .two {
-  z-index: 2;
+  z-index: 5;
 }
 .rellax3 {
-  margin-top: -12%;
+  margin-top: -15%;
   margin-left: -6rem;
+}
+.text-joke {
+  margin-top: 24rem;
+}
+.text-mom {
+  margin-top: 4rem;
+}
+.rellax4 {
+  position: absolute;
+  margin-left: 4rem;
+}
+.rellax4 .one {
+  margin-top: -150%;
+  margin-left: 5rem;
+  z-index: 1;
+}
+.rellax4 .two {
+  z-index: -1;
+  margin-left: -4rem;
 }
