@@ -422,7 +422,223 @@ header a:hover {
   opacity: 1;
   box-shadow: 0 5px 0.5em -1px #BA8E7A;
 }
-@media (min-width: 1536px) and (max-width: 1600.98px) {
+@media (min-width: 319px) and (max-width: 575px) {
+  header .logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  header a {
+    margin: 0rem;
+    padding: 0 0.3rem 1.5rem 0.3rem;
+  }
+  .first {
+    width: 120%;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1400.98px) {
+  .rellax2 {
+    margin-top: -15%;
+  }
+  .rellax2 .two {
+    z-index: 5;
+    margin-right: -4rem;
+  }
+  .rellax3 {
+    position: relative;
+    margin-left: -8rem;
+  }
+  .rellax3 .one {
+    position: absolute;
+    z-index: 99;
+    margin-left: 6rem;
+  }
+  .rellax4 {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -10rem;
+  }
+  .rellax4 .one {
+    margin-top: -30rem;
+    margin-left: 0rem;
+    z-index: 1;
+  }
+  .rellax4 .two {
+    z-index: -1;
+    margin-left: -8rem;
+    margin-top: 6rem;
+  }
+  .rellax5 {
+    position: absolute;
+    margin-left: 8rem;
+  }
+  .rellax5 .two {
+    margin-top: -50rem;
+    margin-left: -10rem;
+    z-index: 1;
+  }
+  .rellax5 .one {
+    z-index: -1;
+    margin-top: -4rem;
+  }
+  .rellax8 .one {
+    transform: translate3d(1rem, -28rem, 0);
+  }
+  .rellax8 .two {
+    transform: translate3d(-15rem, 0, 0);
+  }
+  .rellax9 {
+    margin-left: -7rem;
+  }
+  .rellax9 .one {
+    transform: translate3d(6rem, 15rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-4rem, -16rem, 0);
+  }
+  .rellax10 {
+    position: relative;
+  }
+  .rellax10 .one {
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+  }
+  .rellax10 .two {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+  }
+  .rellax10 .three {
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+  }
+  .rellax10 .four {
+    position: absolute;
+    top: 13rem;
+    left: 6rem;
+  }
+  .everyday {
+    padding: 8rem 0 0 0;
+  }
+  .everyday .line {
+    position: absolute;
+    transform: translate3d(45vw, 9rem, 0);
+  }
+  .everyday .line img {
+    width: 100%;
+  }
+  .line {
+    position: absolute;
+    transform: translate3d(54rem, -19rem, 0);
+  }
+  .line img {
+    width: 100%;
+  }
+  .natural .for-text .circle,
+  .natural .for-text .text {
+    margin-left: -10rem;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1536.98px) {
+  .rellax3 {
+    position: relative;
+    margin-left: -6rem;
+  }
+  .rellax3 .one {
+    position: absolute;
+    z-index: 99;
+    margin-left: 1rem;
+  }
+  .rellax4 {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -10rem;
+  }
+  .rellax4 .one {
+    margin-top: -150%;
+    margin-left: -1rem;
+    z-index: 1;
+  }
+  .rellax4 .two {
+    z-index: -1;
+    margin-left: -4rem;
+    margin-top: 6rem;
+  }
+  .rellax5 {
+    position: absolute;
+    margin-left: 13rem;
+  }
+  .rellax5 .two {
+    margin-top: -50rem;
+    margin-left: -10rem;
+    z-index: 1;
+  }
+  .rellax5 .one {
+    z-index: -1;
+    margin-top: -4rem;
+  }
+  .rellax8 .one {
+    transform: translate3d(-4rem, -28rem, 0);
+  }
+  .rellax8 .two {
+    transform: translate3d(-20rem, 0, 0);
+  }
+  .rellax9 {
+    margin-left: -7rem;
+  }
+  .rellax9 .one {
+    transform: translate3d(10rem, 15rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(0, -16rem, 0);
+  }
+  .rellax10 {
+    position: relative;
+  }
+  .rellax10 .one {
+    position: absolute;
+    top: 25rem;
+    left: 8rem;
+  }
+  .rellax10 .two {
+    position: absolute;
+    top: 11rem;
+    left: 12rem;
+  }
+  .rellax10 .three {
+    position: absolute;
+    top: 12rem;
+    left: 18rem;
+  }
+  .rellax10 .four {
+    position: absolute;
+    top: 13rem;
+    left: 18rem;
+  }
+  .everyday {
+    padding: 8rem 0 0 0;
+  }
+  .everyday .line {
+    position: absolute;
+    transform: translate3d(54.5vw, 9rem, 0);
+  }
+  .everyday .line img {
+    width: 100%;
+  }
+  .line {
+    position: absolute;
+    transform: translate3d(67rem, -19rem, 0);
+  }
+  .line img {
+    width: 100%;
+  }
+  .natural .for-text .circle,
+  .natural .for-text .text {
+    margin-left: -10rem;
+  }
+}
+@media (min-width: 1537px) and (max-width: 1600.98px) {
   .rellax3 {
     position: relative;
     margin-left: -6rem;
