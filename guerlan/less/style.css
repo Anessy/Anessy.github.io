@@ -135,8 +135,10 @@ header a:hover {
   z-index: -1;
   margin-left: -4rem;
 }
-.video img {
-  width: 100%;
+.video {
+  margin: auto;
+  width: 100vw;
+  height: 43vw;
 }
 .ritual,
 .sicret,
@@ -292,4 +294,23 @@ header a:hover {
 }
 .rellax11 .one {
   transform: translate3d(-25rem, 38rem, 0);
+}
+.husband,
+.question {
+  margin-bottom: 6rem;
+}
+.husband h1,
+.question h1 {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 992px) and (max-width: 1620.98px) {
+  .rellax4 .one {
+    transform: translateX(-4rem);
+  }
+  .rellax4 .two {
+    transform: translateX(-6rem);
+  }
+}
+.rellax5 {
+  margin-right: -2rem;
 }

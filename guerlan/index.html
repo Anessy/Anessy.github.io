@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/playerjs.js" type="text/javascript"></script>
     <title>Guerlan</title>
   </head>
   <body>
@@ -175,10 +176,15 @@
 <!-- //////////////////////////////// -->
     
   <section>
-    <div class="video">
+    <div class="video-box">
       
+      <div id="player" class="video">
         <img src="./img/Video.png" alt="">
-      
+      </div>
+
+<script>
+   var player = new Playerjs({id:"player", file:"https://youtu.be/oO_B-8RNLdA"});
+</script>
     </div>
   </section>
 
@@ -407,6 +413,28 @@
 </div>
 
 <!-- //////////////////////////////// -->
+
+<section>
+  <div class="husband">
+    <div class="container">
+      <h1>
+        Які ритуали допомагають вам з чоловіком підтримувати романтику в стосунках?
+      </h1>
+      <p>Для щастя нам потрібно просто 2-3 дні закордоном, нова країна — нові враження. Важливо трохи переключитися і згадати той період до дітей, коли ми приділяли час тільки один одному, прислухалися, більше розуміли. Бо зараз в щоденному хаосі багато що проходить повз мене і я, буває, не чую чоловіка. Тому таких коротких вікендів нам цілком достатньо. Більше і не треба, бо починаємо шалено скучати за дітьми.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="question">
+    <div class="container">
+      <h1>
+        Ви часто говорите, що щастя в простих речах. В яких саме?
+      </h1>
+      <p>Поїсти, випити кави, щоб ніхто не смикав збоку і щоб всі були здорові.</p>
+    </div>
+  </div>
+</section>
         
       
     

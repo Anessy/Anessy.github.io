@@ -49,12 +49,10 @@ header {
   width: 80%;
   .one {
     position: absolute;
-    //display: inline-block;
     transform: translate3d(8rem, -8rem, 0);
   }
   .two {
     position: absolute;
-    //display: inline-block;
     transform: translate3d(-1rem, -4rem, 0);
     
   }
@@ -157,9 +155,9 @@ header {
 }
 
 .video {
-  img {
-    width: 100%;
-  }
+  margin: auto;	
+  width: 100vw;
+  height: 43vw;
 }
 
 .ritual, .sicret, .beauty {
@@ -345,6 +343,13 @@ header {
   }
 }
 
+.husband, .question {
+  margin-bottom: 6rem;
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
 // =====================================
 
 // Экстрамалые девайсы («портретные телефоны», < 576px)
@@ -357,7 +362,20 @@ header {
 @media (min-width: 768px) and (max-width: 991.98px) { }
 
 // Большие девайсы (большие десктопы, >= 992px)
-@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media (min-width: 992px) and (max-width: 1620.98px) { 
+  .rellax4 {
+    .one {
+      transform: translateX(-4rem);
+    }
+    .two {
+      transform: translateX(-6rem);
+    }
+  }
+}
+.rellax5 {
+ margin-right: -2rem ;
+}
+
 
 // Большие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1200px) { }
+@media (min-width: 992px) and (max-width: 1920.98px) { }
