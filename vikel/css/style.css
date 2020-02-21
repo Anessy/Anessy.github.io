@@ -99,22 +99,15 @@ p {
   .header-links a {
     margin: 0 0.2rem;
   }
-  .rellax1 .one {
-    -webkit-transform: translate3d(-4rem, -22rem, 0);
-            transform: translate3d(-4rem, -22rem, 0);
-  }
-  .rellax1 .two {
-    -webkit-transform: translate3d(-20rem, -12rem, 0);
-            transform: translate3d(-20rem, -12rem, 0);
-  }
-  .rellax1 .three {
-    -webkit-transform: translate3d(-17rem, -6rem, 0);
-            transform: translate3d(-17rem, -6rem, 0);
+  .rellax1 {
+    -webkit-transform: translate3d(0, 4rem, 0);
+            transform: translate3d(0, 4rem, 0);
   }
 }
 @media (max-width: 767.98px) {
   .header-logo {
     text-align: center;
+    margin-bottom: 1.5rem;
   }
   .header a {
     margin: 0 1rem;
