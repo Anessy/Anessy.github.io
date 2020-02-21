@@ -181,10 +181,13 @@ header a:hover {
   padding-top: 5rem;
 }
 .green .img2 {
-  transform: translateY(6rem);
+  transform: translate3d(-32rem, 6rem, 0);
+  width: 120%;
+  z-index: 2;
 }
 .green .img3 {
   transform: translateY(4rem);
+  z-index: -1;
 }
 .green .text,
 .green .circle {
@@ -209,7 +212,7 @@ header a:hover {
   transform: translate3d(4rem, -27rem, 0);
 }
 .rellax7 .one {
-  transform: translate3d(-10rem, 16rem, 0);
+  transform: translate3d(-22rem, 16rem, 0);
 }
 .rellax8 .one {
   transform: translate3d(-12rem, -28rem, 0);
@@ -225,6 +228,7 @@ header a:hover {
 }
 .ofen {
   margin-top: -14rem;
+  margin-bottom: 4rem;
 }
 .ofen h1 {
   margin-bottom: 2rem;
