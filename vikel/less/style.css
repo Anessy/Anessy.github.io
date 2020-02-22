@@ -1,4 +1,11 @@
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 @font-face {
@@ -77,9 +84,6 @@ p {
   bottom: 0;
   right: 0;
 }
-.for-rellax1 {
-  overflow-x: hidden;
-}
 .rellax1 {
   position: relative;
 }
@@ -135,9 +139,6 @@ p {
 .photo .four {
   top: 0;
   left: 0;
-}
-.for-rellax2 {
-  overflow-x: hidden;
 }
 .rellax2 {
   position: relative;
