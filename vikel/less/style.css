@@ -92,7 +92,7 @@ p {
   transform: translate3d(-17rem, -6rem, 0);
 }
 .about {
-  margin: 8rem 0;
+  margin: 8rem 0 16rem 0;
 }
 .about-text {
   font-size: 15px;
@@ -129,6 +129,16 @@ p {
 .photo .four {
   top: 0;
   left: 0;
+}
+.rellax2 {
+  position: relative;
+  margin-left: -20rem;
+  margin-bottom: -8rem;
+}
+.rellax2 .one,
+.rellax2 .two {
+  position: absolute;
+  z-index: 1;
 }
 @media (max-width: 575.98px) {
   .header-logo {
