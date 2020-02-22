@@ -96,7 +96,7 @@ p {
           transform: translate3d(-17rem, -6rem, 0);
 }
 .about {
-  margin: 8rem 0 16rem 0;
+  margin: 8rem 0 8rem 0;
 }
 .about-text {
   font-size: 15px;
@@ -145,6 +145,92 @@ p {
 .rellax2 .two {
   position: absolute;
   z-index: 1;
+}
+.rellax3 {
+  position: relative;
+}
+.rellax3 .one,
+.rellax3 .two {
+  position: absolute;
+}
+.rellax3 .one {
+  -webkit-transform: translate3d(-35rem, 35rem, 0);
+          transform: translate3d(-35rem, 35rem, 0);
+}
+.rellax3 .two {
+  -webkit-transform: translate3d(-37rem, 50rem, 0);
+          transform: translate3d(-37rem, 50rem, 0);
+}
+.no-diw {
+  width: 100%;
+  margin-top: 50rem;
+}
+.firstQuestion,
+.secondQuestion,
+.thirdQuestion,
+.fourthQuestion,
+.fifthQuestion,
+.sixthQuestion,
+.seventhQuestion {
+  margin-top: 2rem;
+}
+.firstQuestion h1,
+.secondQuestion h1,
+.thirdQuestion h1,
+.fourthQuestion h1,
+.fifthQuestion h1,
+.sixthQuestion h1,
+.seventhQuestion h1 {
+  font-size: 22px;
+  color: #282828;
+  margin-bottom: 1rem;
+}
+.firstQuestion p,
+.secondQuestion p,
+.thirdQuestion p,
+.fourthQuestion p,
+.fifthQuestion p,
+.sixthQuestion p,
+.seventhQuestion p {
+  font-size: 15px;
+}
+.fourthQuestion {
+  margin-bottom: 6rem;
+}
+.rellax4 {
+  position: relative;
+}
+.rellax4 .one {
+  position: absolute;
+  -webkit-transform: translate3d(32rem, 0, 0);
+          transform: translate3d(32rem, 0, 0);
+}
+.rellax4 .two {
+  position: absolute;
+  -webkit-transform: translate3d(32rem, 0, 0);
+          transform: translate3d(32rem, 0, 0);
+}
+.video {
+  margin: auto;
+  width: 100vw;
+  height: 43vw;
+}
+.rellax5 {
+  position: relative;
+  top: 40%;
+  right: -30%;
+}
+.rellax5 .one,
+.rellax5 .two {
+  position: absolute;
+}
+.rellax6 {
+  position: relative;
+  top: -12rem;
+  left: -50%;
+}
+.rellax6 .one {
+  position: absolute;
 }
 @media (max-width: 575.98px) {
   .header-logo {
@@ -198,6 +284,15 @@ p {
     -webkit-transform: translateY(-12rem);
             transform: translateY(-12rem);
   }
+  .for-rellax3 {
+    margin-left: 20rem;
+  }
+  .for-rellax4 .two {
+    display: none;
+  }
+  .forMinDevices {
+    margin-left: -20rem;
+  }
 }
 @media (max-width: 767.98px) {
   .header-logo {
@@ -235,6 +330,9 @@ p {
     -webkit-transform: translate3d(15rem, 12rem, 0);
             transform: translate3d(15rem, 12rem, 0);
   }
+  .for-rellax4 {
+    margin-left: -14rem;
+  }
 }
 @media (max-width: 991.98px) {
   .header a {
@@ -266,6 +364,13 @@ p {
   .rellax2 {
     margin-left: -15rem;
   }
+  .rellax3 {
+    margin-right: -15rem;
+    margin-top: -6rem;
+  }
+  .rellax4 {
+    margin-left: -10rem;
+  }
 }
 @media (max-width: 1199.98px) {
   .first-text {
@@ -292,5 +397,21 @@ p {
   }
   .rellax2 {
     margin-bottom: -4rem;
+  }
+  .rellax3 .one {
+    -webkit-transform: translate3d(-30rem, 25rem, 0);
+            transform: translate3d(-30rem, 25rem, 0);
+  }
+  .rellax3 .two {
+    -webkit-transform: translate3d(-32rem, 30rem, 0);
+            transform: translate3d(-32rem, 30rem, 0);
+  }
+  .rellax4 .one {
+    -webkit-transform: translate3d(24rem, -12rem, 0);
+            transform: translate3d(24rem, -12rem, 0);
+  }
+  .rellax4 .two {
+    -webkit-transform: translate3d(24rem, -12rem, 0);
+            transform: translate3d(24rem, -12rem, 0);
   }
 }

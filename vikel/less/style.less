@@ -112,7 +112,7 @@ p {
 //===================================
 
 .about {
-  margin: 8rem 0 16rem 0;
+  margin: 8rem 0 8rem 0;
   &-text {
     font-size: 15px;
   }
@@ -161,6 +161,80 @@ p {
     z-index: 1;
   }
 }
+//===================================
+.rellax3 {
+ position: relative;
+ .one, .two {
+   position: absolute;
+ }
+ .one {
+   transform: translate3d(-35rem,35rem,0);
+ }
+ .two {
+  transform: translate3d(-37rem,50rem,0);
+}
+}
+
+.no-diw{
+  width: 100%;
+  margin-top: 50rem;
+}
+
+.firstQuestion, .secondQuestion,.thirdQuestion,.fourthQuestion,.fifthQuestion,.sixthQuestion,.seventhQuestion {
+  margin-top: 2rem;
+  h1 {
+    font-size: 22px;
+    color: #282828;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+.fourthQuestion {
+  margin-bottom: 6rem;
+}
+.rellax4 {
+  position: relative;
+  .one {
+    position: absolute;
+    transform: translate3d(32rem,0,0);
+  }
+  .two {
+    position: absolute;
+    transform: translate3d(32rem,0,0);
+  }
+}
+
+.video {
+  margin: auto;	
+  width: 100vw;
+  height: 43vw;
+}
+
+.rellax5 {
+  position: relative; 
+  top: 40%;
+  right: -30%;
+  .one,.two{
+    position: absolute; 
+  } 
+}
+.rellax6 {
+  position: relative;
+  top: -12rem;
+  left: -50%;
+  .one {
+    position: absolute;
+  }
+}
+
+
+
+
+
+
+
 
 
 
@@ -225,6 +299,17 @@ p {
   margin-left: -12rem;
   transform: translateY(-12rem);
 }
+.for-rellax3 {
+  margin-left: 20rem;
+}
+.for-rellax4 {
+  .two {
+    display: none;
+  }
+}
+.forMinDevices {
+  margin-left: -20rem;
+}
 
 //====================
   }
@@ -273,6 +358,10 @@ p {
   .rellax2 {
     transform: translate3d(15rem,12rem,0);
   }
+  .for-rellax4 {
+    margin-left: -14rem;
+  }
+  
 //=================  
  }
 
@@ -311,6 +400,13 @@ p {
   .rellax2 {
     margin-left: -15rem;
   }
+  .rellax3 {
+    margin-right: -15rem;
+    margin-top: -6rem;
+   }
+   .rellax4 {
+    margin-left: -10rem;
+  }
 //==================
  }
 
@@ -343,5 +439,22 @@ p {
   .rellax2 {
     margin-bottom: -4rem;
   }
+  .rellax3 {
+    
+    .one {
+      transform: translate3d(-30rem,25rem,0);
+    }
+    .two {
+     transform: translate3d(-32rem,30rem,0);
+   }
+   }
+   .rellax4 {
+     .one {
+      transform: translate3d(24rem,-12rem,0);
+     }
+     .two {
+      transform: translate3d(24rem,-12rem,0);
+     }
+   }
 //===================
  }
