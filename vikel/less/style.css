@@ -1,5 +1,5 @@
-html {
-  overflow-x: hidden !important;
+body {
+  overflow-x: hidden;
 }
 @font-face {
   font-family: 'Lato';
@@ -77,6 +77,9 @@ p {
   bottom: 0;
   right: 0;
 }
+.for-rellax1 {
+  overflow-x: hidden;
+}
 .rellax1 {
   position: relative;
 }
@@ -132,6 +135,9 @@ p {
 .photo .four {
   top: 0;
   left: 0;
+}
+.for-rellax2 {
+  overflow-x: hidden;
 }
 .rellax2 {
   position: relative;
