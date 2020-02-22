@@ -181,6 +181,13 @@ p {
     margin-left: 1rem;
     margin-top: 0rem !important;
   }
+  .about {
+    margin: 8rem 0 20rem 0;
+  }
+  .for-rellax2 {
+    margin-left: -12rem;
+    transform: translateY(-12rem);
+  }
 }
 @media (max-width: 767.98px) {
   .header-logo {
@@ -211,6 +218,12 @@ p {
   .photo .four {
     margin-top: -8rem;
   }
+  .about {
+    margin: 8rem 0 8rem 0;
+  }
+  .rellax2 {
+    transform: translate3d(15rem, 12rem, 0);
+  }
 }
 @media (max-width: 991.98px) {
   .header a {
@@ -235,6 +248,9 @@ p {
   .photo .two {
     margin-top: -4rem;
   }
+  .rellax2 {
+    margin-left: -15rem;
+  }
 }
 @media (max-width: 1199.98px) {
   .first-text {
@@ -251,5 +267,11 @@ p {
   }
   .photo .two {
     transform: translate3d(3rem, 22rem, 0);
+  }
+  .about {
+    margin: 8rem 0 12rem 0;
+  }
+  .rellax2 {
+    margin-bottom: -4rem;
   }
 }

@@ -1,0 +1,29 @@
+@media (max-width: 575.98px) {
+  
+}
+
+@media (max-width: 767.98px) {
+  .about {
+    margin: 8rem 0 8rem 0;
+  }
+  .rellax2 {
+    transform: translate3d(15rem,12rem,0);
+  }
+}
+
+@media (max-width: 991.98px) { 
+    
+  .rellax2 {
+    margin-left: -15rem;
+  }
+
+ }
+
+@media (max-width: 1199.98px) {
+  .about {
+    margin: 8rem 0 12rem 0;
+  }
+  .rellax2 {
+    margin-bottom: -4rem;
+  }
+}
