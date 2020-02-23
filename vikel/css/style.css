@@ -413,12 +413,20 @@ p {
   margin-top: 55rem;
 }
 .rellax10 {
-  display: none;
   position: relative;
+  right: -30%;
 }
 .rellax10 .one,
 .rellax10 .two {
   position: absolute;
+}
+.rellax10 .one {
+  -webkit-transform: translate3d(0, 76rem, 0);
+          transform: translate3d(0, 76rem, 0);
+}
+.rellax10 .two {
+  -webkit-transform: translate3d(0, 40rem, 0);
+          transform: translate3d(0, 40rem, 0);
 }
 .ritual {
   position: relative;
@@ -725,6 +733,15 @@ footer a {
     -webkit-transform: translate3d(-3rem, 120rem, 0);
             transform: translate3d(-3rem, 120rem, 0);
   }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text .for-button button {
+    margin-bottom: 8rem;
+  }
+  .ritual-bg {
+    top: 80%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header-logo {
@@ -895,6 +912,31 @@ footer a {
     -webkit-transform: translate3d(0, 70rem, 0);
             transform: translate3d(0, 70rem, 0);
   }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+  }
+  .rellax10 .one,
+  .rellax10 .two {
+    position: absolute;
+  }
+  .rellax10 .one {
+    -webkit-transform: translate3d(0, 46rem, 0);
+            transform: translate3d(0, 46rem, 0);
+  }
+  .rellax10 .two {
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text .for-button button {
+    margin-bottom: 8rem;
+  }
+  .ritual-bg {
+    top: 80%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header a {
@@ -1049,6 +1091,22 @@ footer a {
     -webkit-transform: translate3d(0, 70rem, 0);
             transform: translate3d(0, 70rem, 0);
   }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+  }
+  .rellax10 .one,
+  .rellax10 .two {
+    position: absolute;
+  }
+  .rellax10 .one {
+    -webkit-transform: translate3d(0, 46rem, 0);
+            transform: translate3d(0, 46rem, 0);
+  }
+  .rellax10 .two {
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .first-text {
@@ -1170,5 +1228,21 @@ footer a {
   .rellax9 .two {
     -webkit-transform: translate3d(0, 70rem, 0);
             transform: translate3d(0, 70rem, 0);
+  }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+  }
+  .rellax10 .one,
+  .rellax10 .two {
+    position: absolute;
+  }
+  .rellax10 .one {
+    -webkit-transform: translate3d(0, 46rem, 0);
+            transform: translate3d(0, 46rem, 0);
+  }
+  .rellax10 .two {
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
   }
 }

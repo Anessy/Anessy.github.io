@@ -378,18 +378,26 @@ p {
     transform: translate3d(0,110rem,0);
   }
 }
+//================================================================
 
 .tenthQuestion {
   margin-top: 55rem;
 }
 
 .rellax10 {
-  display: none;
   position: relative;
+  right: -30%;
   .one,.two {
     position: absolute;
   }
+  .one {
+    transform: translate3d(0,76rem,0);
+  }
+  .two {
+    transform: translate3d(0,40rem,0);
+  }
 }
+//================================================================
 
 .ritual {
   position: relative;
@@ -701,6 +709,21 @@ footer{
     transform: translate3d(-3rem,120rem,0);
   }
 }
+.ritual {
+  &-text {
+    text-align: center; 
+    
+    .for-button {
+      button {
+        margin-bottom: 8rem; 
+      }
+    }
+  }
+  
+  &-bg{
+    top: 80%; 
+  }
+}
 //====================
   }
 // Малые девайсы («ландшафтные», < 768px)
@@ -873,6 +896,34 @@ footer{
       transform: translate3d(0,70rem,0);
     }
   }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+    .one,.two {
+      position: absolute;
+    }
+    .one {
+      transform: translate3d(0,46rem,0);
+    }
+    .two {
+      transform: translate3d(0,0rem,0);
+    }
+  }
+  .ritual {
+    &-text {
+      text-align: center; 
+      
+      .for-button {
+        button {
+          margin-bottom: 8rem; 
+        }
+      }
+    }
+    
+    &-bg{
+      top: 80%; 
+    }
+  }
 //=================  
  }
 
@@ -1024,6 +1075,20 @@ footer{
       transform: translate3d(0,70rem,0);
     }
   }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+    .one,.two {
+      position: absolute;
+    }
+    .one {
+      transform: translate3d(0,46rem,0);
+    }
+    .two {
+      transform: translate3d(0,0rem,0);
+    }
+  }
+  
 //==================
  }
 
@@ -1150,5 +1215,19 @@ footer{
       transform: translate3d(0,70rem,0);
     }
   }
+  .rellax10 {
+    position: relative;
+    right: -30%;
+    .one,.two {
+      position: absolute;
+    }
+    .one {
+      transform: translate3d(0,46rem,0);
+    }
+    .two {
+      transform: translate3d(0,0rem,0);
+    }
+  }
+  
 //===================
  }
