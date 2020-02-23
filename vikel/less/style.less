@@ -205,7 +205,9 @@ p {
     transform: translate3d(32rem,0,0);
   }
 }
-
+.video-box{
+  margin-bottom: 6rem;
+}
 .video {
   margin: auto;	
   width: 100vw;
@@ -226,8 +228,53 @@ p {
   left: -50%;
   .one {
     position: absolute;
+    z-index: 1;
   }
 }
+
+.photo2 {
+  
+  padding: 6rem 0 28rem 0;
+  background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+  margin-top: 4rem;
+  img, h1 {
+    width: 100%;
+  }
+  h1 {
+    font-size: 34px;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+    color: white;
+  }
+  &-first {
+    position: absolute;
+  }
+  &-second {
+    position: absolute;
+    transform: translate3d(20rem,20rem,0);
+  }
+  &-bg {
+    position: absolute;
+    transform: translate3d(46rem,18rem,0);
+  }
+  &-fourth {
+    position: absolute;
+    transform: translate3d(26rem,5rem,0);
+  }
+  .text, .circle {
+    position: absolute;
+    transform: translate3d(-14rem,0,0);
+  }
+  
+  .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  }
+  
+
 
 
 
@@ -310,11 +357,34 @@ p {
 .forMinDevices {
   margin-left: -20rem;
 }
+.photo2 {
+  padding: 6rem 0 68rem 0;
+  &-second {
+    
+    position: absolute;
+    transform: translate3d(3rem,60rem,0);
+  }
+  &-bg {
+    position: absolute;
+    transform: translate3d(8.2rem,58.7rem,0);
+  }
+  &-fourth {
+    position: absolute;
+    transform: translate3d(1rem,40rem,0);
+  }
+  .text, .circle {
+    position: absolute;
+    transform: translate3d(5rem,26rem,0);
+  }
+  h1 {
+    font-size: 27px;
+  }
+}
 
 //====================
   }
 // Малые девайсы («ландшафтные», < 768px)
-@media (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) { 
   .header {
     &-logo {
       text-align: center;
@@ -361,12 +431,34 @@ p {
   .for-rellax4 {
     margin-left: -14rem;
   }
+  .photo2 {
+    padding: 6rem 0 82rem 0;
+    &-second {
+      position: absolute;
+      transform: translate3d(8rem,74rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(15rem,72rem,0);
+    }
+    &-fourth {
+      position: absolute;
+      transform: translate3d(2rem,53rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(5rem,42rem,0);
+    }
+    h1 {
+      font-size: 27px;
+    }
+  }
   
 //=================  
  }
 
 // Средние девайсы («таблетки», < 992px) 
-@media (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
   .header {
     a {
       margin: 0 0.5rem;
@@ -407,11 +499,33 @@ p {
    .rellax4 {
     margin-left: -10rem;
   }
+  .photo2 {
+    padding: 6rem 0 16.5rem 0;
+    &-second {
+      position: absolute;
+      transform: translate3d(16rem,14rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(31rem,12rem,0);
+    }
+    &-fourth {
+      position: absolute;
+      transform: translate3d(20rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-9rem,0,0);
+    }
+    h1 {
+      font-size: 27px;
+    }
+  }
 //==================
  }
 
 // Большие девайсы (большие десктопы, < 1200px)
-@media (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
   .first {
     &-text {
       width: 80%;
@@ -455,6 +569,24 @@ p {
      .two {
       transform: translate3d(24rem,-12rem,0);
      }
+   }
+   .photo2{
+    &-second {
+      position: absolute;
+      transform: translate3d(16rem,20rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(34rem,18rem,0);
+    }
+    &-fourth {
+      position: absolute;
+      transform: translate3d(22rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-11rem,0,0);
+    }
    }
 //===================
  }
