@@ -370,12 +370,17 @@ p {
   color: white;
 }
 .rellax9 {
-  display: none;
   position: relative;
 }
 .rellax9 .one,
 .rellax9 .two {
   position: absolute;
+}
+.rellax9 .one {
+  transform: translate3d(0, 60rem, 0);
+}
+.rellax9 .two {
+  transform: translate3d(0, 110rem, 0);
 }
 .tenthQuestion {
   margin-top: 55rem;
@@ -659,6 +664,12 @@ footer a {
   .tenthQuestion {
     margin-top: 65rem;
   }
+  .rellax9 .one {
+    transform: translate3d(-5rem, 60rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-3rem, 120rem, 0);
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header-logo {
@@ -801,6 +812,12 @@ footer a {
   .tenthQuestion {
     margin-top: 75rem;
   }
+  .rellax9 .one {
+    transform: translate3d(0, 40rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(0, 70rem, 0);
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header a {
@@ -925,6 +942,12 @@ footer a {
     padding: 0 1.2rem;
     color: white;
   }
+  .rellax9 .one {
+    transform: translate3d(0, 40rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(0, 70rem, 0);
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .first-text {
@@ -1019,5 +1042,11 @@ footer a {
   .photo3-first {
     position: absolute;
     transform: translate3d(-24.5rem, 0, 0);
+  }
+  .rellax9 .one {
+    transform: translate3d(0, 40rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(0, 70rem, 0);
   }
 }
