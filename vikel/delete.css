@@ -3,92 +3,54 @@
 }
 
 @media (max-width: 767.98px) {
-  .photo {
-    margin: 0rem -4rem 0 -4rem;
-    
-    img{
-    width: 100%;
-    }
+  .rellax2 {
+   
     .one {
-      transform: translate3d(14rem,4rem,0);
+      transform: translate3d(2rem,10rem,0);
     }
-     .two {
-       transform: translate3d(-1rem,32rem,0);
-     }
-     .three {
-       margin-left: -1rem;
-       margin-top: 24rem;
-       img {
-         width: 120% !important;
-       }
-     }
-     .four {
-       top: 0;
-       left: 0;
-     }
-   }
+    .two {
+      transform: translate3d(6rem,10rem,0);
+    }
+  }
 }
 
 @media (max-width: 991.98px) { 
-  .photo {
-    margin-top: 0rem;
+  .rellax2 {
+   
     .one {
-      transform: translate3d(14rem,-8rem,0);
+      transform: translate3d(-9rem,5rem,0);
     }
-     .two {
-       transform: translate3d(4rem,19rem,0);
-     }
-     .three {
-       margin-left: 6rem;
-       margin-top: 6rem;
-     }
-     .four {
-       top: 0;
-       left: 0;
-     }
-   }
+    .two {
+      transform: translate3d(-3rem,5rem,0);
+    }
+  }
  }
 
 @media (max-width: 1199.98px) {
-  .photo {
-    margin-top: -5rem;
-     .two {
-       transform: translate3d(3rem,24rem,0);
-     }
-     .three {
-       margin-left: 6rem;
-       margin-top: 6rem;
-     }
-     .four {
-       top: 0;
-       left: 0;
-     }
-   }
+  .rellax2 {
+   
+    .one {
+      transform: translate3d(-13rem,0rem,0);
+    }
+    .two {
+      transform: translate3d(-8rem,-2rem,0);
+    }
+  }
 }
 
 //===================================
 
-.photo {
+.rellax2 {
   position: relative;
-  img {
-    width: 90%;
-  }
-  .one, .two, .three, .four {
+  .one, .two {
     position: absolute;
+    z-index: 1;
   }
   .one {
-    transform: translate3d(14rem,-12rem,0);
+    transform: translate3d(-13rem,6rem,0);
   }
   .two {
-    transform: translate3d(3rem,26rem,0);
-  }
-  .three {
-    margin-left: 6rem;
-    margin-top: 6rem;
-  }
-  .four {
-    top: 0;
-    left: 0;
+    transform: translate3d(-8rem,3rem,0);
   }
 }
 

@@ -161,6 +161,14 @@ p {
   position: absolute;
   z-index: 1;
 }
+.rellax2 .one {
+  -webkit-transform: translate3d(-13rem, 6rem, 0);
+          transform: translate3d(-13rem, 6rem, 0);
+}
+.rellax2 .two {
+  -webkit-transform: translate3d(-8rem, 3rem, 0);
+          transform: translate3d(-8rem, 3rem, 0);
+}
 .rellax3 {
   position: relative;
 }
@@ -545,6 +553,14 @@ footer a {
   .about {
     margin: 8rem 0 20rem 0;
   }
+  .rellax2 .one {
+    -webkit-transform: translate3d(1rem, 0rem, 0);
+            transform: translate3d(1rem, 0rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(0rem, 2rem, 0);
+            transform: translate3d(0rem, 2rem, 0);
+  }
   .for-rellax3 {
     margin-left: 20rem;
   }
@@ -633,9 +649,13 @@ footer a {
   .about {
     margin: 8rem 0 8rem 0;
   }
-  .rellax2 {
-    -webkit-transform: translate3d(15rem, 12rem, 0);
-            transform: translate3d(15rem, 12rem, 0);
+  .rellax2 .one {
+    -webkit-transform: translate3d(2rem, 10rem, 0);
+            transform: translate3d(2rem, 10rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(6rem, 10rem, 0);
+            transform: translate3d(6rem, 10rem, 0);
   }
   .for-rellax4 {
     margin-left: -14rem;
@@ -707,8 +727,13 @@ footer a {
     top: 0;
     left: 0;
   }
-  .rellax2 {
-    margin-left: -15rem;
+  .rellax2 .one {
+    -webkit-transform: translate3d(-9rem, 5rem, 0);
+            transform: translate3d(-9rem, 5rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(-3rem, 5rem, 0);
+            transform: translate3d(-3rem, 5rem, 0);
   }
   .rellax3 {
     margin-right: -15rem;
@@ -780,8 +805,13 @@ footer a {
   .about {
     margin: 8rem 0 12rem 0;
   }
-  .rellax2 {
-    margin-bottom: -4rem;
+  .rellax2 .one {
+    -webkit-transform: translate3d(-13rem, 0rem, 0);
+            transform: translate3d(-13rem, 0rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(-8rem, -2rem, 0);
+            transform: translate3d(-8rem, -2rem, 0);
   }
   .rellax3 .one {
     -webkit-transform: translate3d(-30rem, 25rem, 0);
