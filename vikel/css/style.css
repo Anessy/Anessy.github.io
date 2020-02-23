@@ -138,12 +138,12 @@ p {
   position: absolute;
 }
 .photo .one {
-  -webkit-transform: translate3d(8rem, -12rem, 0);
-          transform: translate3d(8rem, -12rem, 0);
+  -webkit-transform: translate3d(14rem, -12rem, 0);
+          transform: translate3d(14rem, -12rem, 0);
 }
 .photo .two {
-  -webkit-transform: translate3d(3rem, 24rem, 0);
-          transform: translate3d(3rem, 24rem, 0);
+  -webkit-transform: translate3d(3rem, 26rem, 0);
+          transform: translate3d(3rem, 26rem, 0);
 }
 .photo .three {
   margin-left: 6rem;
@@ -155,8 +155,6 @@ p {
 }
 .rellax2 {
   position: relative;
-  margin-left: -20rem;
-  margin-bottom: -8rem;
 }
 .rellax2 .one,
 .rellax2 .two {
@@ -180,7 +178,7 @@ p {
 }
 .no-diw {
   width: 100%;
-  margin-top: 50rem;
+  margin-top: 60rem;
 }
 .firstQuestion,
 .secondQuestion,
@@ -228,6 +226,15 @@ p {
 .fourthQuestion {
   margin-bottom: 6rem;
 }
+.rellax4 {
+  position: relative;
+}
+.rellax4 .one {
+  position: absolute;
+}
+.rellax4 .two {
+  position: absolute;
+}
 .video-box {
   margin-bottom: 6rem;
 }
@@ -235,6 +242,13 @@ p {
   margin: auto;
   width: 100vw;
   height: 43vw;
+}
+.rellax5 {
+  position: relative;
+}
+.rellax5 .one,
+.rellax5 .two {
+  position: absolute;
 }
 .rellax6 {
   position: relative;
@@ -497,45 +511,39 @@ footer a {
     -webkit-transform: translate3d(0, 4rem, 0);
             transform: translate3d(0, 4rem, 0);
   }
+  .about {
+    margin-bottom: -8rem;
+  }
   .about-text {
     margin-bottom: 4rem;
   }
   .photo {
-    margin-top: -4rem !important;
+    margin: -12rem -2rem 0 -2rem;
   }
   .photo img {
-    width: 105%;
+    width: 100%;
   }
   .photo .one {
-    -webkit-transform: translate3d(8rem, -8rem, 0);
-            transform: translate3d(8rem, -8rem, 0);
-    margin-left: -9rem;
-    margin-top: 8rem;
+    -webkit-transform: translate3d(14rem, 4rem, 0);
+            transform: translate3d(14rem, 4rem, 0);
   }
   .photo .two {
-    -webkit-transform: translate3d(3rem, 10rem, 0);
-            transform: translate3d(3rem, 10rem, 0);
-    margin-top: -4rem;
-    margin-left: -4rem;
+    -webkit-transform: translate3d(-1rem, 24rem, 0);
+            transform: translate3d(-1rem, 24rem, 0);
   }
   .photo .three {
     margin-left: -1rem;
-    margin-top: 11rem;
+    margin-top: 17rem;
+  }
+  .photo .three img {
+    width: 120% !important;
   }
   .photo .four {
-    top: 50%;
+    top: 0;
     left: 0;
-    width: 70%;
-    margin-left: 1rem;
-    margin-top: 0rem !important;
   }
   .about {
     margin: 8rem 0 20rem 0;
-  }
-  .for-rellax2 {
-    margin-left: -12rem;
-    -webkit-transform: translateY(-12rem);
-            transform: translateY(-12rem);
   }
   .for-rellax3 {
     margin-left: 20rem;
@@ -598,10 +606,29 @@ footer a {
     margin-bottom: 3rem;
   }
   .photo {
-    margin-top: 12rem;
+    margin: 0rem -4rem 0 -4rem;
+  }
+  .photo img {
+    width: 100%;
+  }
+  .photo .one {
+    -webkit-transform: translate3d(14rem, 4rem, 0);
+            transform: translate3d(14rem, 4rem, 0);
+  }
+  .photo .two {
+    -webkit-transform: translate3d(-1rem, 32rem, 0);
+            transform: translate3d(-1rem, 32rem, 0);
+  }
+  .photo .three {
+    margin-left: -1rem;
+    margin-top: 24rem;
+  }
+  .photo .three img {
+    width: 120% !important;
   }
   .photo .four {
-    margin-top: -8rem;
+    top: 0;
+    left: 0;
   }
   .about {
     margin: 8rem 0 8rem 0;
@@ -661,12 +688,24 @@ footer a {
     -webkit-transform: translate3d(-14rem, -6rem, 0);
             transform: translate3d(-14rem, -6rem, 0);
   }
+  .photo {
+    margin-top: 0rem;
+  }
   .photo .one {
-    -webkit-transform: translate3d(8rem, -8rem, 0);
-            transform: translate3d(8rem, -8rem, 0);
+    -webkit-transform: translate3d(14rem, -8rem, 0);
+            transform: translate3d(14rem, -8rem, 0);
   }
   .photo .two {
-    margin-top: -4rem;
+    -webkit-transform: translate3d(4rem, 19rem, 0);
+            transform: translate3d(4rem, 19rem, 0);
+  }
+  .photo .three {
+    margin-left: 6rem;
+    margin-top: 6rem;
+  }
+  .photo .four {
+    top: 0;
+    left: 0;
   }
   .rellax2 {
     margin-left: -15rem;
@@ -723,9 +762,20 @@ footer a {
     -webkit-transform: translate3d(-14rem, -6rem, 0);
             transform: translate3d(-14rem, -6rem, 0);
   }
+  .photo {
+    margin-top: -5rem;
+  }
   .photo .two {
-    -webkit-transform: translate3d(3rem, 22rem, 0);
-            transform: translate3d(3rem, 22rem, 0);
+    -webkit-transform: translate3d(3rem, 24rem, 0);
+            transform: translate3d(3rem, 24rem, 0);
+  }
+  .photo .three {
+    margin-left: 6rem;
+    margin-top: 6rem;
+  }
+  .photo .four {
+    top: 0;
+    left: 0;
   }
   .about {
     margin: 8rem 0 12rem 0;
