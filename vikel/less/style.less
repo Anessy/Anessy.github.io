@@ -1,15 +1,15 @@
-// html{
-//   width: 100%;
-//   max-width: 100%;
-//   overflow-x: hidden;
-// }
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
-// body
-// {
-//   width: 100%;
-//   max-width: 100%;
-//   overflow-x: hidden;
-// }
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 @font-face {
   font-family: 'Lato';
@@ -31,7 +31,6 @@ p {
   font-family: 'Open Sans';
 }
 
-// ==================================
 .header {
   margin: 1.5rem 0;
   &-links {
@@ -39,7 +38,7 @@ p {
     a {
       margin: 0 2rem;
       color: #AFAFAF;
-      padding-bottom: 1.5rem;
+      padding-bottom: 1.7rem;
     }
     a:hover {
       color: #BA8E7A; 
@@ -48,12 +47,12 @@ p {
     }
   }
 }
-//=====================================
+//===============Вона не любить=====================================
 .first {
   position: relative;
   background: linear-gradient(118.36deg, #E1F0B7 33.25%, #BAD794 68.07%, #CCE2A8 96.16%);
   &-photo {
-    transform: translateY(4rem);
+    transform: translateY(5rem);
     width: 100%;
     img {
       width: 100%;
@@ -79,6 +78,13 @@ p {
     margin-bottom: 4rem;
     color: rgba(161, 167, 153, 0.3);
     cursor: pointer;
+    a {
+      color: rgba(161, 167, 153, 0.3);
+    }
+    a:hover {
+      text-decoration: none;
+      color: rgba(161, 167, 153, 0.5);
+    }
       .go-down {
         width: 42px;
         height: 42px;
@@ -93,26 +99,26 @@ p {
     right: 0;
   }
 }
-//===================================
+//===================================================================
 .rellax1 {
   position: relative;
   .one, .two, .three {
     position: absolute;
   }
   .one {
-    transform: translate3d(-4rem,-22rem,0);
+    transform: translate3d(-1rem,-20rem,0);
   }
   .two {
-    transform: translate3d(-20rem,-12rem,0);
+    transform: translate3d(-17rem,-10rem,0);
   }
   .three {
-    transform: translate3d(-17rem,-6rem,0);
+    transform: translate3d(-14rem,-6rem,0);
   }
 }
-//===================================
+//===================================================================
 
 .about {
-  margin: 8rem 0 8rem 0;
+  margin: 12rem 0 8rem 0;
   &-text {
     font-size: 15px;
   }
@@ -124,7 +130,7 @@ p {
     border-top: 3px solid #C6E4AC;;
   }
 }
-//====================================
+//===================================================================
 
 .photo {
   position: relative;
@@ -197,15 +203,15 @@ p {
   margin-bottom: 6rem;
 }
 .rellax4 {
-  position: relative;
-  .one {
-    position: absolute;
-    transform: translate3d(32rem,0,0);
-  }
-  .two {
-    position: absolute;
-    transform: translate3d(32rem,0,0);
-  }
+  // position: relative;
+  // .one {
+  //   position: absolute;
+  //   transform: translate3d(32rem,0,0);
+  // }
+  // .two {
+  //   position: absolute;
+  //   transform: translate3d(32rem,0,0);
+  // }
 }
 .video-box{
   margin-bottom: 6rem;
@@ -217,12 +223,12 @@ p {
 }
 
 .rellax5 {
-  position: relative; 
-  top: 40%;
-  right: -30%;
-  .one,.two{
-    position: absolute; 
-  } 
+  // position: relative; 
+  // top: 40%;
+  // right: -30%;
+  // .one,.two{
+  //   position: absolute; 
+  // } 
 }
 .rellax6 {
   position: relative;
@@ -453,24 +459,24 @@ p {
   button:active {
     background: rgba(255, 255, 255, 0.1);
   }
-}
-.numder {
-  position: absolute;
-  transform: translateX(2rem);
-}
-.myNext {
-  
-  
-}
-.myPrev {
-  
+  .number {
+    margin-left: 30%;
+  }
 }
 
 
+footer{
+  padding: 1rem 0;
+  a{
+    margin-right: 2rem;
+  }
+}
 
 
 
-// ========= АДАПТИВНОСТЬ ==========
+
+
+// ========== АДАПТИВНОСТЬ ==========================================
 // Экстрамалые девайсы («телефоны», < 576px)
 @media (max-width: 575.98px) { 
   .header {
@@ -485,9 +491,24 @@ p {
       }
     }      
   }
+  .first {
+    &-photo {
+      transform: translateY(3rem);
+    }
+    &-text {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
  .rellax1 {
   transform: translate3d(0,4rem,0);
  }
+ .about {
+  
+  &-text {
+    margin-bottom: 4rem;
+  }
+}
  .photo {
    margin-top: -4rem !important;
   img {
@@ -648,13 +669,13 @@ p {
   }
   .rellax1 {
     .one {
-      transform: translate3d(-4rem,-10rem,0);
+      transform: translate3d(-1rem,-15rem,0);
     }
     .two {
-      transform: translate3d(-20rem,-6rem,0);
+      transform: translate3d(-17rem,-8rem,0);
     }
     .three {
-      transform: translate3d(-17rem,-6rem,0);
+      transform: translate3d(-14rem,-6rem,0);
     }
   }
   .photo {
@@ -705,19 +726,22 @@ p {
   .first {
     &-text {
       width: 80%;
+      margin-left: 10%;
     }
   }
+  
   .rellax1 {
     .one {
-      transform: translate3d(-4rem,-14rem,0);
+      transform: translate3d(-1rem,-18rem,0);
     }
     .two {
-      transform: translate3d(-20rem,-6rem,0);
+      transform: translate3d(-17rem,-8rem,0);
     }
     .three {
-      transform: translate3d(-17rem,-6rem,0);
+      transform: translate3d(-14rem,-6rem,0);
     }
   }
+
   .photo {
     .two {
       transform: translate3d(3rem,22rem,0);
