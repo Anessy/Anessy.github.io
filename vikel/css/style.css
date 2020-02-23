@@ -566,12 +566,12 @@ footer a {
             transform: translate3d(0rem, 20rem, 0);
   }
   .rellax3 .one {
-    -webkit-transform: translate3d(-12rem, 44rem, 0);
-            transform: translate3d(-12rem, 44rem, 0);
+    -webkit-transform: translate3d(-13rem, 43rem, 0);
+            transform: translate3d(-13rem, 43rem, 0);
   }
   .rellax3 .two {
-    -webkit-transform: translate3d(-12rem, 64rem, 0);
-            transform: translate3d(-12rem, 64rem, 0);
+    -webkit-transform: translate3d(-13rem, 64rem, 0);
+            transform: translate3d(-13rem, 64rem, 0);
   }
   .no-diw {
     width: 100%;
@@ -605,12 +605,17 @@ footer a {
     font-size: 27px;
   }
   .rellax4 .one {
-    -webkit-transform: translate3d(5rem, 55rem, 0);
-            transform: translate3d(5rem, 55rem, 0);
+    -webkit-transform: translate3d(5rem, 52rem, 0);
+            transform: translate3d(5rem, 52rem, 0);
   }
   .rellax4 .two {
-    -webkit-transform: translate3d(5rem, 25rem, 0);
-            transform: translate3d(5rem, 25rem, 0);
+    -webkit-transform: translate3d(5rem, 22rem, 0);
+            transform: translate3d(5rem, 22rem, 0);
+  }
+  .video {
+    margin-left: -120vw;
+    width: 340vw;
+    height: 140vw;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
