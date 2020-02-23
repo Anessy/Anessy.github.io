@@ -3,55 +3,29 @@
 }
 
 @media (max-width: 767.98px) {
-  .rellax2 {
-   
-    .one {
-      transform: translate3d(2rem,10rem,0);
-    }
-    .two {
-      transform: translate3d(6rem,10rem,0);
-    }
-  }
+ 
 }
 
 @media (max-width: 991.98px) { 
-  .rellax2 {
-   
-    .one {
-      transform: translate3d(-9rem,5rem,0);
-    }
-    .two {
-      transform: translate3d(-3rem,5rem,0);
-    }
-  }
+  
  }
 
 @media (max-width: 1199.98px) {
-  .rellax2 {
-   
-    .one {
-      transform: translate3d(-13rem,0rem,0);
-    }
-    .two {
-      transform: translate3d(-8rem,-2rem,0);
-    }
-  }
+  
 }
 
 //===================================
 
-.rellax2 {
+.rellax3 {
   position: relative;
   .one, .two {
     position: absolute;
-    z-index: 1;
   }
   .one {
-    transform: translate3d(-13rem,6rem,0);
+    transform: translate3d(-35rem,26rem,0);
   }
   .two {
-    transform: translate3d(-8rem,3rem,0);
-  }
-}
+   transform: translate3d(-35rem,30rem,0);
+ }
 
   
