@@ -470,6 +470,7 @@ p {
 }
 
 .slider {
+  
   .first-slide,.second-slide,.third-slide {
     margin-bottom: 4rem;
     text-align: left;
@@ -502,10 +503,9 @@ p {
     background: rgba(255, 255, 255, 0.1);
   }
   .number {
-    margin-left: 30%;
+    margin-left: 0.4rem;
   }
 }
-
 
 footer{
   padding: 1rem 0;
@@ -722,6 +722,49 @@ footer{
   
   &-bg{
     top: 80%; 
+  }
+}
+.slider {
+  img {
+  height: 143vw;
+  margin-left: -130%;
+  }
+  .carousel-caption {
+    z-index: 999;
+  }
+  .first-slide,.second-slide,.third-slide {
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    margin-top: 2rem;
+  }
+  p {
+    font-family: 'Lato';
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  button {
+    color: white; 
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+    margin-top: 4rem;
+  }
+  button:focus {
+    outline:none !important;
+  }
+  button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .number {
+    margin-left: 0.4rem;
   }
 }
 //====================
@@ -1088,7 +1131,6 @@ footer{
       transform: translate3d(0,0rem,0);
     }
   }
-  
 //==================
  }
 
@@ -1228,6 +1270,13 @@ footer{
       transform: translate3d(0,0rem,0);
     }
   }
-  
+  .slider {
+    .first-slide,.second-slide,.third-slide {
+      margin-bottom: 0rem; //===========
+    }
+    button {
+      margin-top: 2rem; //===========
+    }
+  }
 //===================
  }

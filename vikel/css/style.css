@@ -528,7 +528,7 @@ p {
   background: rgba(255, 255, 255, 0.1);
 }
 .slider .number {
-  margin-left: 30%;
+  margin-left: 0.4rem;
 }
 footer {
   padding: 1rem 0;
@@ -741,6 +741,49 @@ footer a {
   }
   .ritual-bg {
     top: 80%;
+  }
+  .slider img {
+    height: 143vw;
+    margin-left: -130%;
+  }
+  .slider .carousel-caption {
+    z-index: 999;
+  }
+  .slider .first-slide,
+  .slider .second-slide,
+  .slider .third-slide {
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+  .slider h1 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    margin-top: 2rem;
+  }
+  .slider p {
+    font-family: 'Lato';
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  .slider button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+    margin-top: 4rem;
+  }
+  .slider button:focus {
+    outline: none !important;
+  }
+  .slider button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .slider .number {
+    margin-left: 0.4rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1244,5 +1287,13 @@ footer a {
   .rellax10 .two {
     -webkit-transform: translate3d(0, 0rem, 0);
             transform: translate3d(0, 0rem, 0);
+  }
+  .slider .first-slide,
+  .slider .second-slide,
+  .slider .third-slide {
+    margin-bottom: 0rem;
+  }
+  .slider button {
+    margin-top: 2rem;
   }
 }
