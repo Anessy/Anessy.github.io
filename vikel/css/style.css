@@ -44,7 +44,7 @@ p {
 }
 .first-text {
   padding-top: 4rem;
-  width: 50%;
+  width: 70%;
   margin-left: 15%;
 }
 .first-text h1 {
@@ -171,8 +171,13 @@ p {
 .fourthQuestion,
 .fifthQuestion,
 .sixthQuestion,
-.seventhQuestion {
+.seventhQuestion,
+.eightthQuestion,
+.ninethQuestion,
+.tenthQuestion,
+.eleventhQuestion {
   margin-top: 2rem;
+  text-align: justify;
 }
 .firstQuestion h1,
 .secondQuestion h1,
@@ -180,7 +185,11 @@ p {
 .fourthQuestion h1,
 .fifthQuestion h1,
 .sixthQuestion h1,
-.seventhQuestion h1 {
+.seventhQuestion h1,
+.eightthQuestion h1,
+.ninethQuestion h1,
+.tenthQuestion h1,
+.eleventhQuestion h1 {
   font-size: 22px;
   color: #282828;
   margin-bottom: 1rem;
@@ -191,8 +200,13 @@ p {
 .fourthQuestion p,
 .fifthQuestion p,
 .sixthQuestion p,
-.seventhQuestion p {
+.seventhQuestion p,
+.eightthQuestion p,
+.ninethQuestion p,
+.tenthQuestion p,
+.eleventhQuestion p {
   font-size: 15px;
+  line-height: 25px;
 }
 .fourthQuestion {
   margin-bottom: 6rem;
@@ -280,6 +294,186 @@ p {
   border: 1px solid #C6E4AC;
   border-radius: 50%;
   background-color: #C6E4AC;
+}
+.rellax7 {
+  position: relative;
+}
+.rellax7 .one,
+.rellax7 .two {
+  position: absolute;
+}
+.rellax8 {
+  position: relative;
+}
+.rellax8 .one {
+  position: absolute;
+}
+.eightthQuestion {
+  margin-top: 10rem;
+}
+.photo3 {
+  margin-top: 6rem;
+  position: relative;
+}
+.photo3 img {
+  width: 100%;
+}
+.photo3-first {
+  position: absolute;
+  -webkit-transform: translate3d(-29.5rem, 0, 0);
+          transform: translate3d(-29.5rem, 0, 0);
+}
+.photo3-second {
+  position: absolute;
+  -webkit-transform: translate3d(2rem, 2rem, 0);
+          transform: translate3d(2rem, 2rem, 0);
+}
+.photo3-thrid {
+  position: absolute;
+  -webkit-transform: translate3d(20rem, 4rem, 0);
+          transform: translate3d(20rem, 4rem, 0);
+}
+.photo3-bg {
+  position: absolute;
+  -webkit-transform: translate3d(0, 20rem, 0);
+          transform: translate3d(0, 20rem, 0);
+}
+.photo3 .circle,
+.photo3 .text {
+  position: absolute;
+  -webkit-transform: translate3d(15rem, 37rem, 0);
+          transform: translate3d(15rem, 37rem, 0);
+  color: #282828;
+  font-size: 34px;
+  line-height: 42px;
+}
+.photo3 .circle {
+  margin-left: -4rem;
+  border-radius: 20rem;
+  background-color: #C6E4AC;
+  padding: 0 1.2rem;
+  color: white;
+}
+.rellax9 {
+  position: relative;
+}
+.rellax9 .one,
+.rellax9 .two {
+  position: absolute;
+}
+.tenthQuestion {
+  margin-top: 55rem;
+}
+.rellax10 {
+  position: relative;
+}
+.rellax10 .one,
+.rellax10 .two {
+  position: absolute;
+}
+.ritual {
+  position: relative;
+  margin-top: 6rem;
+  padding-top: 6rem;
+  background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+}
+.ritual-text h1 {
+  font-size: 34px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+}
+.ritual-text p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: #FFFFFF;
+  margin: 2rem 0;
+}
+.ritual-text .for-button button {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  padding: 0.5rem 1rem;
+  margin-top: 4rem;
+}
+.ritual-text .for-button button:focus {
+  outline: none !important;
+}
+.ritual-text .for-button button:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+.ritual-primer {
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+          box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  padding-top: 4rem;
+  padding-bottom: 5.5rem;
+  margin-bottom: 8rem;
+  cursor: pointer;
+}
+.ritual-primer img {
+  margin-bottom: 2rem;
+}
+.ritual-tonal {
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+          box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  margin-bottom: 8rem;
+  cursor: pointer;
+}
+.ritual-tonal img {
+  margin-bottom: 2rem;
+}
+.ritual-bg {
+  position: absolute;
+  top: 37%;
+  right: 0;
+}
+.slider .first-slide,
+.slider .second-slide,
+.slider .third-slide {
+  margin-bottom: 4rem;
+  text-align: left;
+}
+.slider h1 {
+  font-size: 34px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  margin-top: 2rem;
+}
+.slider p {
+  font-family: 'Lato';
+  font-size: 19px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+.slider button {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  padding: 0.5rem 1rem;
+  margin-top: 4rem;
+}
+.slider button:focus {
+  outline: none !important;
+}
+.slider button:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+.numder {
+  position: absolute;
+  -webkit-transform: translateX(2rem);
+          transform: translateX(2rem);
 }
 @media (max-width: 575.98px) {
   .header-logo {
