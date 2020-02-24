@@ -32,7 +32,7 @@ p {
 }
 .header-links a {
   margin: 0 2rem;
-  color: #AFAFAF;
+  color: #92614A;
   padding-bottom: 1.7rem;
 }
 .header-links a:hover {
@@ -45,8 +45,8 @@ p {
   background: linear-gradient(118.36deg, #e1f0b7 33.25%, #bad794 68.07%, #cce2a8 96.16%);
 }
 .first-photo {
-  -webkit-transform: translateY(5rem);
-          transform: translateY(5rem);
+  -webkit-transform: translateY(4rem);
+          transform: translateY(4rem);
   width: 100%;
 }
 .first-photo img {
@@ -113,10 +113,14 @@ p {
           transform: translate3d(-14rem, -6rem, 0);
 }
 .about {
-  margin: 12rem 0 8rem 0;
+  margin: 8rem 0 4rem 0;
 }
 .about-text {
+  font-style: normal;
+  font-weight: normal;
   font-size: 15px;
+  line-height: 25px;
+  color: #282828;
 }
 .about-line {
   color: #AFAFAF;
@@ -213,7 +217,6 @@ p {
 .ninethQuestion h1,
 .tenthQuestion h1,
 .eleventhQuestion h1 {
-  ffont-family: PT Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -231,8 +234,11 @@ p {
 .ninethQuestion p,
 .tenthQuestion p,
 .eleventhQuestion p {
-  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 25px;
+  color: #282828;
 }
 .fourthQuestion {
   margin-bottom: 6rem;
@@ -252,6 +258,20 @@ p {
 }
 .video-box {
   margin-bottom: 6rem;
+}
+.play {
+  -webkit-transform: translate3d(0, -20rem, 0);
+          transform: translate3d(0, -20rem, 0);
+}
+.play .a {
+  margin-left: 2rem;
+}
+.play .a img {
+  width: 60%;
+}
+.play .a img:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
 }
 .video {
   margin: auto;
@@ -293,9 +313,12 @@ p {
   width: 100%;
 }
 .photo2 h1 {
+  font-style: normal;
+  font-weight: bold;
   font-size: 34px;
+  line-height: 42px;
+  color: #FFFFFF;
   text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-  color: white;
 }
 .photo2-first {
   position: absolute;

@@ -37,7 +37,7 @@ p {
     text-align: center;
     a {
       margin: 0 2rem;
-      color: #AFAFAF;
+      color: #92614A;
       padding-bottom: 1.7rem;
     }
     a:hover {
@@ -52,7 +52,7 @@ p {
   position: relative;
   background: linear-gradient(118.36deg, #E1F0B7 33.25%, #BAD794 68.07%, #CCE2A8 96.16%);
   &-photo {
-    transform: translateY(5rem);
+    transform: translateY(4rem);
     width: 100%;
     img {
       width: 100%;
@@ -118,9 +118,14 @@ p {
 //===================================================================
 
 .about {
-  margin: 12rem 0 8rem 0;
+  margin: 8rem 0 4rem 0;
   &-text {
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
+    line-height: 25px;
+    color: #282828;
+
   }
   &-line {
     color: #AFAFAF;
@@ -140,17 +145,17 @@ p {
   .one, .two, .three, .four {
     position: absolute;
   }
-  .one {
+  .one { //lines
     transform: translate3d(14rem,-12rem,0);
   }
-  .two {
+  .two { //bg
     transform: translate3d(3rem,26rem,0);
   }
-  .three {
+  .three {//girl
     margin-left: 6rem;
     margin-top: 6rem;
   }
-  .four {
+  .four { //bathroom
     top: 0;
     left: 0;
   }
@@ -195,7 +200,6 @@ p {
   margin-top: 2rem;
   text-align: left;
   h1 {
-    ffont-family: PT Serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -203,8 +207,11 @@ p {
     margin-bottom: 1rem;
   }
   p {
-    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
     line-height: 25px;
+    color: #282828;
   }
 }
 .fourthQuestion {
@@ -226,6 +233,24 @@ p {
 .video-box{
   margin-bottom: 6rem;
 }
+.play {
+
+  transform: translate3d(0,-20rem,0);
+  .a {
+    margin-left: 2rem;
+    img {
+      width: 60%;
+    }
+    img:hover {
+      background-color: rgba(255,255,255, 0.2);
+      border-radius: 50%;
+    }
+  }
+  
+}
+
+
+
 .video {
   margin: auto;	
   width: 100vw;
@@ -268,9 +293,12 @@ p {
     width: 100%;
   }
   h1 {
+    font-style: normal;
+    font-weight: bold;
     font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-    color: white;
   }
   &-first {
     position: absolute;
