@@ -469,41 +469,56 @@ p {
   }
 }
 
+//=====слайдер==================
 .slider {
-  
-  .first-slide,.second-slide,.third-slide {
-    margin-bottom: 4rem;
-    text-align: left;
+  color: white;
+  .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+    padding-top: 4rem;
+    background-size: cover;
+    margin: auto;	
+    width: 100vw;
+    height: 43vw;
   }
-  h1 {
+
+  .slider-bg-1 {
+    background: url(../img/slider/1.png) center no-repeat;
+  }
+
+  .slider-bg-2 {
+    background: url(../img/slider/2.png) center no-repeat;
+  }
+
+  .slider-bg-3 {
+    background: url(../img/slider/3.png) center no-repeat;
+  }
+
+  .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -1rem;
+  }
+  .buttonSlider {
+    margin-bottom: 3rem;
+  }
+  h2 {
     font-size: 34px;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
-    margin-top: 2rem;
   }
-  p {
-    font-family: 'Lato';
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin-bottom: 3rem;
+  .text {
+    margin-bottom: 6rem;
   }
   button {
     color: white; 
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
-    margin-top: 4rem;
   }
   button:focus {
     outline:none !important;
   }
   button:active {
     background: rgba(255, 255, 255, 0.1);
-  }
-  .number {
-    margin-left: 0.4rem;
   }
 }
 
@@ -725,29 +740,24 @@ footer{
   }
 }
 .slider {
-  img {
-  height: 143vw;
-  margin-left: -130%;
+  color: white;
+  .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+    padding-top: 2rem;
+    background-size: cover;
+    margin: auto;	
+    width: 100vw; //================
+    height: 179vw; //======
   }
-  .carousel-caption {
-    z-index: 999;
+
+  .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -0.5rem;
   }
-  .first-slide,.second-slide,.third-slide {
-    margin-bottom: 4rem;
-    text-align: left;
+  .buttonSlider {
+    margin-bottom: 3rem;
   }
-  h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
-    margin-top: 2rem;
-  }
-  p {
-    font-family: 'Lato';
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
+  
+  .text {
     margin-bottom: 3rem;
   }
   button {
@@ -755,18 +765,10 @@ footer{
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
-    margin-top: 4rem;
   }
-  button:focus {
-    outline:none !important;
-  }
-  button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .number {
-    margin-left: 0.4rem;
-  }
+  
 }
+
 //====================
   }
 // Малые девайсы («ландшафтные», < 768px)
@@ -967,6 +969,38 @@ footer{
       top: 80%; 
     }
   }
+  .slider {
+    .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+      margin: auto;	
+      width: 100vw; 
+      height: 75vw;
+    }
+
+  
+    .SlideNumber {
+      padding-top: 1rem;
+      margin-left: -0.8rem;
+    }
+    .buttonSlider {
+      margin-bottom: 2rem;
+    }
+    
+    .text {
+      margin-bottom: 3rem;
+    }
+    button {
+      color: white; 
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      padding: 0.5rem 1rem;
+    }
+    button:focus {
+      outline:none !important;
+    }
+    button:active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
 //=================  
  }
 
@@ -1131,6 +1165,32 @@ footer{
       transform: translate3d(0,0rem,0);
     }
   }
+  .slider {
+    .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+      margin: auto;	
+      width: 100vw;
+      height: 70vw;
+    }
+  
+    .SlideNumber {
+      padding-top: 1rem;
+      margin-left: -0.5rem;
+    }
+    .buttonSlider {
+      margin-bottom: 3rem;
+    }
+    
+    .text {
+      margin-bottom: 3rem;
+    }
+    button {
+      color: white; 
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      padding: 0.5rem 1rem;
+    }
+  }
+ 
 //==================
  }
 
@@ -1271,12 +1331,30 @@ footer{
     }
   }
   .slider {
-    .first-slide,.second-slide,.third-slide {
-      margin-bottom: 0rem; //===========
+    .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+      padding-top: 2rem;
+  
+      width: 100vw;
+      height: 49vw;
+    }
+  
+    .SlideNumber {
+      padding-top: 1rem;
+      margin-left: -1rem;
+    }
+    .buttonSlider {
+      margin-bottom: 3rem;
+    }
+    .text {
+      margin-bottom: 3rem;
     }
     button {
-      margin-top: 2rem; //===========
+      color: white; 
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      padding: 0.5rem 1rem;
     }
   }
+  
 //===================
  }

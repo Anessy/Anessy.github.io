@@ -494,41 +494,54 @@ p {
   top: 37%;
   right: 0;
 }
-.slider .first-slide,
-.slider .second-slide,
-.slider .third-slide {
-  margin-bottom: 4rem;
-  text-align: left;
+.slider {
+  color: white;
 }
-.slider h1 {
+.slider .slider-bg-1,
+.slider .slider-bg-2,
+.slider .slider-bg-3 {
+  padding-top: 4rem;
+  background-size: cover;
+  margin: auto;
+  width: 100vw;
+  height: 43vw;
+}
+.slider .slider-bg-1 {
+  background: url(../img/slider/1.png) center no-repeat;
+}
+.slider .slider-bg-2 {
+  background: url(../img/slider/2.png) center no-repeat;
+}
+.slider .slider-bg-3 {
+  background: url(../img/slider/3.png) center no-repeat;
+}
+.slider .SlideNumber {
+  padding-top: 1rem;
+  margin-left: -1rem;
+}
+.slider .buttonSlider {
+  margin-bottom: 3rem;
+}
+.slider h2 {
   font-size: 34px;
   line-height: 42px;
   color: #FFFFFF;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
-  margin-top: 2rem;
 }
-.slider p {
-  font-family: 'Lato';
-  font-size: 19px;
-  line-height: 26px;
-  color: #FFFFFF;
-  margin-bottom: 3rem;
+.slider .text {
+  margin-bottom: 6rem;
 }
 .slider button {
   color: white;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #FFFFFF;
   padding: 0.5rem 1rem;
-  margin-top: 4rem;
 }
 .slider button:focus {
   outline: none !important;
 }
 .slider button:active {
   background: rgba(255, 255, 255, 0.1);
-}
-.slider .number {
-  margin-left: 0.4rem;
 }
 footer {
   padding: 1rem 0;
@@ -742,31 +755,26 @@ footer a {
   .ritual-bg {
     top: 80%;
   }
-  .slider img {
-    height: 143vw;
-    margin-left: -130%;
+  .slider {
+    color: white;
   }
-  .slider .carousel-caption {
-    z-index: 999;
+  .slider .slider-bg-1,
+  .slider .slider-bg-2,
+  .slider .slider-bg-3 {
+    padding-top: 2rem;
+    background-size: cover;
+    margin: auto;
+    width: 100vw;
+    height: 179vw;
   }
-  .slider .first-slide,
-  .slider .second-slide,
-  .slider .third-slide {
-    margin-bottom: 4rem;
-    text-align: left;
+  .slider .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -0.5rem;
   }
-  .slider h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
-    margin-top: 2rem;
+  .slider .buttonSlider {
+    margin-bottom: 3rem;
   }
-  .slider p {
-    font-family: 'Lato';
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
+  .slider .text {
     margin-bottom: 3rem;
   }
   .slider button {
@@ -774,16 +782,6 @@ footer a {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
-    margin-top: 4rem;
-  }
-  .slider button:focus {
-    outline: none !important;
-  }
-  .slider button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .slider .number {
-    margin-left: 0.4rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -980,6 +978,35 @@ footer a {
   .ritual-bg {
     top: 80%;
   }
+  .slider .slider-bg-1,
+  .slider .slider-bg-2,
+  .slider .slider-bg-3 {
+    margin: auto;
+    width: 100vw;
+    height: 75vw;
+  }
+  .slider .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -0.8rem;
+  }
+  .slider .buttonSlider {
+    margin-bottom: 2rem;
+  }
+  .slider .text {
+    margin-bottom: 3rem;
+  }
+  .slider button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+  }
+  .slider button:focus {
+    outline: none !important;
+  }
+  .slider button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header a {
@@ -1150,6 +1177,29 @@ footer a {
     -webkit-transform: translate3d(0, 0rem, 0);
             transform: translate3d(0, 0rem, 0);
   }
+  .slider .slider-bg-1,
+  .slider .slider-bg-2,
+  .slider .slider-bg-3 {
+    margin: auto;
+    width: 100vw;
+    height: 70vw;
+  }
+  .slider .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -0.5rem;
+  }
+  .slider .buttonSlider {
+    margin-bottom: 3rem;
+  }
+  .slider .text {
+    margin-bottom: 3rem;
+  }
+  .slider button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .first-text {
@@ -1288,12 +1338,27 @@ footer a {
     -webkit-transform: translate3d(0, 0rem, 0);
             transform: translate3d(0, 0rem, 0);
   }
-  .slider .first-slide,
-  .slider .second-slide,
-  .slider .third-slide {
-    margin-bottom: 0rem;
+  .slider .slider-bg-1,
+  .slider .slider-bg-2,
+  .slider .slider-bg-3 {
+    padding-top: 2rem;
+    width: 100vw;
+    height: 49vw;
+  }
+  .slider .SlideNumber {
+    padding-top: 1rem;
+    margin-left: -1rem;
+  }
+  .slider .buttonSlider {
+    margin-bottom: 3rem;
+  }
+  .slider .text {
+    margin-bottom: 3rem;
   }
   .slider button {
-    margin-top: 2rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
   }
 }
