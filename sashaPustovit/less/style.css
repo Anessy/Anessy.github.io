@@ -260,11 +260,11 @@ p {
 }
 .photo3-first {
   position: absolute;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-42rem, 27rem, 0);
 }
 .photo3-second {
   position: absolute;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-20rem, 25rem, 0);
 }
 .photo3-thrid {
   position: absolute;
@@ -272,15 +272,17 @@ p {
 }
 .photo3-bg {
   position: absolute;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 10rem, 0);
 }
 .photo3 .circle,
 .photo3 .text {
   position: absolute;
-  transform: translate3d(15rem, 37rem, 0);
-  color: #282828;
+  transform: translate3d(36rem, 0, 0);
+  font-style: normal;
+  font-weight: bold;
   font-size: 34px;
   line-height: 42px;
+  color: #282828;
 }
 .photo3 .circle {
   margin-left: -4rem;
@@ -290,7 +292,7 @@ p {
   color: white;
 }
 .ninethQuestion {
-  margin-top: 80rem;
+  margin-top: 50rem;
 }
 .rellax9 {
   position: relative;
@@ -306,7 +308,7 @@ p {
   transform: translate3d(0, 110rem, 0);
 }
 .tenthQuestion {
-  margin-top: 55rem;
+  margin-top: 0rem;
 }
 .rellax10 {
   position: relative;
