@@ -213,10 +213,12 @@ p {
 .ninethQuestion h1,
 .tenthQuestion h1,
 .eleventhQuestion h1 {
-  font-size: 1.6rem;
-  color: #282828;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
+  ffont-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 1rem;
 }
 .firstQuestion p,
 .secondQuestion p,

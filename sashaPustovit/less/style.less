@@ -118,7 +118,7 @@ p {
 //===================================================================
 
 .about {
-  margin: 12rem 0 8rem 0;
+  margin: 12rem 0 4rem 0;
   &-text {
     font-size: 15px;
   }
@@ -140,54 +140,26 @@ p {
   .one, .two, .three, .four {
     position: absolute;
   }
-  .one {
-    transform: translate3d(14rem,-12rem,0);
+  .one { //lines
+    transform: translate3d(24rem,32rem,0);
   }
-  .two {
+  .two { // bg
     transform: translate3d(3rem,26rem,0);
   }
-  .three {
+  .three { //sleep
     margin-left: 6rem;
     margin-top: 6rem;
   }
-  .four {
-    top: 0;
-    left: 0;
+  .four { // relax
+    transform: translate3D(0,35rem,0);
   }
 }
 
-//===================================================================
-.rellax2 {
-  position: relative;
-  .one, .two {
-    position: absolute;
-    z-index: 1;
-  }
-  .one {
-    transform: translate3d(-13rem,6rem,0);
-  }
-  .two {
-    transform: translate3d(-8rem,3rem,0);
-  }
-}
-//===================================================================
-.rellax3 {
- position: relative;
- .one, .two {
-   position: absolute;
- }
- .one {
-   transform: translate3d(-35rem,26rem,0);
- }
- .two {
-  transform: translate3d(-35rem,30rem,0);
-}
-}
 //===================================================================
 
 .no-diw{
   width: 100%;
-  margin-top: 60rem;
+  margin-top: 70rem;
 }
 //===================================================================
 
@@ -195,8 +167,11 @@ p {
   margin-top: 2rem;
   text-align: justify;
   h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 22px;
-    color: #282828;
+    line-height: 30px;
     margin-bottom: 1rem;
   }
   p {
@@ -204,7 +179,7 @@ p {
     line-height: 25px;
   }
 }
-.fourthQuestion {
+.secondQuestion {
   margin-bottom: 6rem;
 }
 //================================================================

@@ -113,7 +113,7 @@ p {
           transform: translate3d(-14rem, -2rem, 0);
 }
 .about {
-  margin: 12rem 0 8rem 0;
+  margin: 12rem 0 4rem 0;
 }
 .about-text {
   font-size: 15px;
@@ -138,8 +138,8 @@ p {
   position: absolute;
 }
 .photo .one {
-  -webkit-transform: translate3d(14rem, -12rem, 0);
-          transform: translate3d(14rem, -12rem, 0);
+  -webkit-transform: translate3d(24rem, 32rem, 0);
+          transform: translate3d(24rem, 32rem, 0);
 }
 .photo .two {
   -webkit-transform: translate3d(3rem, 26rem, 0);
@@ -150,43 +150,12 @@ p {
   margin-top: 6rem;
 }
 .photo .four {
-  top: 0;
-  left: 0;
-}
-.rellax2 {
-  position: relative;
-}
-.rellax2 .one,
-.rellax2 .two {
-  position: absolute;
-  z-index: 1;
-}
-.rellax2 .one {
-  -webkit-transform: translate3d(-13rem, 6rem, 0);
-          transform: translate3d(-13rem, 6rem, 0);
-}
-.rellax2 .two {
-  -webkit-transform: translate3d(-8rem, 3rem, 0);
-          transform: translate3d(-8rem, 3rem, 0);
-}
-.rellax3 {
-  position: relative;
-}
-.rellax3 .one,
-.rellax3 .two {
-  position: absolute;
-}
-.rellax3 .one {
-  -webkit-transform: translate3d(-35rem, 26rem, 0);
-          transform: translate3d(-35rem, 26rem, 0);
-}
-.rellax3 .two {
-  -webkit-transform: translate3d(-35rem, 30rem, 0);
-          transform: translate3d(-35rem, 30rem, 0);
+  -webkit-transform: translate3D(0, 35rem, 0);
+          transform: translate3D(0, 35rem, 0);
 }
 .no-diw {
   width: 100%;
-  margin-top: 60rem;
+  margin-top: 70rem;
 }
 .firstQuestion,
 .secondQuestion,
@@ -213,8 +182,11 @@ p {
 .ninethQuestion h1,
 .tenthQuestion h1,
 .eleventhQuestion h1 {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 22px;
-  color: #282828;
+  line-height: 30px;
   margin-bottom: 1rem;
 }
 .firstQuestion p,
@@ -231,7 +203,7 @@ p {
   font-size: 15px;
   line-height: 25px;
 }
-.fourthQuestion {
+.secondQuestion {
   margin-bottom: 6rem;
 }
 .rellax4 {
