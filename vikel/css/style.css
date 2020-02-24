@@ -501,6 +501,10 @@ p {
 .ritual-primer img {
   margin-bottom: 2rem;
 }
+.ritual-primer:hover {
+  -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+          box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+}
 .ritual-tonal {
   text-align: center;
   background-color: white;
@@ -514,6 +518,10 @@ p {
 }
 .ritual-tonal img {
   margin-bottom: 2rem;
+}
+.ritual-tonal:hover {
+  -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+          box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
 }
 .ritual-bg {
   position: absolute;
