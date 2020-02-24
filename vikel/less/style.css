@@ -138,10 +138,10 @@ p {
   position: absolute;
 }
 .photo .one {
-  transform: translate3d(14rem, -12rem, 0);
+  transform: translate3d(10rem, -9rem, 0);
 }
 .photo .two {
-  transform: translate3d(3rem, 26rem, 0);
+  transform: translate3d(4rem, 19rem, 0);
 }
 .photo .three {
   margin-left: 6rem;
@@ -180,7 +180,7 @@ p {
 }
 .no-diw {
   width: 100%;
-  margin-top: 60rem;
+  margin-top: 42rem;
 }
 .firstQuestion,
 .secondQuestion,
@@ -245,7 +245,7 @@ p {
   transform: translate3d(33rem, 0, 0);
 }
 .video-box {
-  margin-bottom: 6rem;
+  margin-bottom: -1rem;
 }
 .play {
   transform: translate3d(0, -20rem, 0);
@@ -314,7 +314,7 @@ p {
 }
 .photo2-bg {
   position: absolute;
-  transform: translate3d(46rem, 18rem, 0);
+  transform: translate3d(45rem, 18.5rem, 0);
 }
 .photo2-fourth {
   position: absolute;
@@ -357,7 +357,7 @@ p {
   margin-top: 10rem;
 }
 .photo3 {
-  margin-top: 6rem;
+  margin-top: 4rem;
   position: relative;
 }
 .photo3 img {
@@ -365,33 +365,40 @@ p {
 }
 .photo3-first {
   position: absolute;
-  transform: translate3d(-29.5rem, 0, 0);
+  transform: translate3d(-20rem, 0, 0);
 }
 .photo3-second {
   position: absolute;
-  transform: translate3d(2rem, 2rem, 0);
+  transform: translate3d(1rem, 2rem, 0);
 }
 .photo3-thrid {
   position: absolute;
-  transform: translate3d(20rem, 4rem, 0);
+  transform: translate3d(14.5rem, 4rem, 0);
 }
 .photo3-bg {
   position: absolute;
-  transform: translate3d(0, 20rem, 0);
+  transform: translate3d(0, 16rem, 0);
 }
 .photo3 .circle,
 .photo3 .text {
   position: absolute;
-  transform: translate3d(15rem, 37rem, 0);
-  color: #282828;
+  transform: translate3d(12rem, 27rem, 0);
+}
+.photo3 .circle h1,
+.photo3 .text h1 {
+  font-style: normal;
+  font-weight: bold;
   font-size: 34px;
   line-height: 42px;
+  color: #282828;
 }
 .photo3 .circle {
-  margin-left: -4rem;
+  margin-left: -4.5rem;
   border-radius: 20rem;
   background-color: #C6E4AC;
   padding: 0 1.2rem;
+}
+.photo3 .circle h1 {
   color: white;
 }
 .rellax9 {
@@ -408,7 +415,7 @@ p {
   transform: translate3d(0, 110rem, 0);
 }
 .tenthQuestion {
-  margin-top: 55rem;
+  margin-top: 43rem;
 }
 .rellax10 {
   position: relative;
