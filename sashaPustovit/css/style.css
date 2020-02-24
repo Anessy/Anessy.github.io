@@ -206,19 +206,6 @@ p {
 .secondQuestion {
   margin-bottom: 6rem;
 }
-.rellax4 {
-  position: relative;
-}
-.rellax4 .one {
-  position: absolute;
-  -webkit-transform: translate3d(33rem, 0, 0);
-          transform: translate3d(33rem, 0, 0);
-}
-.rellax4 .two {
-  position: absolute;
-  -webkit-transform: translate3d(33rem, 0, 0);
-          transform: translate3d(33rem, 0, 0);
-}
 .video-box {
   margin-bottom: 6rem;
 }
@@ -227,34 +214,9 @@ p {
   width: 100vw;
   height: 43vw;
 }
-.rellax5 {
-  position: relative;
-  right: -35%;
-}
-.rellax5 .one,
-.rellax5 .two {
-  position: absolute;
-}
-.rellax5 .one {
-  -webkit-transform: translate3d(0, -6rem, 0);
-          transform: translate3d(0, -6rem, 0);
-}
-.rellax5 .two {
-  -webkit-transform: translate3d(0, 18rem, 0);
-          transform: translate3d(0, 18rem, 0);
-}
-.rellax6 {
-  position: relative;
-  top: -12rem;
-  left: -50%;
-}
-.rellax6 .one {
-  position: absolute;
-  z-index: 1;
-}
 .photo2 {
   padding: 6rem 0 28rem 0;
-  background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+  background: linear-gradient(113.71deg, #cce2a8 11.81%, #bad794 53.11%, #e1f0b7 96.16%);
   margin-top: 4rem;
 }
 .photo2 img,
@@ -271,57 +233,34 @@ p {
 }
 .photo2-second {
   position: absolute;
-  -webkit-transform: translate3d(20rem, 20rem, 0);
-          transform: translate3d(20rem, 20rem, 0);
+  -webkit-transform: translate3d(20rem, 16rem, 0);
+          transform: translate3d(20rem, 16rem, 0);
 }
 .photo2-bg {
   position: absolute;
-  -webkit-transform: translate3d(46rem, 18rem, 0);
-          transform: translate3d(46rem, 18rem, 0);
+  -webkit-transform: translate3d(27rem, 3.7rem, 0);
+          transform: translate3d(27rem, 3.7rem, 0);
 }
 .photo2-fourth {
   position: absolute;
-  -webkit-transform: translate3d(26rem, 5rem, 0);
-          transform: translate3d(26rem, 5rem, 0);
+  -webkit-transform: translate3d(6rem, 5rem, 0);
+          transform: translate3d(6rem, 5rem, 0);
 }
 .photo2 .text,
 .photo2 .circle {
   position: absolute;
-  -webkit-transform: translate3d(-14rem, 0, 0);
-          transform: translate3d(-14rem, 0, 0);
+  -webkit-transform: translate3d(32rem, 0, 0);
+          transform: translate3d(32rem, 0, 0);
 }
 .photo2 .circle {
   margin-left: -4rem;
   padding: 0 1rem;
-  border: 1px solid #C6E4AC;
+  border: 1px solid #F0CDB7;
   border-radius: 50%;
-  background-color: #C6E4AC;
+  background-color: #F0CDB7;
 }
-.rellax7 {
-  position: relative;
-  left: -25%;
-}
-.rellax7 .one,
-.rellax7 .two {
-  position: absolute;
-}
-.rellax7 .one {
-  -webkit-transform: translate3d(0, -32rem, 0);
-          transform: translate3d(0, -32rem, 0);
-}
-.rellax7 .two {
-  -webkit-transform: translate3d(0, 12rem, 0);
-          transform: translate3d(0, 12rem, 0);
-}
-.rellax8 {
-  position: relative;
-  right: -30%;
-}
-.rellax8 .one {
-  position: absolute;
-}
-.eightthQuestion {
-  margin-top: 10rem;
+.seventhQuestion {
+  margin-top: 12rem;
 }
 .photo3 {
   margin-top: 6rem;
@@ -332,23 +271,23 @@ p {
 }
 .photo3-first {
   position: absolute;
-  -webkit-transform: translate3d(-29.5rem, 0, 0);
-          transform: translate3d(-29.5rem, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .photo3-second {
   position: absolute;
-  -webkit-transform: translate3d(2rem, 2rem, 0);
-          transform: translate3d(2rem, 2rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .photo3-thrid {
   position: absolute;
-  -webkit-transform: translate3d(20rem, 4rem, 0);
-          transform: translate3d(20rem, 4rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .photo3-bg {
   position: absolute;
-  -webkit-transform: translate3d(0, 20rem, 0);
-          transform: translate3d(0, 20rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .photo3 .circle,
 .photo3 .text {
@@ -365,6 +304,9 @@ p {
   background-color: #C6E4AC;
   padding: 0 1.2rem;
   color: white;
+}
+.ninethQuestion {
+  margin-top: 80rem;
 }
 .rellax9 {
   position: relative;
