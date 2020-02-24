@@ -304,7 +304,7 @@ p {
   z-index: 1;
 }
 .photo2 {
-  padding: 6rem 0 28rem 0;
+  padding: 6rem 0 27.6rem 0;
   background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
   margin-top: 4rem;
 }
@@ -485,8 +485,18 @@ p {
   color: white;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #FFFFFF;
-  padding: 0.5rem 1rem;
+  width: 140px;
+  height: 50px;
   margin-top: 4rem;
+}
+.ritual-text .for-button button p {
+  margin: -0.1rem 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
 }
 .ritual-text .for-button button:focus {
   outline: none !important;
