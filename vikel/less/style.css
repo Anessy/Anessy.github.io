@@ -190,7 +190,7 @@ p {
 .tenthQuestion,
 .eleventhQuestion {
   margin-top: 2rem;
-  text-align: justify;
+  text-align: left;
 }
 .firstQuestion h1,
 .secondQuestion h1,
@@ -203,9 +203,10 @@ p {
 .ninethQuestion h1,
 .tenthQuestion h1,
 .eleventhQuestion h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: #282828;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
 }
 .firstQuestion p,
 .secondQuestion p,
@@ -218,7 +219,7 @@ p {
 .ninethQuestion p,
 .tenthQuestion p,
 .eleventhQuestion p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 25px;
 }
 .fourthQuestion {

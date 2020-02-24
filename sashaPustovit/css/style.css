@@ -42,7 +42,7 @@ p {
 }
 .first {
   position: relative;
-  background: linear-gradient(118.36deg, #e1f0b7 33.25%, #bad794 68.07%, #cce2a8 96.16%);
+  background: linear-gradient(118.36deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
 }
 .first-photo {
   -webkit-transform: translateY(5rem);
@@ -101,16 +101,16 @@ p {
   position: absolute;
 }
 .rellax1 .one {
-  -webkit-transform: translate3d(-1rem, -20rem, 0);
-          transform: translate3d(-1rem, -20rem, 0);
+  -webkit-transform: translate3d(1rem, -18rem, 0);
+          transform: translate3d(1rem, -18rem, 0);
 }
 .rellax1 .two {
-  -webkit-transform: translate3d(-17rem, -10rem, 0);
-          transform: translate3d(-17rem, -10rem, 0);
+  -webkit-transform: translate3d(-17rem, -6rem, 0);
+          transform: translate3d(-17rem, -6rem, 0);
 }
 .rellax1 .three {
-  -webkit-transform: translate3d(-14rem, -6rem, 0);
-          transform: translate3d(-14rem, -6rem, 0);
+  -webkit-transform: translate3d(-14rem, -2rem, 0);
+          transform: translate3d(-14rem, -2rem, 0);
 }
 .about {
   margin: 12rem 0 8rem 0;
