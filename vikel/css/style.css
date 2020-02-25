@@ -453,21 +453,36 @@ p {
   margin-top: 43rem;
 }
 .rellax10 {
-  display: none;
   position: relative;
-  right: -30%;
+  right: -22%;
 }
 .rellax10 .one,
 .rellax10 .two {
   position: absolute;
 }
 .rellax10 .one {
-  -webkit-transform: translate3d(0, 76rem, 0);
-          transform: translate3d(0, 76rem, 0);
+  -webkit-transform: translate3d(0, 43rem, 0);
+          transform: translate3d(0, 43rem, 0);
 }
 .rellax10 .two {
-  -webkit-transform: translate3d(0, 40rem, 0);
-          transform: translate3d(0, 40rem, 0);
+  -webkit-transform: translate3d(0, -20rem, 0);
+          transform: translate3d(0, -20rem, 0);
+}
+.rellax11 {
+  display: none;
+  position: relative;
+}
+.rellax11 .one,
+.rellax11 .two {
+  position: absolute;
+}
+.rellax11 .one {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.rellax11 .two {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .ritual {
   position: relative;
