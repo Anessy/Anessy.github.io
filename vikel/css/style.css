@@ -94,6 +94,7 @@ p {
 }
 .rellax1 {
   position: relative;
+  margin-right: -2rem;
 }
 .rellax1 .one {
   position: absolute;
