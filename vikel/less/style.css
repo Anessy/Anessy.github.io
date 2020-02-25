@@ -166,6 +166,7 @@ p {
   transform: translate3d(5rem, -12rem, 0);
 }
 .rellax3 {
+  left: 17%;
   position: relative;
 }
 .rellax3 .one,
@@ -173,10 +174,10 @@ p {
   position: absolute;
 }
 .rellax3 .one {
-  transform: translate3d(18rem, 4rem, 0);
+  transform: translate3d(0, 4rem, 0);
 }
 .rellax3 .two {
-  transform: translate3d(16rem, 22rem, 0);
+  transform: translate3d(0, 22rem, 0);
 }
 .no-diw {
   width: 100%;
@@ -237,15 +238,16 @@ p {
   margin-bottom: 6rem;
 }
 .rellax4 {
+  left: 80%;
   position: relative;
 }
 .rellax4 .one {
   position: absolute;
-  transform: translate3d(22rem, -46rem, 0);
+  transform: translate3d(0, -46rem, 0);
 }
 .rellax4 .two {
   position: absolute;
-  transform: translate3d(22rem, -15rem, 0);
+  transform: translate3d(0, -15rem, 0);
 }
 .video-box {
   margin-bottom: -1rem;
