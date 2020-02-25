@@ -471,23 +471,21 @@ footer a {
 }
 .rellax1 {
   position: relative;
-  left: 80%;
 }
 .rellax1 .one {
   position: absolute;
-  transform: translate3d(0, -20rem, 0);
+  transform: translate3d(30rem, -20rem, 0);
 }
 .rellax1 .two {
   position: absolute;
-  transform: translate3d(-3rem, -10rem, 0);
+  transform: translate3d(25rem, -10rem, 0);
 }
 .rellax1 .three {
   position: absolute;
-  transform: translate3d(0, -5rem, 0);
+  transform: translate3d(30rem, -5rem, 0);
 }
 .rellax2 {
   position: relative;
-  left: 37%;
 }
 .rellax2 .one,
 .rellax2 .two {
@@ -495,13 +493,12 @@ footer a {
   z-index: 1;
 }
 .rellax2 .one {
-  transform: translate3d(0, 8rem, 0);
+  transform: translate3d(-10rem, 8rem, 0);
 }
 .rellax2 .two {
-  transform: translate3d(5rem, -12rem, 0);
+  transform: translate3d(-2rem, -12rem, 0);
 }
 .rellax3 {
-  left: 17%;
   position: relative;
 }
 .rellax3 .one,
@@ -509,25 +506,23 @@ footer a {
   position: absolute;
 }
 .rellax3 .one {
-  transform: translate3d(0, 5rem, 0);
+  transform: translate3d(-26rem, 5rem, 0);
 }
 .rellax3 .two {
-  transform: translate3d(0, 21rem, 0);
+  transform: translate3d(-28rem, 21rem, 0);
 }
 .rellax4 {
-  left: 80%;
   position: relative;
 }
 .rellax4 .one {
   position: absolute;
-  transform: translate3d(0, -46rem, 0);
+  transform: translate3d(22rem, -46rem, 0);
 }
 .rellax4 .two {
   position: absolute;
-  transform: translate3d(0, -15rem, 0);
+  transform: translate3d(22rem, -15rem, 0);
 }
 .rellax5 {
-  left: 80%;
   position: relative;
 }
 .rellax5 .one,
@@ -535,10 +530,10 @@ footer a {
   position: absolute;
 }
 .rellax5 .one {
-  transform: translate3d(0, -56rem, 0);
+  transform: translate3d(20rem, -56rem, 0);
 }
 .rellax5 .two {
-  transform: translate3d(0, -8rem, 0);
+  transform: translate3d(20rem, -8rem, 0);
 }
 .rellax6 {
   position: relative;
@@ -550,28 +545,25 @@ footer a {
 }
 .rellax7 {
   position: relative;
-  left: 26%;
 }
 .rellax7 .one,
 .rellax7 .two {
   position: absolute;
 }
 .rellax7 .one {
-  transform: translate3d(0, 10rem, 0);
+  transform: translate3d(-20rem, 10rem, 0);
 }
 .rellax7 .two {
-  transform: translate3d(0, -47rem, 0);
+  transform: translate3d(-20rem, -47rem, 0);
 }
 .rellax8 {
-  left: 80%;
   position: relative;
 }
 .rellax8 .one {
   position: absolute;
-  transform: translate3d(0, -4rem, 0);
+  transform: translate3d(22rem, -4rem, 0);
 }
 .rellax9 {
-  left: 17%;
   position: relative;
 }
 .rellax9 .one,
@@ -579,38 +571,36 @@ footer a {
   position: absolute;
 }
 .rellax9 .one {
-  transform: translate3d(0, 35rem, 0);
+  transform: translate3d(-27rem, 35rem, 0);
 }
 .rellax9 .two {
-  transform: translate3d(0, -30rem, 0);
+  transform: translate3d(-27rem, -30rem, 0);
 }
 .rellax10 {
   position: relative;
-  left: 70%;
 }
 .rellax10 .one,
 .rellax10 .two {
   position: absolute;
 }
 .rellax10 .one {
-  transform: translate3d(0, 43rem, 0);
+  transform: translate3d(20rem, 41rem, 0);
 }
 .rellax10 .two {
-  transform: translate3d(0, -20rem, 0);
+  transform: translate3d(20rem, -20rem, 0);
 }
 .rellax11 {
   position: relative;
-  left: 80%;
 }
 .rellax11 .one,
 .rellax11 .two {
   position: absolute;
 }
 .rellax11 .one {
-  transform: translate3d(0, 15rem, 0);
+  transform: translate3d(20rem, 15rem, 0);
 }
 .rellax11 .two {
-  transform: translate3d(0, 100rem, 0);
+  transform: translate3d(20rem, 100rem, 0);
 }
 @media (max-width: 575.98px) {
   .header-logo {
