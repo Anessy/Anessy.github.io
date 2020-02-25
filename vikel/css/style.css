@@ -182,12 +182,12 @@ p {
   position: absolute;
 }
 .rellax3 .one {
-  -webkit-transform: translate3d(0, 4rem, 0);
-          transform: translate3d(0, 4rem, 0);
+  -webkit-transform: translate3d(0, 5rem, 0);
+          transform: translate3d(0, 5rem, 0);
 }
 .rellax3 .two {
-  -webkit-transform: translate3d(0, 22rem, 0);
-          transform: translate3d(0, 22rem, 0);
+  -webkit-transform: translate3d(0, 21rem, 0);
+          transform: translate3d(0, 21rem, 0);
 }
 .no-diw {
   width: 100%;
@@ -284,6 +284,7 @@ p {
   height: 43vw;
 }
 .rellax5 {
+  left: 80%;
   position: relative;
 }
 .rellax5 .one,
@@ -291,12 +292,12 @@ p {
   position: absolute;
 }
 .rellax5 .one {
-  -webkit-transform: translate3d(20rem, -62rem, 0);
-          transform: translate3d(20rem, -62rem, 0);
+  -webkit-transform: translate3d(0, -56rem, 0);
+          transform: translate3d(0, -56rem, 0);
 }
 .rellax5 .two {
-  -webkit-transform: translate3d(20rem, -2rem, 0);
-          transform: translate3d(20rem, -2rem, 0);
+  -webkit-transform: translate3d(0, -8rem, 0);
+          transform: translate3d(0, -8rem, 0);
 }
 .rellax6 {
   position: relative;
@@ -359,7 +360,7 @@ p {
 }
 .rellax7 {
   position: relative;
-  left: -25%;
+  left: 26%;
 }
 .rellax7 .one,
 .rellax7 .two {
@@ -370,16 +371,17 @@ p {
           transform: translate3d(0, 10rem, 0);
 }
 .rellax7 .two {
-  -webkit-transform: translate3d(0, -48rem, 0);
-          transform: translate3d(0, -48rem, 0);
+  -webkit-transform: translate3d(0, -47rem, 0);
+          transform: translate3d(0, -47rem, 0);
 }
 .rellax8 {
+  left: 80%;
   position: relative;
 }
 .rellax8 .one {
   position: absolute;
-  -webkit-transform: translate3d(25rem, -4rem, 0);
-          transform: translate3d(25rem, -4rem, 0);
+  -webkit-transform: translate3d(0, -4rem, 0);
+          transform: translate3d(0, -4rem, 0);
 }
 .eightthQuestion {
   margin-top: 10rem;
@@ -435,6 +437,7 @@ p {
   color: white;
 }
 .rellax9 {
+  left: 17%;
   position: relative;
 }
 .rellax9 .one,
@@ -442,45 +445,47 @@ p {
   position: absolute;
 }
 .rellax9 .one {
-  -webkit-transform: translate3d(-27rem, 30rem, 0);
-          transform: translate3d(-27rem, 30rem, 0);
+  -webkit-transform: translate3d(0, 35rem, 0);
+          transform: translate3d(0, 35rem, 0);
 }
 .rellax9 .two {
-  -webkit-transform: translate3d(-27rem, -30rem, 0);
-          transform: translate3d(-27rem, -30rem, 0);
+  -webkit-transform: translate3d(0, -30rem, 0);
+          transform: translate3d(0, -30rem, 0);
 }
 .tenthQuestion {
   margin-top: 43rem;
 }
 .rellax10 {
   position: relative;
+  left: 70%;
 }
 .rellax10 .one,
 .rellax10 .two {
   position: absolute;
 }
 .rellax10 .one {
-  -webkit-transform: translate3d(17rem, 43rem, 0);
-          transform: translate3d(17rem, 43rem, 0);
+  -webkit-transform: translate3d(0, 43rem, 0);
+          transform: translate3d(0, 43rem, 0);
 }
 .rellax10 .two {
-  -webkit-transform: translate3d(17rem, -20rem, 0);
-          transform: translate3d(17rem, -20rem, 0);
+  -webkit-transform: translate3d(0, -20rem, 0);
+          transform: translate3d(0, -20rem, 0);
 }
 .rellax11 {
   position: relative;
+  left: 80%;
 }
 .rellax11 .one,
 .rellax11 .two {
   position: absolute;
 }
 .rellax11 .one {
-  -webkit-transform: translate3d(22rem, 5rem, 0);
-          transform: translate3d(22rem, 5rem, 0);
+  -webkit-transform: translate3d(0, 15rem, 0);
+          transform: translate3d(0, 15rem, 0);
 }
 .rellax11 .two {
-  -webkit-transform: translate3d(22rem, 114rem, 0);
-          transform: translate3d(22rem, 114rem, 0);
+  -webkit-transform: translate3d(0, 100rem, 0);
+          transform: translate3d(0, 100rem, 0);
 }
 .ritual {
   position: relative;
