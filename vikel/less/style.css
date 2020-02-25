@@ -45,7 +45,7 @@ p {
   background: linear-gradient(118.36deg, #E1F0B7 33.25%, #BAD794 68.07%, #CCE2A8 96.16%);
 }
 .first-photo {
-  transform: translateY(4rem);
+  transform: translateY(5rem);
   width: 100%;
 }
 .first-photo img {
@@ -1183,53 +1183,12 @@ footer a {
     width: 80%;
     margin-left: 10%;
   }
-  .rellax1 .one {
-    transform: translate3d(-1rem, -18rem, 0);
-  }
-  .rellax1 .two {
-    transform: translate3d(-17rem, -8rem, 0);
-  }
-  .rellax1 .three {
-    transform: translate3d(-14rem, -6rem, 0);
-  }
-  .photo {
-    margin-top: -5rem;
-  }
-  .photo .two {
-    transform: translate3d(3rem, 24rem, 0);
-  }
-  .photo .three {
-    margin-left: 6rem;
-    margin-top: 6rem;
-  }
-  .photo .four {
-    top: 0;
-    left: 0;
-  }
   .about {
     margin: 8rem 0 12rem 0;
-  }
-  .rellax2 .one {
-    transform: translate3d(-13rem, 0rem, 0);
-  }
-  .rellax2 .two {
-    transform: translate3d(-8rem, -2rem, 0);
-  }
-  .rellax3 .one {
-    transform: translate3d(-30rem, 25rem, 0);
-  }
-  .rellax3 .two {
-    transform: translate3d(-32rem, 30rem, 0);
   }
   .no-diw {
     width: 100%;
     margin-top: 55rem;
-  }
-  .rellax4 .one {
-    transform: translate3d(27rem, 0, 0);
-  }
-  .rellax4 .two {
-    transform: translate3d(27rem, 0, 0);
   }
   .photo2-second {
     position: absolute;
@@ -1248,49 +1207,9 @@ footer a {
     position: absolute;
     transform: translate3d(-11rem, 0, 0);
   }
-  .rellax5 {
-    position: relative;
-    right: -35%;
-  }
-  .rellax5 .one,
-  .rellax5 .two {
-    position: absolute;
-  }
-  .rellax5 .one {
-    transform: translate3d(0, -12rem, 0);
-  }
-  .rellax5 .two {
-    transform: translate3d(0, 12rem, 0);
-  }
-  .rellax7 .one {
-    transform: translate3d(0, -20rem, 0);
-  }
-  .rellax7 .two {
-    transform: translate3d(0, 2rem, 0);
-  }
   .photo3-first {
     position: absolute;
     transform: translate3d(-24.5rem, 0, 0);
-  }
-  .rellax9 .one {
-    transform: translate3d(0, 40rem, 0);
-  }
-  .rellax9 .two {
-    transform: translate3d(0, 70rem, 0);
-  }
-  .rellax10 {
-    position: relative;
-    right: -30%;
-  }
-  .rellax10 .one,
-  .rellax10 .two {
-    position: absolute;
-  }
-  .rellax10 .one {
-    transform: translate3d(0, 46rem, 0);
-  }
-  .rellax10 .two {
-    transform: translate3d(0, 0rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -1314,5 +1233,20 @@ footer a {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
+  }
+}
+@media (min-width: 1500px) {
+  .play {
+    transform: translate3d(0, -25rem, 0);
+  }
+}
+@media (min-width: 1800px) {
+  .play {
+    transform: translate3d(0, -28rem, 0);
+  }
+}
+@media (min-width: 2300px) {
+  .play {
+    transform: translate3d(0, -36rem, 0);
   }
 }
