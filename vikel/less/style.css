@@ -356,6 +356,7 @@ p {
 }
 .rellax8 .one {
   position: absolute;
+  transform: translate3d(0, -2rem, 0);
 }
 .eightthQuestion {
   margin-top: 10rem;
@@ -406,7 +407,6 @@ p {
   color: white;
 }
 .rellax9 {
-  display: none;
   position: relative;
 }
 .rellax9 .one,
@@ -414,10 +414,10 @@ p {
   position: absolute;
 }
 .rellax9 .one {
-  transform: translate3d(0, 60rem, 0);
+  transform: translate3d(-27rem, 30rem, 0);
 }
 .rellax9 .two {
-  transform: translate3d(0, 110rem, 0);
+  transform: translate3d(-27rem, -30rem, 0);
 }
 .tenthQuestion {
   margin-top: 43rem;
