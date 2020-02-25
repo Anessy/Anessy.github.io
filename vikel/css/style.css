@@ -158,6 +158,7 @@ p {
 }
 .rellax2 {
   position: relative;
+  left: 37%;
 }
 .rellax2 .one,
 .rellax2 .two {
@@ -165,12 +166,12 @@ p {
   z-index: 1;
 }
 .rellax2 .one {
-  -webkit-transform: translate3d(-10rem, 8rem, 0);
-          transform: translate3d(-10rem, 8rem, 0);
+  -webkit-transform: translate3d(0, 8rem, 0);
+          transform: translate3d(0, 8rem, 0);
 }
 .rellax2 .two {
-  -webkit-transform: translate3d(-5rem, -12rem, 0);
-          transform: translate3d(-5rem, -12rem, 0);
+  -webkit-transform: translate3d(5rem, -12rem, 0);
+          transform: translate3d(5rem, -12rem, 0);
 }
 .rellax3 {
   position: relative;
