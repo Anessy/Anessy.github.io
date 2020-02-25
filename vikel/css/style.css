@@ -169,11 +169,10 @@ p {
           transform: translate3d(-10rem, 8rem, 0);
 }
 .rellax2 .two {
-  -webkit-transform: translate3d(-5rem, -10rem, 0);
-          transform: translate3d(-5rem, -10rem, 0);
+  -webkit-transform: translate3d(-5rem, -12rem, 0);
+          transform: translate3d(-5rem, -12rem, 0);
 }
 .rellax3 {
-  display: none;
   position: relative;
 }
 .rellax3 .one,
@@ -181,12 +180,12 @@ p {
   position: absolute;
 }
 .rellax3 .one {
-  -webkit-transform: translate3d(-35rem, 26rem, 0);
-          transform: translate3d(-35rem, 26rem, 0);
+  -webkit-transform: translate3d(18rem, 4rem, 0);
+          transform: translate3d(18rem, 4rem, 0);
 }
 .rellax3 .two {
-  -webkit-transform: translate3d(-35rem, 30rem, 0);
-          transform: translate3d(-35rem, 30rem, 0);
+  -webkit-transform: translate3d(16rem, 22rem, 0);
+          transform: translate3d(16rem, 22rem, 0);
 }
 .no-diw {
   width: 100%;
@@ -194,6 +193,7 @@ p {
 }
 .firstQuestion,
 .secondQuestion,
+.secQuestion,
 .thirdQuestion,
 .fourthQuestion,
 .fifthQuestion,
@@ -208,6 +208,7 @@ p {
 }
 .firstQuestion h1,
 .secondQuestion h1,
+.secQuestion h1,
 .thirdQuestion h1,
 .fourthQuestion h1,
 .fifthQuestion h1,
@@ -225,6 +226,7 @@ p {
 }
 .firstQuestion p,
 .secondQuestion p,
+.secQuestion p,
 .thirdQuestion p,
 .fourthQuestion p,
 .fifthQuestion p,
@@ -244,18 +246,17 @@ p {
   margin-bottom: 6rem;
 }
 .rellax4 {
-  display: none;
   position: relative;
 }
 .rellax4 .one {
   position: absolute;
-  -webkit-transform: translate3d(33rem, 0, 0);
-          transform: translate3d(33rem, 0, 0);
+  -webkit-transform: translate3d(22rem, -46rem, 0);
+          transform: translate3d(22rem, -46rem, 0);
 }
 .rellax4 .two {
   position: absolute;
-  -webkit-transform: translate3d(33rem, 0, 0);
-          transform: translate3d(33rem, 0, 0);
+  -webkit-transform: translate3d(22rem, -15rem, 0);
+          transform: translate3d(22rem, -15rem, 0);
 }
 .video-box {
   margin-bottom: -1rem;
@@ -280,30 +281,29 @@ p {
   height: 43vw;
 }
 .rellax5 {
-  display: none;
+  right: -31%;
   position: relative;
-  right: -35%;
 }
 .rellax5 .one,
 .rellax5 .two {
   position: absolute;
 }
 .rellax5 .one {
-  -webkit-transform: translate3d(0, -6rem, 0);
-          transform: translate3d(0, -6rem, 0);
+  -webkit-transform: translate3d(0, -62rem, 0);
+          transform: translate3d(0, -62rem, 0);
 }
 .rellax5 .two {
-  -webkit-transform: translate3d(0, 18rem, 0);
-          transform: translate3d(0, 18rem, 0);
+  -webkit-transform: translate3d(0, -2rem, 0);
+          transform: translate3d(0, -2rem, 0);
 }
 .rellax6 {
-  display: none;
   position: relative;
-  top: -12rem;
-  left: -50%;
+  right: 48%;
 }
 .rellax6 .one {
   position: absolute;
+  -webkit-transform: translate3d(0, 12rem, 0);
+          transform: translate3d(0, 12rem, 0);
   z-index: 1;
 }
 .photo2 {
@@ -357,7 +357,6 @@ p {
   background-color: #C6E4AC;
 }
 .rellax7 {
-  display: none;
   position: relative;
   left: -25%;
 }
@@ -366,15 +365,14 @@ p {
   position: absolute;
 }
 .rellax7 .one {
-  -webkit-transform: translate3d(0, -32rem, 0);
-          transform: translate3d(0, -32rem, 0);
+  -webkit-transform: translate3d(0, 10rem, 0);
+          transform: translate3d(0, 10rem, 0);
 }
 .rellax7 .two {
-  -webkit-transform: translate3d(0, 12rem, 0);
-          transform: translate3d(0, 12rem, 0);
+  -webkit-transform: translate3d(0, -48rem, 0);
+          transform: translate3d(0, -48rem, 0);
 }
 .rellax8 {
-  display: none;
   position: relative;
   right: -30%;
 }
