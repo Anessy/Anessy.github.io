@@ -437,7 +437,7 @@ p {
   transform: translate3d(0, -20rem, 0);
 }
 .rellax11 {
-  display: none;
+  right: -30%;
   position: relative;
 }
 .rellax11 .one,
@@ -445,10 +445,10 @@ p {
   position: absolute;
 }
 .rellax11 .one {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 5rem, 0);
 }
 .rellax11 .two {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 114rem, 0);
 }
 .ritual {
   position: relative;
