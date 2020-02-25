@@ -98,13 +98,13 @@ p {
 }
 .rellax1 .one {
   position: absolute;
-  -webkit-transform: translate3d(27rem, -20rem, 0);
-          transform: translate3d(27rem, -20rem, 0);
+  -webkit-transform: translate3d(28rem, -20rem, 0);
+          transform: translate3d(28rem, -20rem, 0);
 }
 .rellax1 .two {
   position: absolute;
-  -webkit-transform: translate3d(23rem, -10rem, 0);
-          transform: translate3d(23rem, -10rem, 0);
+  -webkit-transform: translate3d(24rem, -10rem, 0);
+          transform: translate3d(24rem, -10rem, 0);
 }
 .rellax1 .three {
   position: absolute;
@@ -158,7 +158,6 @@ p {
 }
 .rellax2 {
   position: relative;
-  display: none;
 }
 .rellax2 .one,
 .rellax2 .two {
@@ -166,12 +165,12 @@ p {
   z-index: 1;
 }
 .rellax2 .one {
-  -webkit-transform: translate3d(-13rem, 6rem, 0);
-          transform: translate3d(-13rem, 6rem, 0);
+  -webkit-transform: translate3d(-10rem, 8rem, 0);
+          transform: translate3d(-10rem, 8rem, 0);
 }
 .rellax2 .two {
-  -webkit-transform: translate3d(-8rem, 3rem, 0);
-          transform: translate3d(-8rem, 3rem, 0);
+  -webkit-transform: translate3d(-5rem, -10rem, 0);
+          transform: translate3d(-5rem, -10rem, 0);
 }
 .rellax3 {
   display: none;
@@ -518,6 +517,9 @@ p {
 .ritual-text .for-button button:active {
   background: rgba(255, 255, 255, 0.1);
 }
+.ritual-text .for-button button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
 .ritual-primer {
   width: 85%;
   padding: 4rem 0.5rem 4rem 0.5rem;
@@ -603,7 +605,7 @@ p {
 }
 .slider button {
   color: white;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   border: 1px solid #FFFFFF;
   width: 140px;
   height: 50px;
@@ -621,7 +623,10 @@ p {
   outline: none !important;
 }
 .slider button:active {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
+}
+.slider button:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 footer {
   padding: 1rem 0;
