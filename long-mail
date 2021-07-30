@@ -1,0 +1,527 @@
+<!DOCTYPE HTML>
+<html lang="uk">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>Нова Пошта</title>
+</head>
+<body style="margin: 0">
+<table
+        cellpadding="0"
+        cellspacing="0"
+        border="0"
+        width="100%"
+        style="background: #f5f5f5; min-width: 320px; font-size: 1px; line-height: normal;">
+    <tr>
+        <td align="center"
+            valign="top">
+            <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="600"
+                    style="
+                        max-width: 600px;
+                        min-width: 320px;
+                        background: #ffffff;">
+                <tr>
+                    <td
+                            align="center"
+                            valign="top">
+
+
+                        <table width="100%"
+                               cellpadding="0"
+                               cellspacing="0"
+                               border="0">
+                            <tr width="100%">
+                                <div style="height: 28px;">&nbsp;</div>
+                                <td width="5.3%">&nbsp;</td>
+                                <td>
+                                    <div style="display: block; width: 198px;">
+                                        <img src="img/logo.svg" alt="img" width="198" border="0" style="display: block; width: 198px; max-width: 100%;" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 28px;">&nbsp;</div>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="89%">
+                            <tr>
+                                <td align="center" valign="middle" height="1" style="width: 100%; background-color: #DBE1E8">&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 34px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="5.3%">&nbsp;</td>
+                                <td>
+                                    <span style="width: 100%; font-family: sans-serif; font-weight: 700; color: #2E3742; font-size: 24px; line-height: 29px;">Вітаємо, ФОП Вдовенко Роман Вадимович</span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 19px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="5.3%">&nbsp;</td>
+                                <td>
+                                    <span style="width: 100%; font-family: sans-serif; font-weight: 400; color: #2E3742; font-size: 15px; line-height: 19px;">Ми підготували для вас %DocDescription% через сервіс документообігу.</span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 29px;">&nbsp;</div>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td width="5.3%">&nbsp;</td>
+                                <td width="216">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="216">
+                                        <tr>
+                                            <td align="center" valign="middle" height="40" style="background:#149164; border-radius: 5px">
+                                                <a href="#" target="_blank" style="display: block; width: 100%; font-family: sans-serif; color: #FFFFFF; font-size: 14px; line-height: 17px; text-decoration: none; ">Перейти до документа</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 32px;">&nbsp;</div>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="89%">
+                            <tr>
+                                <td align="center" valign="middle" height="1" style="width: 100%; background-color: #DBE1E8">&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 32px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="5.3%">&nbsp;</td>
+                                <td>
+                                    <span style="width: 100%; font-family: sans-serif; font-weight: 700; color: #2E3742; font-size: 24px; line-height: 29px;">Як підписати документ?</span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 27px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td class="numbers" width="32">
+                                    <div style="display: block; max-width: 32px;">
+                                        <img src="img/one.svg" alt="img" width="32" border="0" style="display: block; width: 32px; max-width: 100%;" />
+                                    </div>
+                                </td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <span style="font-family: sans-serif; font-weight: 700; color: #2E3742; font-size: 18px; line-height: 22px;">Заповнення та підписання документа</span>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 2px;"></td>
+                                <td width="16" style="height: 2px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="32">
+                                    <div style="height: 12px;">
+                                        <div style="height: 10px; width: 50%; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="height: 12px;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 75px; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164"></td>
+                                <td width="16" style="height: 75px;"></td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <span style="font-family: sans-serif; font-weight: 400; color: #2E3742; font-size: 14px; line-height: 20px;">
+                                        Щоб переглянути, заповнити та підписати документ, знадобиться ваш особистий електронний цифровий підпис (ЕЦП). Коли ви завантажите його на першому кроці, система вас ідентифікує та відкриє доступ до вашого персоналізованого документа.
+                                    </span>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 1px;"></td>
+                                <td width="16" style="height: 1px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="32">
+                                    <div style="height: 10px; width: 50%; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164"></div>
+                                </td>
+                                <td>
+                                    <div style="height: 12px;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 1px;"></td>
+                                <td width="16" style="height: 1px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 10px; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164"></td>
+                                <td width="16" style="height: 10px;"></td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <span style="font-family: sans-serif; font-weight: 400; color: #2E3742; font-size: 14px; line-height: 20px;">
+                                        %Для заповнення документа у повному обсязі,
+                                        будь ласка, підготуйте показники лічильників та фотографії або скан-копії квитанцій
+                                        від комунальних підприємств. Їх потрібно буде завантажити на сайті сервісу.%.
+                                    </span>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 2px;"></td>
+                                <td width="16" style="height: 2px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="32">
+                                    <div style="height: 12px;">
+                                        <div style="height: 10px; width: 50%; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="height: 12px;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 10px; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164"></td>
+                                <td width="16" style="height: 10px;"></td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <span style="font-family: sans-serif; font-weight: 400; color: #2E3742; font-size: 14px; line-height: 20px;">
+                                        Ваш електронний цифровий підпис буде накладено на останньому кроці.
+                                    </span>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 2px;"></td>
+                                <td width="16" style="height: 2px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="32">
+                                    <div style="height: 32px;">
+                                        <div style="height: 32px; width: 50%; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="height: 12px;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 2px;"></td>
+                                <td width="16" style="height: 2px;"></td>
+                            </tr>
+                        </table>
+<!-- рамочка "Якщо у вас нема електронного підпису ... "-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 10px; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164"></td>
+                                <td width="16" style="height: 10px;"></td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius: 5px; border-style: solid; border-width: 1px; border-color: #DBE1E8 ">
+                                        <tr width="100%" style="height: 10px"></tr>
+                                        <tr width="100%">
+                                            <td width="19" style="width: 19px;">&nbsp;</td>
+                                            <td width="27">
+                                                <div style="display: block; max-width: 27px;">
+                                                    <img src="img/question.svg" alt="img" width="27" border="0" style="display: block; width: 27px; max-width: 100%;" />
+                                                </div>
+                                            </td>
+                                            <td width="19" style="width: 19px;">&nbsp;</td>
+                                            <td>
+                                               <span style="font-family: sans-serif; font-weight: 400; color: #8A95A3; font-size: 13px; line-height: 19px;">
+                                                    Якщо у Вас немає електронного цифрового підпису (ЕЦП або КЕП), Ви можете його замовити на сайті
+                                                    <a
+                                                            href="#"
+                                                            target="_blank"
+                                                            style="
+                                                                font-family: sans-serif;
+                                                                color: #149164;
+                                                                font-size: 14px;
+                                                                line-height: 20px;
+                                                                text-decoration: none">
+                                                        <span style="
+                                                        font-family: sans-serif;
+                                                        color: #149164;
+                                                        font-size: 14px;
+                                                        line-height: 20px;
+                                                        border-bottom-color: #149164;
+                                                        border-bottom-width: 1px;
+                                                        border-bottom-style: solid; ">
+                                                            Дія</span>
+                                                    </a>
+                                                   або через особистий кабінет
+                                                   <a
+                                                           href="#"
+                                                           target="_blank"
+                                                           style="
+                                                                font-family: sans-serif;
+                                                                color: #149164;
+                                                                font-size: 14px;
+                                                                line-height: 20px;
+                                                                text-decoration: none">
+                                                        <span style="
+                                                        font-family: sans-serif;
+                                                        color: #149164;
+                                                        font-size: 14px;
+                                                        line-height: 20px;
+                                                        border-bottom-color: #149164;
+                                                        border-bottom-width: 1px;
+                                                        border-bottom-style: solid; ">
+                                                            Приватбанку</span>
+                                                    </a>
+
+                                    </span>
+                                            </td>
+                                        </tr>
+                                        <tr width="100%" style="height: 10px"></tr>
+                                    </table>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="16" style="height: 2px;"></td>
+                                <td width="16" style="height: 2px;"></td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td width="32">
+                                    <div style="height: 51px;">
+                                        <div style="height: 51px; width: 50%; border-right-style: dashed; border-right-width: 2px; border-right-color: #149164">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="height: 12px;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </table>
+<!--                        второй пункт -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                                <td class="numbers" width="32">
+                                    <div style="display: block; max-width: 32px;">
+                                        <img src="img/two.svg" alt="img" width="32" border="0" style="display: block; width: 32px; max-width: 100%;" />
+                                    </div>
+                                </td>
+                                <td class="padding" width="16">&nbsp;</td>
+                                <td class="text">
+                                    <span style="font-family: sans-serif; font-weight: 700; color: #2E3742; font-size: 18px; line-height: 22px;">
+                                        Отримання документа, підписаного обома сторонами, та оплата послуг
+                                    </span>
+                                </td>
+                                <td class="padding" width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 20px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="80">&nbsp;</td>
+                                <td>
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #2E3742;
+                                            font-size: 14px;
+                                            line-height: 20px;">
+                                        Ми переглянемо та підпишемо документ %протягом 5 робочих днів / до 25 липня включно%.
+                                        Фінальна електронна версія документа, що матиме юридичну силу, буде надіслана окремим електронним листом.
+                                        Паперова версія документа не потрібна.
+                                    </span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 20px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="80">&nbsp;</td>
+                                <td>
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #2E3742;
+                                            font-size: 14px;
+                                            line-height: 20px;">
+                                        Оплата за ваші послуги буде здійснена після підписання документа обома сторонами
+                                        %згідно з умовами  договору / протягом 30 днів / до 25 липня включно%.
+                                    </span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 20px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="80">&nbsp;</td>
+                                <td>
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #2E3742;
+                                            font-size: 14px;
+                                            line-height: 20px;">
+                                        Якщо у вас виникли складнощі з посиланням або запитання стосовно змісту документа, будь ласка,
+                                        повідомте нам про це у відповідь на цього листа.
+                                    </span>
+                                </td>
+                                <td width="5.3%">&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 50px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="80">&nbsp;</td>
+                            <td>
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #2E3742;
+                                            font-size: 14px;
+                                            line-height: 20px;">
+                                        Дякуємо.
+                                    </span>
+                            </td>
+                            <td width="5.3%">&nbsp;</td>
+                        </tr>
+                    </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 10px;">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="80">&nbsp;</td>
+                            <td>
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #2E3742;
+                                            font-size: 14px;
+                                            line-height: 20px;">
+                                        Служба документообігу %ТОВ “Нова Пошта”%
+                                    </span>
+                            </td>
+                            <td width="5.3%">&nbsp;</td>
+                        </tr>
+                    </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 40px; width: 100%">&nbsp;</div>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td align="center" valign="middle" height="1" style="width: 100%; background-color: #DBE1E8">&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 16px; width: 100%">&nbsp;</div>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td align="center"
+                                    valign="top">
+                                    <span
+                                            style="width: 100%;
+                                            font-family: sans-serif;
+                                            font-weight: 400;
+                                            color: #8A95A3;
+                                            font-size: 12px;
+                                            line-height: 14px;">
+                                        © 2006 - 2021 Нова Пошта. Всі права захищено
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <div style="height: 16px; width: 100%">&nbsp;</div>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
