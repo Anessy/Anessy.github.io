@@ -54,6 +54,6 @@ HomeWork of web-academy
 
 [Урок 40](https://anessy.github.io/lesson40(mail)/index.html "Моя готовая домашка") - отправка дынных с формы на почту
 
-[Урок 41](https://anessy.github.io/blob/master/artwinery/index.html "Моя готовая домашка") - отправка дынных с формы на почту
+[Урок 41](https://anessy.github.io/artwinery/index.html "artwinery") - artwinery
 
 
