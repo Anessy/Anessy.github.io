@@ -1,0 +1,726 @@
+/* fonts settings */
+
+
+@font-face {
+    font-family: 'Helvetica_reg';
+    src: url('../Fonts/HelveticaNeueCyr-Medium.eot');
+    src: url('../Fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('../Fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('../Fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'),
+        url('../Fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica_bold';
+    src: url('../Fonts/HelveticaNeueCyr-Bold.eot');
+    src: url('../Fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../Fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('../Fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'),
+        url('../Fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* миксины для шрифтов */
+
+.reg () {
+	font-family: 'Helvetica_reg', sans-serif;
+}
+
+.bold () {
+	font-family: 'Helvetica_bold', sans-serif;
+}
+
+/* colors */ 
+
+@btn-color: #94ca2d;
+@light: #fff;
+
+
+/* basic settings */
+
+html {
+	font-size: 10px;
+}
+
+body {
+	.reg();
+}
+a:hover {
+	text-decoration: none;
+}
+
+button, input, a, textarea {
+	&:focus {
+		outline: none;
+	}
+}
+/* общий стили для всех кнопок */
+
+.button {
+	margin: 2rem 0 2rem 0;
+	padding: 1.5rem 3rem;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	background-color: @btn-color;
+	color: @light;
+	text-transform: uppercase;
+	border: none;
+	transition: all 0.2s; /* эффект во время перехода */
+	&:hover { /*эффекты при наведении */
+		cursor: pointer; /* указатель становится рукой */
+		/* background-color: lighten(@btn-color, 7%); сделать светлее цвет @btn-color на 5% */
+		background-color: darken(@btn-color, 10%);
+	}
+}
+
+/* главный экран */
+
+.first {
+	display: inline-block;
+	width: 100%;
+	min-height: 4rem;
+	background-color: rgba(0,0,0,.5);
+}
+
+.main {
+	background: #2e3632 url(../img/main/main-bg.jpg) center no-repeat;
+	background-size: cover;
+	&-title, h3 {
+		color: @light;
+	}
+	.picture {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.glaces {
+		display: block;
+		margin-top: 3rem;
+		width: 90%;
+	}
+	.header {
+		padding: 1rem 0 1rem 0;
+		color: @light;
+		.about {
+			margin-left: 2rem;
+		}
+		.logo {
+			padding-bottom: 1rem;
+		}
+		.tell {
+			/*text-align: right;*/
+			a {
+				color: @btn-color;
+			}
+			p {
+				margin-bottom: -0.2rem;
+				font-size: 1.7rem;
+				.bold();
+			}
+		}
+	}
+}
+
+/* что такое vr */
+
+.whatIS {
+	background-color: #f8f8f0;
+	background-size: cover;
+	border-bottom: 1px dotted grey;
+	&-text {
+		h2 {
+			margin: 8rem 0 3rem 0;
+			.bold();
+		}
+	}
+	.complect {
+		margin-top: 2rem;
+		&-s {
+			margin-top: 3rem;
+			strong {
+				color: red;
+			}
+		}
+		&-m {
+			strong {
+				color: red;
+			} 
+		}
+	}
+	.png {
+		img {
+			margin-top: 6rem;
+		}
+	}
+	.knob {
+		margin-top: 3rem;
+		margin-bottom: 7rem;
+	}
+}
+
+.useful {
+	background-color: #fcfcf6;
+	&-man {
+		margin-top: 5rem;
+	}
+	&-textMAN {
+		margin-top: 5rem;
+		transform: translateY(50%);
+	}
+	.gif {
+		margin-top: 2rem;
+	}
+	p {
+		margin-left: -1rem;
+	}
+	&-shark {
+		transform: translateY(-50%);
+		margin-bottom: -9rem;
+	}
+}
+
+.order {
+	background: #01171f url(../img/order/bg.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 5rem;
+	h2 {
+		.bold();
+		margin-top: 7rem;
+	}
+	img {
+		margin-left: -2rem;
+	}
+	.withIMG {
+		background: url(../img/order/square.png) center no-repeat;
+		background-size: 100%;
+		margin: 2rem 0 4rem 0;
+		padding-top: 1rem;
+	}
+
+	.form {
+		margin-top: 4rem;
+		text-align: center;
+		border: 2px solid #21a3af;
+		background-color: black;
+		h4 {
+			margin: 2rem 0 2rem 0;
+		}
+		input {
+			margin-top: 1rem;
+			padding: 1rem 2rem 1rem 2rem;
+			border: 1px solid white;
+			border-radius: 3px; 
+			color: white;
+			background-color: black;
+		}
+	}
+	
+}
+.simulation {
+	background-color: #fcfcf6; 
+	.skiing {
+		margin-top: 4rem;
+	}
+	.extrim {
+		margin-top: 12rem;
+		&-text {
+			margin-left: 1.2rem;
+		}
+	}
+	.play {
+		margin-bottom: 5rem;
+	}
+	.computer {
+		margin-top: 8rem;
+		&-text {
+			margin-left: 1.2rem;
+		}
+	}
+}
+
+.howITworks {
+	text-align: center;
+	background-color: #f8f8f0;
+	padding-bottom: 8rem;
+	h2 {
+		margin: 8rem 0 1rem 0;
+		.bold();	
+	}
+	&-text {
+		position:relative;
+        display:inline-block;
+	}
+	&-text:after{
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:20%;
+            height:5px;
+            margin-left:-10%;
+            background:#18a7d0;
+            
+        }
+    &-png {
+    	p {
+    		margin-top: 2rem;
+    	}
+    	margin-top: 8rem;
+    	    } 
+    &-png2 {
+    	transform: translateY(18%);
+    } 
+    &-png4 {
+    	transform: translateY(7%);
+    }  
+
+}
+
+.compatibility {
+	background-color: #fcfcf6;
+	padding-bottom: 4rem;
+	h2 {
+		margin: 8rem 0 6rem 0;
+		.bold();
+	}
+	&-png {
+		display: inline-block;
+		text-align: center;
+		margin: 0.5rem;
+		p {
+			margin-top: 1rem;
+		}
+	}
+	&-glasses {
+		img {
+			margin-top: -2rem;
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+.reality {
+	background: #464f50 url(../img/reality/reality-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	h2 {
+		margin: 7rem 0 3rem 0;
+	}
+	p {
+		margin: 2rem 0 6rem 0;
+	}
+}
+
+.games {
+	background-color: #fcfcf6;
+	border-bottom: 1px dotted gray;
+	h2 {
+		margin-top: 6rem;
+	}
+	&-name {
+		text-align: center;
+		img {
+			width: 10%;
+			margin: 2rem 0 3rem 0;
+		}	
+	}
+	&-weapons {
+		transform: translateY(20%);
+	}
+	&-text {
+		margin-top: 3rem;
+	}
+	&-img {
+		img {
+			margin-left: -11rem;	
+		}	
+	}
+	&-knop {
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+}
+
+.review {
+	background-color: #f8f8f0;
+	border-bottom: 1px dotted gray;
+	&-center {
+		text-align: center;
+	}
+	&-text {
+		position:relative;
+		display:inline-block;
+		margin-top: 8rem;
+		.bold();
+	}
+	&-text:after {
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:10%;
+            height:5px;
+            margin-left:-5%;
+            background:#18a7d0;  
+        }
+	&-about {
+		margin-top: 6rem;
+	}
+	&-comment {
+		padding: 2rem 0 3rem 0;
+		border: 2px solid #95d5d2;
+		border-radius: 3px;
+	}
+	&-name {
+		.bold(); 
+		transform: translateY(75%);
+	}
+	&-letter {
+		padding: 2rem 2rem 2rem 2rem;
+		text-align: justify;
+	}
+	&-figure {
+		position: relative;
+		top: -73rem;
+		left: 100rem;
+	}
+}
+
+.howDoWeWork {
+	text-align: center;
+	padding-bottom: 6rem;
+	background-color: #fcfcf6;
+	&-name {
+		position:relative;
+		display:inline-block;
+		margin-top: 8rem;
+		.bold();
+	}
+
+	&-name:after {
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:53%;
+            width:5%;
+            height:5px;
+            margin-left:-5%;
+            background:#18a7d0;  
+        }
+    .png {
+    	padding-top: 6rem;
+    	img {
+    		margin-bottom: 3rem;
+    	}
+    }    
+}
+
+.second {
+	background: #0b1317 url(../img/second-bg.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.questions {
+	padding: 4rem 0 4rem 0;
+	text-align: center; 
+	h2 {
+		.bold();
+	}
+	a {
+		color: black;
+		border-bottom: 1px dotted black;
+	}
+}
+
+.last {
+	background-color: black;
+}
+
+.modal {
+	&-content {
+		background-color: black;
+		border: 3px solid #21a3af;
+		color: white;
+	}
+	.solid {
+		text-align: center;
+		height: 30rem;
+	}
+	.formFORmodal {
+		input {
+			background-color: black; 
+			border: 2px solid white;
+			border-radius: 3px;
+			color: white;
+			padding: 1rem 2rem 1rem 2rem;
+			margin-top: 2rem;
+		}
+		h4 {
+			transform: translateY(-50%);
+		}
+		.button {
+			padding: 1.5rem;
+			margin-left: 2rem;
+			font-size: 1.6rem;
+			transform: translateY(50%);
+		}
+	}
+	.cross {
+		border: 3px solid #21a3af;
+		border-radius: 50px;
+		background-color: black;
+		color: #21a3af;
+		transform:translateY(-85%);
+		width: 30px;
+		height: 30px;
+
+	}
+	.for-cross {
+		text-align: right;
+		transform: translateX(20%);
+	}
+	.yes {
+		background-color: black; 
+		border: 2px solid white;
+		border-radius: 3px;
+		color: white;
+		padding: 1rem 3rem 1rem 3rem;
+		margin-top: 1rem;		
+	}
+		li {
+			background-color: black;
+			color: white;
+		}
+		ul {
+			background-color: black;
+			color: white;
+		}
+		.inside {
+			margin-left: 1rem;
+		}
+	
+}
+
+/* на всех экранах меньше 1200px */
+@media (max-width: 1199px) {
+	.useful {
+		h3 {
+			margin-left: 2rem;
+		}
+		p {
+			margin-left: 1rem;
+		}
+	}
+	.order {
+		.withIMG {
+			background-size: cover;
+		} 
+	}
+	.compatibility {
+		text-align: center;
+		&-glasses {
+			margin-top: 2rem;
+		}
+	}
+	
+}
+
+@media (max-width: 991px) {
+	.useful {
+		&-man {
+			margin-bottom: -15rem;
+		}
+		&-textMAN {
+			h3 {
+				margin-left: -0.5rem;
+			}
+		}
+		&-textSHARK {
+			.gif {
+				transform: translateY(150%);
+			}
+			h3 {
+				margin-left: 6rem;
+			}
+		}
+		&-shark {
+			margin-top: 6rem;
+			margin-left: 3rem;
+		}
+	}
+	.order {
+		text-align: center;
+	}
+	.simulation {
+		.skiing {
+			margin-bottom: -4rem;
+		}
+		.play {
+			margin-top: 4rem;
+	}
+	}
+	.howITworks {
+		&-png3 {
+			margin-top: 6rem;
+		}
+	}
+	
+}
+
+@media (max-width: 767px) {
+	.header {
+		text-align: center;
+	}
+
+	.main {
+		
+		.glasses {
+			width: 90%;
+		}	
+		
+	}
+
+	.whatIS {
+		.png {
+			img {
+				margin-top: -2rem;
+				width: 100%;
+			}
+		}
+	}
+
+	.useful {
+		&-man {
+			img {
+				width: 100%;
+			}
+		}
+		&-textSHARK {
+			p {
+				padding-left: 3.5rem;
+			}
+		}
+		&-shark {
+			img {
+				width: 90%;
+			}
+		}
+	}
+
+	.order {
+		form {
+			p {
+				margin-top: 1rem;
+			}
+			button {
+				font-size: 1.6rem;
+			}
+		}
+	}
+
+	.simulation {
+		.skiing {
+			img {
+				width: 100%;
+			}
+		}
+		.extrim {
+			&-png {
+				margin-top: 7rem;
+			}
+			&-text {
+				margin-top: 7rem;
+			}
+		}
+		.computer {
+				margin-top: 0;
+				img {
+					margin-top: 1rem;
+				}
+			
+		}
+		.play {
+
+			img {
+				margin-top: 3rem;
+				margin-left: 0rem;
+				width: 100%;
+			}
+		}
+	}
+
+	.compatibility {
+		&-png {
+			margin: 0 -3rem 2rem -3rem;
+			img {
+				width: 30%;
+			}
+		}
+		&-glasses {
+			img {
+				width: 100%;
+			}
+		} 
+	}
+
+	.review {
+		&-comment {
+			width: 100%;
+		}
+		img {
+			width: 120%;
+		}
+	}
+
+	.about {
+		margin-top: 1rem;
+		font-size: 1.1rem;
+	}
+	.main-title {
+		h2 {
+			font-size: 1.8rem;
+		}
+		h3 {
+			font-size: 1.4rem;
+		}
+	}
+	.button {
+		padding: 1.5rem 2rem;
+		font-size: 0.9rem;
+		margin-bottom: 0;
+	}
+	.picture {
+		min-width: 25rem;
+	}
+	.glasses {
+		margin-top: 2rem;
+		padding-top: 2rem;
+	}
+	.modal-content {
+		font-size: 1.5rem;
+		height: 41rem;
+		p {
+			margin-top: 1rem;
+			font-size: 1rem;
+		}
+	}
+	.yes {
+		button {
+			padding: 1rem;
+		}
+	}
+	.act {
+
+		img {
+			width: 99%;
+			margin-left: -1rem;
+		}
+	}
+
+}

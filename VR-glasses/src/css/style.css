@@ -1,0 +1,604 @@
+/* fonts settings */
+@font-face {
+  font-family: 'Helvetica_reg';
+  src: url('../Fonts/HelveticaNeueCyr-Medium.eot');
+  src: url('../Fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../Fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), url('../Fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../Fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'), url('../Fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_bold';
+  src: url('../Fonts/HelveticaNeueCyr-Bold.eot');
+  src: url('../Fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../Fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../Fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'), url('../Fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* миксины для шрифтов */
+/* colors */
+/* basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Helvetica_reg', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+/* общий стили для всех кнопок */
+.button {
+  margin: 2rem 0 2rem 0;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  background-color: #94ca2d;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  /* эффект во время перехода */
+}
+.button:hover {
+  /*эффекты при наведении */
+  cursor: pointer;
+  /* указатель становится рукой */
+  /* background-color: lighten(@btn-color, 7%); сделать светлее цвет @btn-color на 5% */
+  background-color: #75a024;
+}
+/* главный экран */
+.first {
+  display: inline-block;
+  width: 100%;
+  min-height: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main {
+  background: #2e3632 url(../img/main/main-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.main-title,
+.main h3 {
+  color: #ffffff;
+}
+.main .picture {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.main .glaces {
+  display: block;
+  margin-top: 3rem;
+  width: 90%;
+}
+.main .header {
+  padding: 1rem 0 1rem 0;
+  color: #ffffff;
+}
+.main .header .about {
+  margin-left: 2rem;
+}
+.main .header .logo {
+  padding-bottom: 1rem;
+}
+.main .header .tell {
+  /*text-align: right;*/
+}
+.main .header .tell a {
+  color: #94ca2d;
+}
+.main .header .tell p {
+  margin-bottom: -0.2rem;
+  font-size: 1.7rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+/* что такое vr */
+.whatIS {
+  background-color: #f8f8f0;
+  background-size: cover;
+  border-bottom: 1px dotted grey;
+}
+.whatIS-text h2 {
+  margin: 8rem 0 3rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.whatIS .complect {
+  margin-top: 2rem;
+}
+.whatIS .complect-s {
+  margin-top: 3rem;
+}
+.whatIS .complect-s strong {
+  color: red;
+}
+.whatIS .complect-m strong {
+  color: red;
+}
+.whatIS .png img {
+  margin-top: 6rem;
+}
+.whatIS .knob {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.useful {
+  background-color: #fcfcf6;
+}
+.useful-man {
+  margin-top: 5rem;
+}
+.useful-textMAN {
+  margin-top: 5rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+.useful .gif {
+  margin-top: 2rem;
+}
+.useful p {
+  margin-left: -1rem;
+}
+.useful-shark {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-bottom: -9rem;
+}
+.order {
+  background: #01171f url(../img/order/bg.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 5rem;
+}
+.order h2 {
+  font-family: 'Helvetica_bold', sans-serif;
+  margin-top: 7rem;
+}
+.order img {
+  margin-left: -2rem;
+}
+.order .withIMG {
+  background: url(../img/order/square.png) center no-repeat;
+  background-size: 100%;
+  margin: 2rem 0 4rem 0;
+  padding-top: 1rem;
+}
+.order .form {
+  margin-top: 4rem;
+  text-align: center;
+  border: 2px solid #21a3af;
+  background-color: black;
+}
+.order .form h4 {
+  margin: 2rem 0 2rem 0;
+}
+.order .form input {
+  margin-top: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+}
+.simulation {
+  background-color: #fcfcf6;
+}
+.simulation .skiing {
+  margin-top: 4rem;
+}
+.simulation .extrim {
+  margin-top: 12rem;
+}
+.simulation .extrim-text {
+  margin-left: 1.2rem;
+}
+.simulation .play {
+  margin-bottom: 5rem;
+}
+.simulation .computer {
+  margin-top: 8rem;
+}
+.simulation .computer-text {
+  margin-left: 1.2rem;
+}
+.howITworks {
+  text-align: center;
+  background-color: #f8f8f0;
+  padding-bottom: 8rem;
+}
+.howITworks h2 {
+  margin: 8rem 0 1rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.howITworks-text {
+  position: relative;
+  display: inline-block;
+}
+.howITworks-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20%;
+  height: 5px;
+  margin-left: -10%;
+  background: #18a7d0;
+}
+.howITworks-png {
+  margin-top: 8rem;
+}
+.howITworks-png p {
+  margin-top: 2rem;
+}
+.howITworks-png2 {
+  -webkit-transform: translateY(18%);
+          transform: translateY(18%);
+}
+.howITworks-png4 {
+  -webkit-transform: translateY(7%);
+          transform: translateY(7%);
+}
+.compatibility {
+  background-color: #fcfcf6;
+  padding-bottom: 4rem;
+}
+.compatibility h2 {
+  margin: 8rem 0 6rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.compatibility-png {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem;
+}
+.compatibility-png p {
+  margin-top: 1rem;
+}
+.compatibility-glasses img {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+.reality {
+  background: #464f50 url(../img/reality/reality-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.reality h2 {
+  margin: 7rem 0 3rem 0;
+}
+.reality p {
+  margin: 2rem 0 6rem 0;
+}
+.games {
+  background-color: #fcfcf6;
+  border-bottom: 1px dotted gray;
+}
+.games h2 {
+  margin-top: 6rem;
+}
+.games-name {
+  text-align: center;
+}
+.games-name img {
+  width: 10%;
+  margin: 2rem 0 3rem 0;
+}
+.games-weapons {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.games-text {
+  margin-top: 3rem;
+}
+.games-img img {
+  margin-left: -11rem;
+}
+.games-knop {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.review {
+  background-color: #f8f8f0;
+  border-bottom: 1px dotted gray;
+}
+.review-center {
+  text-align: center;
+}
+.review-text {
+  position: relative;
+  display: inline-block;
+  margin-top: 8rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.review-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10%;
+  height: 5px;
+  margin-left: -5%;
+  background: #18a7d0;
+}
+.review-about {
+  margin-top: 6rem;
+}
+.review-comment {
+  padding: 2rem 0 3rem 0;
+  border: 2px solid #95d5d2;
+  border-radius: 3px;
+}
+.review-name {
+  font-family: 'Helvetica_bold', sans-serif;
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+}
+.review-letter {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: justify;
+}
+.review-figure {
+  position: relative;
+  top: -73rem;
+  left: 100rem;
+}
+.howDoWeWork {
+  text-align: center;
+  padding-bottom: 6rem;
+  background-color: #fcfcf6;
+}
+.howDoWeWork-name {
+  position: relative;
+  display: inline-block;
+  margin-top: 8rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.howDoWeWork-name:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 53%;
+  width: 5%;
+  height: 5px;
+  margin-left: -5%;
+  background: #18a7d0;
+}
+.howDoWeWork .png {
+  padding-top: 6rem;
+}
+.howDoWeWork .png img {
+  margin-bottom: 3rem;
+}
+.second {
+  background: #0b1317 url(../img/second-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.questions {
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+}
+.questions h2 {
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.questions a {
+  color: black;
+  border-bottom: 1px dotted black;
+}
+.last {
+  background-color: black;
+}
+.modal-content {
+  background-color: black;
+  border: 3px solid #21a3af;
+  color: white;
+}
+.modal .solid {
+  text-align: center;
+  height: 30rem;
+}
+.modal .formFORmodal input {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+}
+.modal .formFORmodal h4 {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.modal .formFORmodal .button {
+  padding: 1.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+.modal .cross {
+  border: 3px solid #21a3af;
+  border-radius: 50px;
+  background-color: black;
+  color: #21a3af;
+  -webkit-transform: translateY(-85%);
+          transform: translateY(-85%);
+  width: 30px;
+  height: 30px;
+}
+.modal .for-cross {
+  text-align: right;
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
+}
+.modal .yes {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-top: 1rem;
+}
+.modal li {
+  background-color: black;
+  color: white;
+}
+.modal ul {
+  background-color: black;
+  color: white;
+}
+.modal .inside {
+  margin-left: 1rem;
+}
+/* на всех экранах меньше 1200px */
+@media (max-width: 1199px) {
+  .useful h3 {
+    margin-left: 2rem;
+  }
+  .useful p {
+    margin-left: 1rem;
+  }
+  .order .withIMG {
+    background-size: cover;
+  }
+  .compatibility {
+    text-align: center;
+  }
+  .compatibility-glasses {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .useful-man {
+    margin-bottom: -15rem;
+  }
+  .useful-textMAN h3 {
+    margin-left: -0.5rem;
+  }
+  .useful-textSHARK .gif {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+  }
+  .useful-textSHARK h3 {
+    margin-left: 6rem;
+  }
+  .useful-shark {
+    margin-top: 6rem;
+    margin-left: 3rem;
+  }
+  .order {
+    text-align: center;
+  }
+  .simulation .skiing {
+    margin-bottom: -4rem;
+  }
+  .simulation .play {
+    margin-top: 4rem;
+  }
+  .howITworks-png3 {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+  }
+  .main .glasses {
+    width: 90%;
+  }
+  .whatIS .png img {
+    margin-top: -2rem;
+    width: 100%;
+  }
+  .useful-man img {
+    width: 100%;
+  }
+  .useful-textSHARK p {
+    padding-left: 3.5rem;
+  }
+  .useful-shark img {
+    width: 90%;
+  }
+  .order form p {
+    margin-top: 1rem;
+  }
+  .order form button {
+    font-size: 1.6rem;
+  }
+  .simulation .skiing img {
+    width: 100%;
+  }
+  .simulation .extrim-png {
+    margin-top: 7rem;
+  }
+  .simulation .extrim-text {
+    margin-top: 7rem;
+  }
+  .simulation .computer {
+    margin-top: 0;
+  }
+  .simulation .computer img {
+    margin-top: 1rem;
+  }
+  .simulation .play img {
+    margin-top: 3rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+  .compatibility-png {
+    margin: 0 -3rem 2rem -3rem;
+  }
+  .compatibility-png img {
+    width: 30%;
+  }
+  .compatibility-glasses img {
+    width: 100%;
+  }
+  .review-comment {
+    width: 100%;
+  }
+  .review img {
+    width: 120%;
+  }
+  .about {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .main-title h2 {
+    font-size: 1.8rem;
+  }
+  .main-title h3 {
+    font-size: 1.4rem;
+  }
+  .button {
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+  .picture {
+    min-width: 25rem;
+  }
+  .glasses {
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+  .modal-content {
+    font-size: 1.5rem;
+    height: 41rem;
+  }
+  .modal-content p {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .yes button {
+    padding: 1rem;
+  }
+  .act img {
+    width: 99%;
+    margin-left: -1rem;
+  }
+}
