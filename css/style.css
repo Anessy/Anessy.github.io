@@ -1,0 +1,273 @@
+/* миксины для шрифтов */
+/* basic settings */
+html {
+  font-size: 10px;
+}
+body h1, h2, h3{
+  font-family: 'Philosopher', sans-serif;
+  color: black;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #1f1f1f;
+  letter-spacing: 0.7px;
+  font-size: 1.8rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+
+.bold {
+  text-decoration: underline;
+}
+
+.link {
+  text-align: center;
+}
+.link .forBorder {
+  border: 1px solid black;
+  background-color: white;
+  padding: 4rem 0 4rem 0;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+  z-index: 999;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+}
+.link img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border: 6px solid white;
+}
+.link img:hover {
+  border: 1px solid white;
+}
+.link a {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.link a:hover {
+  text-decoration: none;
+}
+.about-text {
+  text-align: justify;
+}
+.about-text-img {
+  border: 1px solid black;
+  padding: 4rem 10rem 4rem 10rem;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+}
+.about-text-img h2 {
+  margin-bottom: 3rem;
+}
+
+.about-foto {
+  -webkit-transform: translate3D(-4rem,2rem,0rem);
+          transform: translate3D(-4rem,2rem,0rem);
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+}
+.about-foto-img {
+  background: url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
+.about-foto-img img {
+  width: 100%;
+  padding: 8rem 3rem 8rem 3rem;
+}
+.experience {
+  margin-top: 6rem;
+}
+.tehnology h1 {
+  margin: 7rem 0 4rem 0;
+}
+
+.myMODAL{
+  padding-bottom: 7rem;
+}
+.tehnology img {
+  width: 100%;
+  border: 10px solid white;
+}
+.tehnology img:hover {
+  border: none;
+}
+/* modal window */
+.container .line {
+  display: inline-block;
+}
+.main {
+  margin: 25px auto;
+  max-width: 980px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.main p {
+  color: #000;
+  text-align: left;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 100;
+}
+.main a {
+  background-color: #bff6b4;
+  color: black;
+}
+.nav-top a {
+  color: #000;
+}
+.am-modal-content {
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.main p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+.main p a {
+  background: #3E5C9A;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  padding: 2px 5px;
+}
+.main .btns {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+.main .btns a {
+  font-weight: bold;
+  color: black;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  /*background: #E75854;*/
+}
+form {
+  max-width: 600px;
+  margin: 10px auto;
+}
+form .btns a {
+  margin-top: 25px;
+  background: black;
+  font-weight: bold;
+  color: #1ABC9C;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+}
+form input {
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+}
+.demo4 .main p a {
+  background: #E67F22;
+}
+body .am-expanded.am-modal.modal1 {
+  width: 50%;
+  margin-left: -200px;
+}
+body .am-expanded.am-modal.modal1 .am-expanded.am-back {
+  width: 50%;
+  border-radius: 5px;
+}
+body .am-expanded.am-modal.modal3 {
+  width: 70%;
+  margin-left: -320px;
+}
+body .am-expanded.am-modal.modal3 .am-expanded.am-back {
+  width: 70%;
+  padding: 0;
+  border-radius: 5px;
+}
+/* close modal */
+.portfolio {
+  background: #317382 url(../img/bg-light.jpg) center no-repeat;
+  background-size: cover;
+  padding: 3rem 0 12rem 0;
+}
+.portfolio h1 {
+  color: white;
+  margin: 5rem 0rem;
+}
+.portfolio-card{
+  margin-top: 2rem;
+}
+.portfolio-img img {
+  width: 100%;
+}
+.portfolio-img img:hover {
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+  /* Параметры тени */
+}
+
+.portfolio-text {
+  background-color: rgba(0,0,0,0.4);
+}
+.portfolio-text p{
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  letter-spacing: 0.9px;
+}
+
+.portfolio-text a {
+  color: white;
+}
+
+.portfolio-text a:hover {
+  color: #000000;
+  text-shadow: 1px 1px 1px white;
+}
+/* на всех экранах меньше 1200px */
+@media (max-width: 767px) {
+  .about-text-img {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-foto {
+    margin-top: 2rem;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .about-foto-img {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+

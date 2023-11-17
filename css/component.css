@@ -1,0 +1,72 @@
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+.demo-2 .large-header {
+	background-image: url('../img/demo-2-bg.jpg');
+	background-position: center bottom;
+}
+
+.demo-3 .large-header {
+	background: #7f8c8d;
+}
+
+.demo-4 .large-header {
+	background: #f9f1e9;
+}
+
+.main-title-h1{
+	position: absolute;
+	margin: 0;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid #f9f1e9;
+	color: #f9f1e9;
+	text-align: center;
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-45%,0);
+	font-size: 50px;
+	z-index: 999;
+}
+
+.main-title-h3{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 55%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-55%,0);
+	transform: translate3d(-50%,-55%,0);
+	z-index: 999;
+}
+
+
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
