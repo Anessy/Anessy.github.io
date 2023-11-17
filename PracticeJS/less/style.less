@@ -1,0 +1,364 @@
+
+
+section {
+  padding: 4rem 2rem;
+}
+
+.one {
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: rgba(242, 255, 172, 0.9);
+  
+  .two {
+    padding: 2rem 4rem 2rem 4rem;
+    border: 2px solid black;
+    transform: translate3d(-3.2rem,0,0);
+    width: 110%;
+    background-color: rgba(255, 255 , 255, 0.9);
+  }
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+h3 {
+  display: inline-block;
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.text {
+  padding-bottom: 1rem;
+  img {
+    width: 100%;
+  }
+  p {
+    vertical-align: middle; 
+    display: table-cell;
+  }
+}
+
+a {
+  font-family: 'Pangolin', cursive;
+  margin-left: 1rem;
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgb(129, 129, 129), 0 0 1em rgb(250, 249, 249); /* Параметры тени */
+}
+
+.homeWork {
+  border: 1px solid black;
+  margin: 1rem 0;
+  margin-bottom: 3rem;
+  background-color: rgb(44, 44, 43);
+  .homeWork1 {
+    transform: translate3d(1rem,1rem,0);
+    padding: 1rem;
+    border: 1px solid rgb(242, 255, 172);
+    background-color: rgb(242, 255, 172);
+  }
+}
+
+span {
+  color: rgb(35, 35, 100);
+  text-shadow: 0.5px 0.5px 1px rgb(35, 35, 100);
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.button {
+  width: 100%;
+  outline: none;
+  padding: 0.6rem 0rem 0.1rem 2rem;
+  border: 0.2px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  h4 {
+    border: 1px solid black;
+    padding: 1rem;
+    transform: translate3d(-3rem,0,0);
+    background-color: rgba(242, 255, 172, 0.9);
+    width: 113%;
+  }
+}
+
+.button:active {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  outline: 0;
+  outline-offset: 0;
+}
+
+button:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+
+.send {
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+}
+// ====================================
+
+
+
+//=====================================
+
+.header1 {
+  background-color: #f1da4e;
+  padding: 1rem;
+  img {
+    width: 20%;
+  }
+  .text {
+    text-align: right;
+    
+  }
+}
+
+.first {
+  
+  img {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.menu {
+  padding: 4rem 0;
+  img {
+    width: 100%;
+  }
+}
+
+.interdaction {
+  .letter {
+    padding-bottom: 2rem;
+  }
+  .text {
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    vertical-align: middle; 
+    display: table-cell;
+  }
+}
+
+
+  .page {
+    background-color: rgba(249, 255, 214, 0.9);
+    border: 3px solid rgb(248, 247, 186);
+    padding: 2rem;
+    margin: 2rem 0rem;
+    label {
+      display: block;
+    }
+  }
+
+
+.btn3 {
+  margin: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10rem;
+}
+
+.res3 {
+  margin-top: 2rem;
+}
+
+.lesson4 {
+  input {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  .btn4 {
+    border: 1px solid light-gray;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+
+  }
+}
+
+.lesson5 {
+  input {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+  }
+  .btn4 {
+    border: 1px solid light-gray;
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+
+  }
+}
+
+// ======= input range ============
+
+@track-color: #424242;
+@thumb-color: #eeda67;
+
+@thumb-radius: 50%;
+@thumb-height: 30px;
+@thumb-width: 30px;
+@thumb-shadow-size: 1px;
+@thumb-shadow-blur: 1px;
+@thumb-shadow-color: #111;
+@thumb-border-width: 1px;
+@thumb-border-color: white;
+
+@track-width: 50%;
+@track-height: 10px;
+@track-shadow-size: 2px;
+@track-shadow-blur: 2px;
+@track-shadow-color: #222;
+@track-border-width: 1px;
+@track-border-color: black;
+
+@track-radius: 5px;
+@contrast: 5%;
+
+.shadow(@shadow-size,@shadow-blur,@shadow-color) {
+  box-shadow: @shadow-size @shadow-size @shadow-blur @shadow-color, 0px 0px @shadow-size lighten(@shadow-color,5%);
+}
+
+.track() {
+  width: @track-width;
+  height: @track-height;
+  cursor: pointer;
+  animate: 0.2s;
+}
+
+.thumb() {
+  .shadow(@thumb-shadow-size,@thumb-shadow-blur,@thumb-shadow-color);
+  border: @thumb-border-width solid @thumb-border-color;
+  height: @thumb-height;
+  width: @thumb-width;
+  border-radius: @thumb-radius;
+  background: @thumb-color;
+  cursor: pointer;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: @thumb-height/2 0;
+  width: @track-width;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-slider-runnable-track {
+    .track();
+    .shadow(@track-shadow-size,@track-shadow-blur,@track-shadow-color);
+    background: @track-color;
+    border-radius: @track-radius;
+    border: @track-border-width solid @track-border-color;
+  }
+  
+  &::-webkit-slider-thumb {
+    .thumb();
+    -webkit-appearance: none;
+    margin-top: ((-@track-border-width * 2 + @track-height) / 2) - (@thumb-height / 2);
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    background: lighten(@track-color, @contrast);
+  }
+
+  &::-moz-range-track {
+    .track();
+    .shadow(@track-shadow-size,@track-shadow-blur,@track-shadow-color);
+    background: @track-color;
+    border-radius: @track-radius;
+     border: @track-border-width solid @track-border-color;
+  }
+  &::-moz-range-thumb {
+     .thumb();
+  }
+
+  &::-ms-track {
+    .track(); 
+    background: transparent;
+    border-color: transparent;
+    border-width: @thumb-width 0;
+    color: transparent;
+  }
+
+  &::-ms-fill-lower {
+    background: darken(@track-color, @contrast);
+    border: @track-border-width solid @track-border-color;
+    border-radius: @track-radius*2;
+    .shadow(@track-shadow-size,@track-shadow-blur,@track-shadow-color);
+  }
+  &::-ms-fill-upper {
+    background: @track-color;
+    border: @track-border-width solid @track-border-color;
+    border-radius: @track-radius*2;
+    .shadow(@track-shadow-size,@track-shadow-blur,@track-shadow-color);
+  }
+  &::-ms-thumb {
+    .thumb();
+  }
+  &:focus::-ms-fill-lower {
+    background: @track-color;
+  }
+  &:focus::-ms-fill-upper {
+    background: lighten(@track-color, @contrast);
+  }
+}
+
+
+.lesson8 {
+  input {
+    font-size: 1.2rem;
+    padding: 0.1rem 2rem;
+    color: rgb(34, 13, 54);
+  }
+}
+
+.lesson9 { 
+
+  .page { 
+    height: 50rem; 
+  }
+  .menu-item {
+    padding: 1rem 0 0 0;
+    position: relative;
+    cursor: pointer;
+    
+    h5 {
+      margin-left: 1rem;
+    }
+    h5:hover {
+      text-shadow: 0.5px 0.5px 0.5px rgba(0, 0 , 0, 0.9);
+    }
+  }
+
+  .sub-menu {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+  }
+}
+
+

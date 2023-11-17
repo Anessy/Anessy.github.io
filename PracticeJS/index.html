@@ -1,0 +1,1387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	
+	<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style1.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap&subset=cyrillic" rel="stylesheet">
+  
+	<title>JS практика для начинающих</title>
+	<link rel="shortcut icon" href="./img/logo.jpeg" type="image/jpeg">
+
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			$("a#example1").fancybox();
+		});
+	</script>
+</head>
+
+<body>
+		
+		<header>
+			<div class="header1">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+							<img src="./img/logo.jpeg" alt="">
+						</div>
+						<div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+							<div class="text">
+								<a href="#">Практика JS</a>
+								<a href="#">Фичи CSS</a>
+								<a href="#">Полезности</a>
+								<a href="#">Интересности</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<div class="first">
+				<div class="container">
+					<h1>Практика JS для начинающих</h1>
+					<div class="one">
+						<div class="two">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+									<p>Здравсвуйте, уважаемые друзья! Вы только начинаете изучать JS, но не хвататет практики? Уже пытались учить JS и даже достигли определенных результатов, но внезапно застопорились в своем развитии? Вы пришли по нужому адресу!</p>
+									<p>
+										На этом сайте я попытаюсь выложить для вас простые и понятние практические уроки, которые помогут лучше понять, что и для чего существует в обширном мире JS, где применяется и, главное, куда двигаться дальше.
+									</p>
+									<p>В добрый путь!</p>
+								</div>
+								<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+									<img src="./img/girl.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<hr>
+	
+		<div class="menu">
+			<div class="container">
+				<h1>Навигация по урокам</h1>
+				<div class="one">
+					<div class="two">
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+								<img src="./img/checklist.png" alt="">
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-1 col-xl-6 offset-xl-1">
+								<div class="header">
+									<div class="content">
+											<ul class="bmenu">
+													<li><a href="#introduce">Предисловие</a></li>
+													<li><a href="#lesson1">Урок 1 - Получение элемента</a></li>
+													<li><a href="#lesson2">Урок 2 - Работа с input (часть 1)</a></li>
+													<li><a href="#lesson3">Урок 3 - Работа с input (часть 2)</a></li>
+													<li><a href="#lesson4">Урок 4 - Работа с input (часть 3)</a></li>
+													<li><a href="#lesson5">Урок 5 - Проверка корректности ввода</a></li>
+													<li><a href="./lesson6-10/index.html">Уроки 6-10</a></li>
+											</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		</div>
+	
+	<hr>
+	
+	<section id="introduce">
+		<div class="interdaction">
+			<div class="container">
+				<h1>Предисловие</h1>
+				<div class="one">
+					<div class="two">
+						<h4 class="letter">
+							Вступительное слово будет коротким, но обязательно прочтите его, чтобы ориентироваться в подсказках каждого урока!
+						</h4>
+<!-- //////////////// КНИГА ///////////////////// -->
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/book.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Я не буду давать вам тонны теоретической информации. Уверена, это ни к чему. Только краткие выдержки, располагающиеся рядом со значком книги. Очень часто информация будет подаваться "своими словами". Чтобы прочесть официальные определения, ищите значок информации... ну и google в помощь!
+									</p>
+								</div>
+							</div>
+						</div>
+<!-- /////////////////// ИНФОРМАЦИЯ ////////////////  -->
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Более подробную информацию всегда можно прочитать по ссылке, рядом со значком информации
+									</p>
+								</div>
+							</div>
+						</div>
+<!-- ////////////////// МОЗГ ///////////////////////  -->
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/brain.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Значок мозговых извилин означает, что на эту информацию нужно обратить внимание. Так обозначаются интересности и полезности.
+									</p>
+								</div>
+							</div>
+						</div>
+<!-- ///////////////// КАРАНДАШ ///////////////////  -->
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/pencil.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Значок карандаша - это заметки. То, что желательно занести в свою шпаргалку, чтобы иметь под рукой для дальнейших уроков.
+									</p>
+								</div>
+							</div>
+						</div>
+<!-- ///////////////// ФОТКА ////////////////////////  -->
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./img/code.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10 align-self-center">
+									<p>
+										Весь код, используемый в уроках я нарочно буду выкладывать картинками. Это в ваших же интересах! От "ctrl+C" и "ctrl+V" пользы мало. Только набирая все ручками, читая и проверяя код, вы действительно научитесь чему-то новому. Чтобы прочитать текст на картинке, нужно просто на нее кликнуть.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<hr>
+
+	<section id="lesson1">
+		<div class="lesson1">
+			<div class="container">
+
+						<div class="row">
+							<div class="col-6">
+								<button class="button" id="name1" onclick="showFun()">
+									<h4>Урок 1 - Получение элемента</h4>
+								</button>
+							</div>
+						</div>
+						<div class="one" style="display: none;" id="myShowBlock">
+							<div class="two">
+									<p>Первое и самое элементарное, что должен уметь каждый - это получение элементов с DOM. </p>
+									
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<img src="./img/book.svg" alt="">
+											</div>
+											<div class="col-11 align-self-center">
+												<p>
+													DOM - Document Object Model (это то, как JS видит наш html документ с разметкой)  <br>
+													Каждый HTML-тег является объектом. Вложенные теги являются его «детьми», а сам тег - родителем. Также существуют теги - соседи.
+												</p>
+											</div>
+										</div>
+									</div>
+									<p>Для того, чтобы разобраться, что и как работает, необходимо вспомнить основы html</p>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l1.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>Допустим, у нас есть начальный документ index.html</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l2.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Напишем базовую верстку	(с css заморачиваться не будем)									
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l3.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Выглядит все это коряво, но для нас главное само наличие элементов
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l4.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Не забываем о необходимости подключить наш файлик js внизу документа html
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l5.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Получение элемента с index.html <br>
+													Обратите внимание, что querySelector получает только первый элемент с указнным классом или идентификатором, если их несколько
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l6.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Получим остальные элементы
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l7.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Можно использовать и другие способы получения элементов. Но они считаются немного устаревшими
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l8.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Проверить, действительно ли мы получили нужные элементы, легко. Для этого достаточно вывести их в консоль
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l9.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Посмотреть результат можно в браузере, через контекстное меню открыв вкладку разработчика
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l10.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-11">
+												<p>
+													Если мы все сделали правильно, то в во вкладке console увидим следующее
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l11.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l12.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-10">
+												<p>
+													Похожую картину получаем и в первом варианте
+												</p>
+											</div>
+										</div>
+									</div>
+		
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l13.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-1">
+												<a id="example1" href="./lesson1/l14.png">
+													<img alt="example1" src="./img/code.png" />
+												</a>
+											</div>
+											<div class="col-10">
+												<p>
+													Но как быть с нашим списком? Если мы хотим получить все его елементы, можно использовать querySelectorAll
+												</p>
+											</div>
+										</div>
+									</div>
+		
+									<div class="homeWork">
+										<div class="homeWork1">
+											<h4>Домашнее задание:</h4>
+											<p>1) Повторить у себя на компе все то, что было в уроке <br>
+											2) Набросать другой html документ и получить из него элементы не подсматривая в шпаргалку.</p>
+		
+										</div>
+									</div>
+		
+									<div class="text">
+										<div class="row align-items-center">
+											<div class="col-1">
+												<img src="./img/information.svg" alt="">
+											</div>
+											<div class="col-11 align-self-center">
+												<p>
+													<a href="https://learn.javascript.ru/dom-nodes">Учебник Javascript.ru</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								
+							</div>
+						</div>
+			</div>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="lesson2">
+		<div class="lesson2">
+			<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<button class="button" id="name2" onclick="showFun2()">
+								<h4>Урок 2 - Работа с input</h4>
+							</button>
+						</div>
+					</div>
+				<div class="one" style="display: none;" id="myShowBlock2">
+					<div class="two">
+						<p>Почему именно работа с input? На самом деле чаще всего именно из них приходится получать информацию, сохранять ее, а потом использовать. Разберемся, как это сделать?</p>
+						<p>Для начала создадим некую страницу, на которой будет происхоть взаимодействие с пользователем:</p>
+						<div class="page">
+							<h1>Выберите один или несколько вариантов</h1>
+							<label>
+								<input type="checkbox" name="" id="one" onchange="checkbox()"> Вариант 1  
+							</label>
+							<label>
+								<input type="checkbox" name="" id="two" onchange="checkbox()"> Вариант 2  
+							</label>
+							<label>
+								<input type="checkbox" name="" id="three" onchange="checkbox()"> Вариант 3 
+							</label>
+							<hr>
+							Результат: <span id="result"></span>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson2/l1.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>Мы не будем обсуждать, что происходит в нашем css - надеюсь, это понятно всем. А верстка имеет следующий вид: </p> <br>
+								</div>
+							</div>
+						</div>
+						<p>При этом: <br> 
+							- <span>label</span> - обеспечивает срабатывание клика не только на само окошко, но и на текст около него;<br>
+							- <span>type="checkbox"</span> - определяет какой именно input мы используем;<br>
+							- <span>id</span> - поможет нам обратиться к каждому input через JS (Урок 1); <br>
+							- <span>onchange="checkbox()"</span> - устаревший способ отслеживания события. Дословно, мы написали: при изменении состояния input (onchange) запустить функцию с именем checkbox(). <br>
+							- <span>id="result"</span> - нужен для того, чтобы выводить результат выбора пользователя. Для начала просто наличие или отсутвие выбора.
+						 </p>
+						<p>Я нарочно для первого примера привожу устаревший способ отслеживания события (но все еще работающий!), так как по моему мнению он более простой и понятный. Поехали дальше?</p>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson2/l2.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>В нашем файле JS первым делом получаем <span>input</span> и <span>span</span> с <span>id="result"</span></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson2/l3.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Все это можно записать компактнее:
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson2/l4.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Следующим этапом необходимоп роверить, выбран ли наш чекбокс. И если выбран хоть один, в результат написать "Спасибо за ваш выбор". В ином случае (если не выбран ни один), вывести "Вы не выбрали ни один вариант".
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Более подробную информацию про if else можно прочитать в учебнике <a href="https://learn.javascript.ru/ifelse">JAVASCRIPT.RU</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/pencil.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										То есть у нас есть логическая конструкция: <br>
+										<span>if (условие) { действие}</span><br>
+										<span>else {действие}</span> <br><br>
+										Но есть более простая и компактная запись: <br>
+										<span>(условие) ? (действие, если true) : (действие, если false)</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson2/l5.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Обратите внимание, насколько лаконичнее стала запись. Этот способ записи, конечно, предпочтительнее. Помимо лаконичности, он даст вашему коду быстродействие.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="homeWork">
+							<div class="homeWork1">
+								<h4>Домашнее задание:</h4>
+								<p>	1) Повторить у себя на компе все то, что было в уроке. <br>
+										2) Набросать другой html документ и повторить урок, не подсматривая в шпаргалки. <br>
+										3) Вывод результата сделать с помощью alert.
+								</p>
+
+							</div>
+						</div>
+			
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</section>
+
+	<hr>
+
+	<section id="lesson3">
+		<div class="lesson3">
+			<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<button class="button" id="name3" onclick="showFun3()">
+								<h4>Урок 3 - Работа с input (часть вторая)</h4>
+							</button>
+						</div>
+					</div>
+				<div class="one" style="display: none;" id="myShowBlock3">
+					<div class="two">
+						<p>На прошлом уроке мы разобрались с самым простым случаем работы с input. Но на самом деле и самих input много всяких видов, да и работа с ними лишь в получении значения не заканчивается. Посмотрим, как ограничить выбор пользователя одним вариантом?</p>
+						<div class="page">
+							<h1>Выберите один вариант</h1>
+							<input type="radio" name="r1" id="" value="1"> Вариант 1 <br>
+							<input type="radio" name="r1" id="" value="12"> Вариант 2 <br>
+							<input type="radio" name="r1" id="" value="123"> Вариант 3 <br>
+							<input type="radio" name="r1" id="" value="1234"> Вариант 4 <br>
+							<input type="radio" name="r1" id="" value="12345"> Вариант 5
+							<div class="row">
+								<div class="col-4">
+									<button class="btn3" id="button">Выбрать</button>
+								</div>
+							</div>
+							<hr>
+							<p class="res3">Результат: <span id="result2"></span></p>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l1.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>Для ограничения пользователя одним вариантом выбора, проще всего воспользоваться <span>input</span> c типом <span>radio</span></p> <br>
+								</div>
+							</div>
+						</div>
+						
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l2.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l3.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>Теперь, как и всегда, получаем наши элементы. И вспоминаем о существовании свойства <span>length</span> - которое укажет нам на количество членов нашего псевдоммасива <br>
+									С помщью <span>console.log</span> мы вывели интересуемые значения в консоль, чтобы проверить правильность получения
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l4.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Смотрим JS.
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Более подробную информацию про слушателя события можно прочитать в учебнике <a href="https://learn.javascript.ru/introduction-browser-events">JAVASCRIPT.RU</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<p>А что если у нас выпадающий список и выбор нужно сделать из его вариантов?</p>
+						<div class="page">
+							<h1>Выберите наиболее подходящее для вас выражение</h1>
+							<select name="" id="downList">
+								<option value="">Вариант 0</option>
+								<option value="">Вариант 1</option>
+								<option value="">Вариант 2</option>
+								<option value="">Вариант 3</option>
+								
+							</select>
+						<hr> 
+						Результат: <span id="result3"></span>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/pencil.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										В начале хочу обратить ваше внимание: <span>selectedIndex</span> - показывает порядковый номер выбранного элемента списка <span>option</span>. При чем значение -1 означает, что ни один из элементов не выбран.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Более подробную информацию про <span>selectedIndex</span> можно прочитать в учебнике <a href="https://developer.mozilla.org/ru/docs/Web/API/HTMLSelectElement/selectedIndex">MDN web docs</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l5.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Наш html-код для этого случая будет иметь самый обычный вид: 
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson3/l6.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										JS
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="homeWork">
+							<div class="homeWork1">
+								<h4>Домашнее задание:</h4>
+								<p>	1) Повторить у себя на компе все то, что было в уроке. <br>
+										2) Набросать другой html документ и повторить урок, не подсматривая в шпаргалки. <br>
+										3) Вывод результата сделать с помощью alert.
+								</p>
+
+							</div>
+						</div>
+			
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</section>
+
+	<hr>
+	
+	<section id="lesson4">
+		<div class="lesson4">
+			<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<button class="button" id="name4" onclick="showFun4()">
+								<h4>Урок 4 - Работа с input (часть третья)</h4>
+							</button>
+						</div>
+					</div>
+				<div class="one" style="display: none;" id="myShowBlock4">
+					<div class="two">
+						<p>
+							Довольно часто происходит следующее: пользователь вводит через запятую какие-то слова (например, какие магазины он посещал в прошлом месяце), а нам нужно дальше эту информацию правильно сохранить и как-то использовать.
+						</p>
+						<div class="page">
+							<h1>Перечислите через запятую ваши варианты</h1>
+							<input id="inputLesson4" type="text" value="Variant1, vAriant2, VARIANT3">
+							<div class="row">
+								<div class="col-4">
+									<button class="btn4" id="button4">Отправить</button>
+								</div>
+							</div>
+							<hr>
+							<p class="res4">Результат: <span id="result4"></span></p>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l1.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										В следующих уроках мы рассмотрим, что делать, если пользователь не поставил запятые, если поставил слишком много пробелов между словами и т.д. Пока же для простоты допустим только то, что он неадекватно использовал клавишу <span>SHIFT</span> :) <br>
+										P.S.: В наш <span>input</span> вы можете ввести свои варианты. Пока там показаны значения по умолчанию. HTML имеет вид:
+									</p> 
+								</div>
+							</div>
+						</div>
+						
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										В данном уроке мы будем работать со строками.Более подробную информацию можно прочитать в учебнике <a href="https://learn.javascript.ru/string">JAVASCRIPT.RU</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l2.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										JS
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l3.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l4.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										В консоли мы увидим, что данные отображаются корректно. В начале те, что по умолчанию, затем те, что были введены вручную.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l5.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l6.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Мы получаем данные с <span>input</span> строкой. Переведем ее в нижний регистр (подробная информация по ссылке выше).
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l7.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l8.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Теперь, для дальнейшей работы с вариантами ответа <span>(variant1, variant2, variant3)</span>, необходимо, чтобы каждое слово в нашей строке стало отдельным элементом массива.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l9.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l10.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Для примера, выведем каждый элемент массива в наш результат. Но, конечно, в дальнейшем, их можно использовать, как вашей душе угодно.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l14.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l15.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Так что же делать, если пользователь вводит кучу лишних пробелов до и/или после нужных данных? Использовать ф-цию <span>trim()</span> Она удаляет пробелы и до, и после строки.<br>
+										Сущевствуют также ф-ции <span>trimStart()</span> (удаляет лишние пробелы слева от строки) и <span>trimEnd()</span> - справа.
+										
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/brain.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Обратной задачей к удалению пробелов, есть их добавление. С этой задачей отлично стправятся <span>padStart()</span> и <span>padEnd()</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="homeWork">
+							<div class="homeWork1">
+								<h4>Домашнее задание:</h4>
+								<p>	1) Повторить у себя на компе все то, что было в уроке. <br>
+										2) Набросать другой html документ и повторить урок, не подсматривая в шпаргалки. <br>
+								</p>
+
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/brain.svg" alt="">
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l12.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l13.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-9 align-self-center">
+									<p>
+										При необходимости мы можем вывести из JS всякие интересные значки используя <span>ASCII</span> или <span>unicode</span> <br>
+										Это могут быть смайлики, специальные символы, стрелочки и т. д. Их код легко найти в интернете. Например, можно использовать сайт <a href="https://emojipedia.org/">Еmojipedia</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/brain.svg" alt="">
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson4/l16.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10 align-self-center">
+									<p>
+										Не раз и не два при прохождении собеседований я сталкивалась с задачей "нарисовать в консоли таблицу и заполнить ее данными". Думаете это просто? Нет! Но функция <span>repeat()</span> в этом случае может существенно облегчить вашу жизнь. <br>
+										Пишется так: <br>
+										<span>
+											let str = '=' ;<br>
+  										console.log(str.repeat(10));
+										</span>
+									</p>
+								</div>
+							</div>
+						</div>
+			
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</section>
+
+	<hr>
+	
+	<section id="lesson5">
+		<div class="lesson5">
+			<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<button class="button" id="name5" onclick="showFun5()">
+								<h4>Урок 5 - Проверка корректности ввода</h4>
+							</button>
+						</div>
+					</div>
+				<div class="one" style="display: none;" id="myShowBlock5">
+					<div class="two">
+						<p>
+							Допустим, у нас есть задача: посчитать дневной бюджет пользователя. То есть, нам нужно спросить: <br>
+							1. Сколько он заработал за месяц; <br>
+							2. Какие были расходы;<br>
+							3. Сколько он на них потратил. <br>
+							А потом отняв расходы от доходов, разделить полученную сумму на 30. <br>
+							Проблемы с этой задачей начинаются тогда, когда пользователь начинает вместо цифр вводить буквы и наоборот. Как от этого защититься?
+						</p>
+						<div class="page">
+							<h1>Считаем дневной бюджет:</h1>
+							<p>Какой ваш месячный заработок?</p>
+							<div class="row">
+								<div class="col-8">
+									<input id="inputMoney" type="text" value="20000">
+								</div>
+								<div class="col-4">
+									<button class="btn4" id="buttonMoney">Отправить</button>
+								</div>
+							</div>
+							
+							<p class="money"><i>Ваш месячный заработок:&nbsp;&nbsp;</i> <span id="moneyHtml"></span></p>
+
+							<!-- ///////////////////////////////////////// -->
+							<hr>
+							<hr>
+							<p>Основная статья расходов:</p>
+							
+								<div class="col-12">
+									<input id="inputMainExpensesText" type="text" value="Аренда квартиры">
+								</div>
+								<p>Сколько вы на нее тратите?</p>
+								<div class="col-12">
+									<input id="inputMainExpenses" type="text" value="8000">
+								</div>
+								<div class="col-4">
+									<button class="btn4" id="buttonExpenses">Отправить</button>
+								</div>
+							
+							<p class="mainExpensesText"><i>Основные расходы:&nbsp;&nbsp;</i> <span id="mainExpensesTetx"></span></p>
+							<p class="mainExpenses"><i>Потраченные деньги:&nbsp;&nbsp;</i> <span id="mainExpenses"></span></p>
+
+							<!-- ///////////////////////////////////////// -->
+							<hr>
+							<hr>
+							<p>Дополнительная статья расходов:</p>
+							
+								<div class="col-12">
+									<input id="inputSecondExpensesText" type="text" value="Садик">
+								</div>
+								<p>Сколько вы на нее тратите?</p>
+								<div class="col-12">
+									<input id="inputSecondExpenses" type="text" value="1000">
+								</div>
+								<div class="col-4">
+									<button class="btn4" id="buttonSecondExpenses">Отправить</button>
+								</div>
+							
+							<p class="secondExpensesText"><i>Дополнительные расходы:&nbsp;&nbsp;</i> <span id="secondExpensesText"></span></p>
+							<p class="secondExpenses"><i>Потраченные деньги:&nbsp;&nbsp;</i> <span id="secondExpenses"></span></p>
+
+							<hr>
+							<hr>
+
+							<p class="budgetMonth"><b>Ваш месячный бюджет составляет:&nbsp;&nbsp;</b> <span id="budgetMonth"></span></p>
+							<p class="budgetDay"><b>Ваш дневной бюджет составляет:&nbsp;&nbsp;</b> <span id="budgetDay"></span></p>
+
+
+						</div> 
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l1.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								
+								<div class="col-11">
+									<p>
+										Код html для получения месячного дохода
+									</p> 
+								</div>
+							</div>
+						</div>
+						
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										В данном уроке мы будем работать с функциями. Более подробную информацию можно прочитать в учебнике <a href="https://learn.javascript.ru/function-basics">JAVASCRIPT.RU</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l2.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Код JS для сохранения и вывода месячного дохода.
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l3.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										Получение и вывод основного расхода (html)
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l4.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								
+								<div class="col-11">
+									<p>
+										JS для получения и вывода основоного расхода
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l5.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l6.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Получение и вывод дополнительного расхода
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<p>
+							Теперь организуем проверку вводимых значений на их тип.
+						</p>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l7.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l8.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10">
+									<p>
+										Для того, чтобы ф-ция срабатывала в нужное время и выводила именно те данные, которые нам нужны, ее нужно вызывать после срабатывания слушателя на кнопках "отправить"
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l9.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11">
+									<p>
+										В консоли результат работы ф-ции будет иметь вид:
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l10.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Воспользуемся неявным преобразованием типов, чтобы JS автоматически пытался преобразовать получаемые данные в число. Для этого:
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<img src="./img/information.svg" alt="">
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Более подробную информацию про преобразование типов можно прочитать в учебнике <a href="https://learn.javascript.ru/types-conversion">JAVASCRIPT.RU</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l11.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										Теперь наша консоль будет иметь вид:
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l11.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-11 align-self-center">
+									<p>
+										При попытке ввести буквы вместо цифр, на экран будет выводится  NaN (not a number).
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l12.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l13.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10 align-self-center">
+									<p>
+										Будем проверять наши переменные на наличие NaN и в случае обнаружения просить ввести данные еще раз.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l14.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l15.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10 align-self-center">
+									<p>
+										Чтобы избежать ненужных диалоговых окон и некрасивой надписи <span>NaN</span> в результатах, немного изменим код.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<p>Осталось посчитать дневной и месячный бюджет.</p>
+
+
+						<div class="text">
+							<div class="row align-items-center">
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l16.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-1">
+									<a id="example1" href="./lesson5/l17.png">
+										<img alt="example1" src="./img/code.png" />
+									</a>
+								</div>
+								<div class="col-10 align-self-center">
+									<p>
+										Место вызова ф-ции имеет огромное значение. Если вызвать ее слишком рано - получим в значения <span>undefined</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="homeWork">
+							<div class="homeWork1">
+								<h4>Домашнее задание:</h4>
+								<p>	1) Повторить у себя на компе все то, что было в уроке. <br>
+										2) Набросать другой html документ и повторить урок, не подсматривая в шпаргалки. <br>
+										3) Попробуйте оптимизировать код. Например: приводить тип к <span>numder</span> в ф-ции проверки на корректность ввода...
+								</p>
+
+							</div>
+						</div>
+			
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</section>
+	
+		
+	
+
+	<script src="./js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	</body>
+</html>
