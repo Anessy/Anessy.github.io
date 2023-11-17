@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Migration Groupe</title>
+</head>
+<body>
+  <div class="container">
+    <section>
+      <div class="results">
+        <div class="results_issued">
+          <h1>Наши результаты</h1>
+          <h3>Мы уже оформили</h3>
+          <div class="results_numbers">
+            <div class="results_group">
+              <div class="number">67</div>
+              <div class="text">получено <br> статусов</div>
+            </div>
+            <div class="results_group">
+              <div class="number">16</div>
+              <div class="text">статусов ПМЖ <br> в странах ЕС</div>
+            </div>
+            <div class="results_group toRight">
+              <div class="number">98</div>
+              <div class="text">статусов ВНЖ <br> в странах ЕС</div>
+            </div>
+            <div class="results_group toRight9">
+           <div class="number">9%</div>
+           <div class="text">процент <br> отказов</div>   
+            </div>
+          </div>
+        </div>
+        <div class="results_got">
+          <h3>Наши клиенты получили по программам Мальты</h3>
+          <div class="results_numbers">
+            <div class="results_group">
+              <div class="number">43</div>
+              <div class="text">инвестиционных <br> гражданства</div>
+            </div>
+            <div class="results_group">
+              <div class="number">12</div>
+              <div class="text">статусов <br> ПМЖ</div>
+            </div>
+            <div class="results_group">
+              <div class="number">4</div>
+              <div class="text toLeft">отказа по <br> гражданству</div>
+            </div>
+            <div class="results_group">
+              <div class="number">1</div>
+              <div class="text toLeft">отказ <br> по ПМЖ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="offices">
+        <h1>Наши офисы</h1>
+        <div class="for_offices">
+          <div class="office">
+            <div class="name">
+              <h3>Офис на Мальте</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/malta.jpg" alt="office from Malta">
+            </div>
+          </div>
+          <div class="office">
+            <div class="name">
+              <h3>Офис в Москве</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/moscow.jpg" alt="oficce from Moscow">
+            </div>
+          </div>
+          <div class="office">
+            <div class="name">
+              <h3>Офис в Украине</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/ukraine.jpg" alt="oficce from Ukraine">
+            </div>
+          </div>
+          <div class="office">
+            <div class="name">
+              <h3>Офис в Греции</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/greece.jpg" alt="oficce from Greece">
+            </div>
+          </div>
+          <div class="office">
+            <div class="name">
+              <h3>Офис в Казахстане</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/kazahstan.jpg" alt="oficce from Kazahstan">
+            </div>
+          </div>
+          <div class="office">
+            <div class="name">
+              <h3>Офис во Франции</h3>
+            </div>
+            <div class="photo">
+              <img src="./img/offices/france.jpg" alt="oficce from France">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="reviews">
+        <h1>Отзывы</h1>
+        <div class="quotes first">
+          <img src="./img/review/quotes.svg" alt="quotes">
+        </div>
+        <p>Здесь могли быть отзывы наших довольных клиентов и их красивые истории, <br> но мы не публикуем отзывов потому, что выполняем свою работу полностью конфиденциально.</p>
+        <div class="quotes second">
+          <img src="./img/review/quotes.svg" alt="quotes">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="subscribe">
+        <h1 class="invisible">subscribe form</h1>
+        <div class="subscribe_form">
+          <form>
+            <input class="email" type="email" placeholder="Имя">
+            <input class="btn" type="button" value="подписаться на рассылку">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div id="scene" class="scene parallax">
+			<div data-depth="0.50"><img src="./img/subscribe/plainFirst.svg" class="plain one" alt="plain big"></div>
+			<div data-depth="2.00"><img src="./img/subscribe/plainSecond.svg" class="plain two" alt="plain small"></div>
+		</div>
+
+  </div>
+
+  <script src="./js/parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+</body>
+</html>

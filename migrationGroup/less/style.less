@@ -1,0 +1,496 @@
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.invisible {
+  display: none;
+}
+
+.results {
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    line-height: 36px;
+  }
+
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+  }
+  
+  display: grid;
+  color: white;
+  padding: 1rem 0;
+  .results_issued {
+    background: url(../img/result/resultBG1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 2rem 5.4rem 3rem 5.4rem;
+  }
+  .results_got {
+    background: url(../img/result/resultBG2.jpg) center no-repeat;
+    background-size: cover;
+    margin-top: 3.7rem;
+    padding: 2rem 5.4rem 3rem 5.4rem;
+    h3 {
+      font-size: 18px;
+      line-height: 36px;
+      margin-bottom: 0.8rem;
+    }
+    .results_group {
+      margin-left: 0.5rem;
+    }
+    .toLeft {
+      margin-left: -1.5rem;
+    }
+  }
+
+  .results_numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .results_group {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  
+      .number {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 49px;
+      }
+      .text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 0.5rem;
+        line-height: 150%;
+      }
+    }
+    .toRight {
+      margin-left: 0.5rem
+    }
+    .toRight9 {
+      margin-left: 1.3rem
+    }
+  }
+  
+}
+
+.offices {
+  margin-top: 3.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.9px;
+    line-height: 28px;
+    margin-bottom: 0.7rem;
+  }
+
+ 
+
+  .for_offices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.8vw;
+    padding: 0 5.2rem;
+
+    .office {
+      text-align: left;
+      .name {
+        h3 {
+          font-family: 'Raleway', sans-serif;
+          font-weight: 800;
+        }
+        h3:after {
+          display: block;
+          left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+          width: 0;/*задаём длинну линии до наведения курсора*/
+          height: 2px; /*задаём ширину линии*/
+          background-color: rgb(63, 62, 62); /*задаём цвет линии*/
+          content: "";
+          transition: width 0.3s ease-out; /*задаём время анимации*/
+        }
+      
+        h3:hover:after {
+        width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+        }
+      }
+      .photo img {
+        max-width: 275px;
+      }
+    }
+  }
+}
+
+.reviews {
+  position: relative;
+  background: url(../img/review/reviewBG.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin: 4rem 5rem 5rem 5.5rem;
+  padding: 0.8rem 3rem;
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    margin-bottom: 1.3rem;
+  }
+
+  .quotes {
+    position: absolute;
+    img {
+      width: 75%;
+    }
+  }
+  .first {
+    top: 8vh;
+    right: 6vw;
+  }
+  .second {
+    bottom: 3vh;
+    left: 6vw;
+  }
+}
+
+.subscribe {
+  position: relative;
+  background-color: #00ACEC;
+  padding: 2rem 16rem;
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    .email {
+      padding: 0.6rem 1.1rem;
+      border-radius: 5px;
+      border: none;
+      box-shadow:  2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
+      font-family: 'Roboto', sans-serif;
+      outline: none;
+    }
+    .email::placeholder {
+      color:  #02679E;
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+    }
+    
+    .btn {
+      padding: 0.6rem 1.1rem;
+      border-radius: 5px;
+      border: none;
+      box-shadow:  2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
+      background-color: #007AC2;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 10px;
+      outline: none;
+    }
+    .btn:active {
+      box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+}
+
+.parallax {
+  .one {
+    transform: translate3d(4vw, -14vh, 0);
+    width: 20%;
+  }
+  .two {
+    transform: translate3d(56vw, -20vh, 0);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) { 
+  
+  .results {
+    padding: 1rem 0;
+    .results_issued {
+      padding: 1rem;
+    }
+    .results_got {
+      margin-top: 2rem;
+      padding: 1rem;
+      
+      .results_group {
+        margin-left: 0rem; ////////
+      }
+      .toLeft {
+        margin-left: 0rem;
+      }
+    }
+    .results_numbers {
+      grid-template-columns: 1fr;
+      .results_group {
+        grid-template-columns: 5rem 2fr;
+        .number {
+          text-align: center;
+        }
+      }
+      .toRight {
+        margin-left: 0rem 
+      }
+      .toRight9 {
+        margin-left: 0rem 
+      }
+    }
+  }
+  .offices {
+    margin-top: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      letter-spacing: 1.9px;
+      line-height: 28px;
+      margin-bottom: 0.7rem;
+    }
+  
+   
+  
+    .for_offices {
+      grid-template-columns: 1fr;
+      grid-gap: 0.8vw;
+      padding: 0 1rem;
+  
+    }
+  }
+  .reviews {
+    margin: 4rem 0rem 5rem 0rem;
+    padding: 0.8rem 3rem;
+  }
+  .subscribe {
+    
+    padding: 2rem 1rem;
+    form {
+      grid-template-columns: 1fr;
+      .email {
+        margin-bottom: 1rem;
+      }
+      
+    }
+  
+  }
+  .parallax {
+    .one {
+      transform: translate3d(200px, -180px, 0);
+      width: 20%;
+    }
+    .two {
+      transform: translate3d(-30px, -80px, 0);
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+  .results {
+    padding: 1rem 0;
+    .results_issued {
+      padding: 1rem;
+    }
+    .results_got {
+      margin-top: 2rem;
+      padding: 1rem;
+      
+      .results_group {
+        margin-left: 0rem; ////////
+      }
+      .toLeft {
+        margin-left: 0rem;
+      }
+    }
+    .results_numbers {
+      grid-template-columns: 1fr 1fr;
+      .results_group {
+        grid-template-columns: 5rem 2fr;
+        .number {
+          text-align: center;
+        }
+      }
+      .toRight {
+        margin-left: 0rem 
+      }
+      .toRight9 {
+        margin-left: 0rem 
+      }
+    }
+  }
+  .offices {
+    margin-top: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      letter-spacing: 1.9px;
+      line-height: 28px;
+      margin-bottom: 0.7rem;
+    }   
+  
+    .for_offices {
+      
+      grid-template-columns: 1fr;
+      grid-gap: 0.8vw;
+      padding: 0 1rem;
+      .office {
+        text-align: center;
+      }
+  
+    }
+  }
+  .reviews {
+    margin: 4rem 0rem 5rem 0rem;
+    padding: 0.8rem 3rem;
+  }
+  .subscribe {
+    
+    padding: 2rem 1rem;
+    form {
+      grid-template-columns: 1fr;
+      .email {
+        margin-bottom: 1rem;
+      }
+      
+    }
+  
+  }
+  .parallax {
+    .one {
+      transform: translate3d(400px, -220px, 0);
+      width: 20%;
+    }
+    .two {
+      transform: translate3d(-20px, -80px, 0);
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+  .results {
+    padding: 1rem 0;
+    .results_issued {
+      padding: 1rem;
+    }
+    .results_got {
+      margin-top: 2rem;
+      padding: 1rem;
+      
+      .results_group {
+        margin-left: 0rem; ////////
+      }
+      .toLeft {
+        margin-left: 0rem;
+      }
+    }
+    .results_numbers {
+      grid-template-columns: 1fr 1fr;
+      .results_group {
+        grid-template-columns: 5rem 2fr;
+        .number {
+          text-align: center;
+        }
+      }
+      .toRight {
+        margin-left: 0rem 
+      }
+      .toRight9 {
+        margin-left: 0rem 
+      }
+    }
+  }
+  .offices {
+    margin-top: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      letter-spacing: 1.9px;
+      line-height: 28px;
+      margin-bottom: 0.7rem;
+    }   
+  
+    .for_offices {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0.8vw;
+      padding: 0 1rem;
+      .office {
+        text-align: center;
+      }
+    }
+  }
+  .reviews {
+    margin: 4rem 0rem 5rem 0rem;
+    padding: 0.8rem 3rem;
+  }
+  .subscribe {
+    
+    padding: 2rem 1rem;
+    form {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .parallax {
+    .one {
+      transform: translate3d(0px, -80px, 0);
+      width: 30%;
+    }
+    .two {
+      transform: translate3d(500px, -200px, 0);
+    }
+  }
+}
+
+@media (min-width: 1024px) and  (max-width: 1277px) { 
+  .parallax {
+    .one {
+      transform: translate3d(4vw, -10vh, 0);
+      width: 20%;
+    }
+    .two {
+      transform: translate3d(70vw, -25vh, 0);
+    }
+  }
+}
+
+@media (min-width: 1278px) and (max-width: 1399px) {
+  .parallax {
+    .one {
+      transform: translate3d(4vw, -10vh, 0);
+      width: 20%;
+    }
+    .two {
+      transform: translate3d(60vw, -25vh, 0);
+    }
+  }
+ }
+ @media (min-width: 1600px) {
+  .parallax {
+    .one {
+      transform: translate3d(10px, -90px, 0);
+      width: 20%;
+    }
+    .two {
+      transform: translate3d(800px, -150px, 0);
+    }
+  }
+ }
+
+
+
